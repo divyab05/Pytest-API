@@ -1,0 +1,57 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "g2L84nP1Mwk",
+      "analytics_div",
+      "02jjzkp9Rgx",
+      "business_unit1",
+      "SendroP-SeriesDIV",
+      "div_one",
+      "div_three",
+      "div_two",
+      "MailCenterDIVISION",
+      "worker_div",
+      "G8pazEAGwwn"
+    ],
+    "startDate": "20231113",
+    "startdate": "20231113",
+    "endDate": "20231119",
+    "country": "US"
+  },
+  "groupByCriteria": {
+    "groupByColumns": [
+      "spend_type",
+      "location_city",
+      "location_state"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+
+    ]
+  },
+  "responseType": "OVERALL_SPEND_SUMMARY",
+  "subFilter": {
+    "spendType": [
+      "mailing",
+      "shipping",
+      "manual transaction"
+    ],
+    "productIds": []
+  },
+  "selectQueryColumnsList": [
+    "spend_type",
+    "postage_spend",
+    "piece_count",
+    "latitude",
+    "longitude",
+    "location_city",
+    "location_state",
+    "postage_saving",
+    "meter_nickname"
+  ],
+  "filtersGroup": {}
+}

@@ -1,0 +1,212 @@
+{
+  "type": "object",
+  "properties": {
+    "authUnits": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerID": {
+              "type": "string"
+            },
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "size": {
+              "type": "string"
+            },
+            "lockerType": {
+              "type": "string"
+            },
+            "wagoCardNumber": {
+              "type": "integer"
+            },
+            "wagoPortNumber": {
+              "type": "integer"
+            },
+            "wagoLockNumber": {
+              "type": "integer"
+            },
+            "wagoDeviceSerialNumber": {
+              "type": "string"
+            },
+            "row": {
+              "type": "integer"
+            },
+            "column": {
+              "type": "integer"
+            },
+            "assetsDeposited": {
+              "type": "object",
+              "properties": {
+                "accesscode": {
+                  "type": "string"
+                },
+                "parcels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "primaryTrackingID": {
+                          "type": "string"
+                        },
+                        "secondaryTrackingID": {
+                          "type": "string"
+                        },
+                        "photo": {
+                          "type": "object",
+                          "properties": {
+                            "base64": {
+                              "type": "string"
+                            },
+                            "data": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "base64",
+                            "data"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "primaryTrackingID",
+                        "secondaryTrackingID",
+                        "photo"
+                      ]
+                    }
+                  ]
+                },
+                "userID": {
+                  "type": "string"
+                },
+                "recipient": {
+                  "type": "object",
+                  "properties": {
+                    "recipientID": {
+                      "type": "string"
+                    },
+                    "firstName": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "mobilePhone": {
+                      "type": "string"
+                    },
+                    "personalID": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "recipientID",
+                    "firstName",
+                    "email",
+                    "personalID"
+                  ]
+                },
+                "depositDate": {
+                  "type": "string"
+                },
+                "staleMailReminder": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "accesscode",
+                "parcels",
+                "userID",
+                "recipient",
+                "depositDate",
+                "staleMailReminder"
+              ]
+            },
+            "reservationType": {
+              "type": "string"
+            },
+            "assetsReserved": {
+              "type": "object",
+              "properties": {
+                "assets": {
+                  "type": "array",
+                  "items": {}
+                },
+                "userID": {
+                  "type": "string"
+                },
+                "recipient": {
+                  "type": "object",
+                  "properties": {
+                    "recipientID": {
+                      "type": "string"
+                    },
+                    "firstName": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "mobilePhone": {
+                      "type": "string"
+                    },
+                    "personalID": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "recipientID",
+                    "firstName",
+                    "email",
+                    "personalID"
+                  ]
+                },
+                "depositor": {
+                  "type": "object",
+                  "properties": {
+                    "oneTimePin": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "oneTimePin"
+                  ]
+                }
+              },
+              "required": [
+                "assets",
+                "userID",
+                "recipient",
+                "depositor"
+              ]
+            },
+            "expireReservedDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "manufacturerID",
+            "manufacturerLockerID",
+            "size",
+            "lockerType",
+            "wagoCardNumber",
+            "wagoPortNumber",
+            "wagoLockNumber",
+            "wagoDeviceSerialNumber",
+            "row",
+            "column",
+            "assetsDeposited",
+            "reservationType",
+            "assetsReserved",
+            "expireReservedDate"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "authUnits"
+  ]
+}

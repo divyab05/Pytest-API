@@ -1,0 +1,81 @@
+{
+  "orgId": "SP360FedRAMP",
+  "ownerId": "SP360FedRAMPownerId",
+  "ownerDesc": "SP360FedRAMPowner",
+  "barcode": "J70dQ55cjVxyI8DhrJZcP",
+  "enabled": "true",
+  "events": [
+    "ScheduledReportEvent",
+    "EndSubscriptionEvent"
+  ],
+  "isCompleted": false,
+  "kvp": {
+    "query": "",
+    "locale": "en_US",
+    "aggregationTypesEnum": "NONE",
+    "responseType": "DETAILS",
+    "subFilter_spendType": "mailing,shipping,manual transaction",
+    "userName": "pa.analytics.qa@yopmail.com",
+    "enterpriseName": "PitneyAnalytics",
+    "supportEmail": "no-reply@pb.com",
+    "reportContext": "sending",
+    "reportType": "summary",
+    "viewBy": "Locations",
+    "filterType": "divisionRegion",
+    "filterBy": "Division / Location, 6 Division, All Locations",
+    "filterDate": "Last 30 days",
+    "scheduled_startDate": "20240603",
+    "scheduled_endDate": "20240630",
+    "exportType": "CUSTOM_REPORT",
+    "divisionName": "",
+    "filter_divisionIds": "mgk92v3GB6a,XOb14eoL8Wr,gGkWDY882By,JWEXMeg3Ojx,vvk9MZ1lD2G,pa_div_new",
+    "filter_startdate": "20240505",
+    "filter_endDate": "20240603",
+    "filter_country": "US",
+    "groupByColumns": "lref_location_id",
+    "orderByColumns": "lref_location_id",
+    "selectQueryColumnsList": "piece_count,postage_spend,postage_saving,avg_spend,last_transaction_date,base_rate,fee_amount,surcharges_amount,mailing_piece_count,shipping_piece_count,transaction_end_time,transaction_start_time,display_cost_account_code,display_cost_account_name,cost_account_path,l1_account_code,l1_account_name,l2_account_code,l2_account_name,l3_account_code,l3_account_name,street1,street2,country,country_code,item_type,refund_amount,refund_piece_count,meter_nickname,total_with_savings,total_with_surcharges,total_chargeback_ammount,total_add_spl_chrgs_fee,display_add_spl_sur_chrgs_name,add_spl_chrgs_name,address_line_1,company_name,location_name,adjustment_amount,bpn,total_weight,lref_location_id,product_id",
+    "customFieldExcludedColumns": "{}",
+    "subFilter_productIds": "",
+    "isShippingUsageRequired": false,
+    "customFieldRequired": true,
+    "fileFormat": "XLSX",
+    "timeframe": "last30Days",
+    "schedule": "Daily",
+    "timeZone": null,
+    "sftpConfigRequest": "{\"port\":0,\"SFTP_CONFIG_ID\":1,\"FILE_PATH\":\"shared\",\"URL\":\"sftp-ppd.sendpro360.pitneybowes.com:22\",\"USER_NAME\":\"SFTP-Test\",\"PASSWORD\":\"RRSyNm#*tJ5eB2\",\"USER_ID\":\"00u1s74ytlmKHRtUG0h8\",\"ENTERPRISE_ID\":\"pa_analytics\",\"MODIFIED_BY\":\"00u1s74ytlmKHRtUG0h8\",\"IS_UPLOAD_TO_SERVER\":false,\"EMAILS\":[\"pandey.vaibhav@pb.com\",\"Test5555@yopamil.com\"],\"IS_CREATE_UNIQUE_NAME\":true}",
+    "sftpFileName": "Spend_Summary_Report",
+    "schedularTimeDetails": "{\"time\":\"1:00\",\"timeType\":\"AM\",\"days\":[\"monday\",\"tuesday\",\"wednesday\",\"thursday\",\"friday\",\"saturday\",\"sunday\"],\"schedule\":\"Daily\",\"occurence\":null}",
+    "reportName": "test_sachin",
+    "enterpriseId": "pa_analytics",
+    "reportId": "J70dQ55cjVxyI8DhrJZcP",
+    "userId": "00u1s74ytlmKHRtUG0h8",
+    "subType": "NOTIFICATION_SCHEREP_USAGE",
+    "delimeterConfig": "{\"DATE_FORMAT\":\"MM/dd/yyyy\",\"DATE_SPACER\":\"SLASH\",\"DELIMETER_FORMAT\":\"COMMA\",\"TEXT_QUALIFIER\":\"DOUBLE_QUOTES\",\"INCLUDE_TIMESTAMP\":true,\"USE_TWELVE_HOUR_DISPLAY\":true}",
+    "exportCustomConfigRequest": "{\"INCLUDE_COLUMN_HEADER\":true,\"INCLUDE_COLUMN_TOTAL\":false}",
+    "reportColumns": "{\"lref_location_id\":{\"label\":\"Location\",\"value\":\"location_name\",\"name\":\"Location\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":0,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"company_name\":{\"label\":\"Company Name\",\"value\":\"company_name\",\"name\":\"Company Name\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":1,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"address_line_1\":{\"label\":\"Address Line 1\",\"value\":\"address_line_1\",\"name\":\"Address Line 1\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":2,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"base_rate\":{\"label\":\"Base Amount\",\"value\":\"base_rate\",\"name\":\"Base Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":3,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"fee_amount\":{\"label\":\"Extra Services / Surcharges\",\"value\":\"fee_amount\",\"name\":\"Extra Services / Surcharges\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":4,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"postage_spend\":{\"label\":\"Total Amount\",\"value\":\"postage_spend\",\"name\":\"Total Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":5,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"surcharges_amount\":{\"label\":\"Addl. Surcharges\",\"value\":\"surcharges_amount\",\"name\":\"Addl. Surcharges\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":6,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"adjustment_amount\":{\"label\":\"Carrier Adjustment\",\"value\":\"adjustment_amount\",\"name\":\"Carrier Adjustment\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":7,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\"},\"total_with_surcharges\":{\"label\":\"Total + Addl. Surcharges\",\"value\":\"total_with_surcharges\",\"name\":\"Total + Addl. Surcharges\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":8,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"total_chargeback_ammount\":{\"label\":\"Total Chargeback Amount\",\"value\":\"total_chargeback_ammount\",\"name\":\"Total Chargeback Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":9,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"shipping_piece_count\":{\"label\":\"Shipping Count\",\"value\":\"shipping_piece_count\",\"name\":\"Shipping Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":10,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"mailing_piece_count\":{\"label\":\"Mailing Count\",\"value\":\"mailing_piece_count\",\"name\":\"Mailing Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":11,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"piece_count\":{\"label\":\"Piece Count\",\"value\":\"piece_count\",\"name\":\"Piece Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":12,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"avg_spend\":{\"label\":\"Avg Cost Per Piece\",\"value\":\"avg_spend\",\"name\":\"Avg Cost Per Piece\",\"aggregationType\":\"averagePieces\",\"description\":\"\",\"order\":13,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"postage_saving\":{\"label\":\"Savings\",\"value\":\"postage_saving\",\"name\":\"Savings\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":14,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"total_with_savings\":{\"label\":\"Total + Savings\",\"value\":\"total_with_savings\",\"name\":\"Total + Savings\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":15,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"transaction_start_time\":{\"label\":\"Transaction Start Time\",\"value\":\"transaction_start_time\",\"name\":\"Transaction Start Time\",\"aggregationType\":\"date\",\"description\":\"\",\"order\":16,\"dataType\":\"Datetime\",\"parentElement\":\"Time & Time Periods Fields\",\"isGroupedCol\":false},\"transaction_end_time\":{\"label\":\"Transaction End Time\",\"value\":\"transaction_end_time\",\"name\":\"Transaction End Time\",\"aggregationType\":\"date\",\"description\":\"\",\"order\":17,\"dataType\":\"Datetime\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"last_transaction_date\":{\"label\":\"Last Transaction Date\",\"value\":\"last_transaction_date\",\"name\":\"Last Transaction Date\",\"aggregationType\":\"date\",\"description\":\"\",\"order\":18,\"dataType\":\"Datetime\",\"parentElement\":\"\",\"isGroupedCol\":false},\"refund_amount\":{\"label\":\"Refund Amount\",\"value\":\"refund_amount\",\"name\":\"Refund Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":19,\"dataType\":\"Double\",\"parentElement\":\"\",\"isGroupedCol\":false},\"refund_piece_count\":{\"label\":\"Refund Piece Count\",\"value\":\"refund_piece_count\",\"name\":\"Refund Piece Count\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":20,\"dataType\":\"Integer\",\"parentElement\":\"\",\"isGroupedCol\":false},\"bpn\":{\"label\":\"Business Partner Number\",\"value\":\"bpn\",\"name\":\"Business Partner Number\",\"aggregationType\":\"\",\"description\":\"\",\"order\":1,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"bpn\":\"true\",\"visibility\":\"false\"}}"
+  },
+  "noPolling": true,
+  "canExpire": false,
+  "objectType": [
+    "ReportNotify"
+  ],
+  "terminalEvents": [
+    "EndSubscriptionEvent"
+  ],
+  "source": [
+    "Pitney Analytics",
+    "Scheduled Report"
+  ],
+  "channels": [
+    {
+      "type": "Email",
+      "address": "pa.analytics.qa@yopmail.com"
+    }
+  ],
+  "subscriptionFields": [
+    "enterpriseId_pa~analytics",
+    "userId_00u1s74ytlmKHRtUG0h8",
+    "reportId_J70dQ55cjVxyI8DhrJZcP"
+  ]
+}

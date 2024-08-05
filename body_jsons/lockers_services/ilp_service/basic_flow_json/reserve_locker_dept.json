@@ -1,0 +1,17 @@
+{
+  "size": "",
+  "accessible": null,
+  "refrigerated": null,
+  "lockerType": "",
+  "departmentMail": null,
+  "assetsReserved": {
+    "userID": "",
+    "departmentCode": "",
+    "assets": [
+      {
+        "primaryTrackingID": "",
+        "secondaryTrackingID": ""
+      }
+    ]
+  }
+}

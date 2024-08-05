@@ -1,0 +1,57 @@
+{
+  "subID": "",
+  "description": "",
+  "carrierID": "",
+  "subCarrierType": "Shipping",
+  "provisioningType": "Web",
+  "accountNumber": "",
+  "accountNickname": "Auto_Test_subcarrier_nick_name",
+  "accountAddress": {
+    "company": "pitney bowes",
+    "name": "MARA GRAHAM",
+    "phone": "2037960000",
+    "email": "mara.graham@pb.com",
+    "residential": true,
+    "addressLine1": "37 Waterview Dr",
+    "city": "DANBURY",
+    "state": "CT",
+    "postalCode": "06810",
+    "countryCode": "US"
+  },
+  "contactAddress": {
+		"company": "pitney",
+		"name": "MARA GRAHAM",
+		"phone": "2034458964",
+		"email": "vfive@att.net",
+		"residential": true,
+		"addressLine1": "37 Waterview Dr",
+		"city": "DANBURY",
+		"state": "CT",
+		"postalCode": "06810",
+		"countryCode": "US"
+	},
+  "gcsPartnerID": "",
+  "gcsPartnerIntegratorID": "46545",
+  "labelType": "",
+  "labelOrient": "",
+  "isProduction": false,
+  "isRateShop": false,
+  "isLocalRates": false,
+  "requireSignature": false,
+  "details": {
+    "gcsKey": "4CF58BACD78CF415",
+    "meterNumber": "114081861",
+    "licenseText": "End-User License Agreement"
+  },
+  "username": "992PERMI7382",
+  "password": "992CVS07382",
+  "permission": {
+    "permissionByEntity": "E",
+    "permissionByValue": [
+      "0231"
+    ]
+  },
+  "disableAPIIntegration": {
+    "gcs": true
+  }
+}

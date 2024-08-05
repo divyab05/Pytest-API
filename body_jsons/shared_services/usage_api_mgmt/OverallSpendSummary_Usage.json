@@ -1,0 +1,55 @@
+{
+   "aggregationType":{
+      "aggregationTypesEnum":"NONE"
+   },
+   "filter":{
+      "startdate":"20210227",
+      "endDate":"20210305",
+      "country":"US",
+      "divisionIds":[
+         "j6dnBl3GeKZ"
+      ]
+   },
+   "groupByCriteria":{
+      "groupByColumns":[
+         "spend_type",
+         "location_city",
+         "location_state"
+      ]
+   },
+   "orderByCriteria":{
+      "orderByColumns":[
+
+      ]
+   },
+   "responseType":"OVERALL_SPEND_SUMMARY",
+   "subFilter":{
+      "spendType":[
+         "mailing",
+         "shipping"
+      ],
+      "productIds":[
+
+      ],
+      "cities":[
+
+      ],
+      "psdPcns":[
+
+      ]
+   },
+   "selectQueryColumnsList":[
+      "spend_type",
+      "postage_spend",
+      "piece_count",
+      "latitude",
+      "longitude",
+      "location_city",
+      "location_state",
+      "spend_type",
+      "postage_saving"
+   ],
+   "filtersGroup":{
+
+   }
+}

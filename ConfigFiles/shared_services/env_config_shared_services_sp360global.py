@@ -1,0 +1,21 @@
+ppd_config = {
+    'username': 'sohail.ga.admin1@yopmail.com',
+    'pwd_encrypted_key': 'DBENCRYPTIONKEY',
+    'enc_pwd': 'Horizon#123',
+    'Project': 'shared_services',
+    'product_name': 'sp360global',
+    'env': 'PPD',
+    'is_admin': 'N',
+    'CLIENTUSERNAME': "pbsp360+gauser1@gmail.com",
+    'client_pwd': 'Horizon#123',
+    'okta_group_id': '00g1t8goqfnjy42Vt0h8',
+    'submgmt_api': 'https://api-ppd.spo.pitneybowes.com/submgmt',
+    'climgmt_api': 'https://api-ppd.spo.pitneybowes.com/climgmt',
+    'addrbook_api': 'https://api-ppd.spo.pitneybowes.com/addressbook',
+    'costactmgmt_api': 'https://api-ppd.spo.pitneybowes.com/costactmgmt',
+    'prodmgmt_api': 'https://api-ppd.spo.pitneybowes.com/prodmgmt',
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'enrich_api': 'https://enrichtoken-ppd.spo.pitneybowes.com/enrichtoken',
+    'custom_field_endpoint': 'https://api-ppd.spo.pitneybowes.com/submetadata'
+}

@@ -1,0 +1,15 @@
+{
+    "subID": "should_not_be_null",
+    "inboundSiteID": "should_not_be_null",
+    "name": "should_not_be_null",
+    "parent": "",
+    "type": "site",
+    "locationId": "should_not_be_null",
+    "ancestorlist": [],
+    "locationHierarchy": "should_not_be_null",
+    "archived": false,
+    "status": "ACTIVE",
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null"
+}

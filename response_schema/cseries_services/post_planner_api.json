@@ -1,0 +1,32 @@
+{
+	"carriersInfo": "skip",
+	"shippingServicesList": [{
+		"additionalRequiredFields": null,
+		"carrier": "should_not_be_null",
+		"serviceOption": "only_chars",
+		"carrierAccountId": "should_not_be_null",
+		"rateTypeId": "should_not_be_null",
+		"rateType": "should_not_be_null",
+		"serviceId": "only_chars",
+		"totalPackageCharge": "should_not_be_null",
+		"totalIntegratorPackageCharge": "should_not_be_null",
+		"totalRetailPackageCharge": "should_not_be_null",
+		"baseCharge": "should_not_be_null",
+		"chargesSpecialServices": [],
+		"specialServices": null,
+		"deliveryExpectation": {
+			"additionalDetails": "skip",
+			"estimatedDeliveryDateTime": "skip",
+			"guaranteed": "skip",
+			"maxEstimatedNumberOfDays": "only_digits",
+			"minEstimatedNumberOfDays": "only_digits",
+			"estimatedDeliveryDateTimeSort": "skip"
+		},
+		"serviceName": "should_not_be_null",
+		"detail": "should_not_be_null",
+		"toolTipText": "skip",
+		"features": "should_not_be_null",
+		"notes": "skip",
+		"labelPrintingOptions": {}
+	}]
+}

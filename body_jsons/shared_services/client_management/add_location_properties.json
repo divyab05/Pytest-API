@@ -1,0 +1,6 @@
+{
+    "shipToBPN": "TEST SHIP TOBPN",
+    "costAccountsEnabled": false,
+	"costAccountRequiredForMailingLabel": false,
+	"costAccountRequiredForShippingLabel": false
+}

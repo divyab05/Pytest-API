@@ -1,0 +1,465 @@
+{
+	"type": "array",
+	"items": [
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"kpiId": {
+					"type": "integer"
+				},
+				"kpiName": {
+					"type": "string"
+				},
+				"fieldName": {
+					"type": "string"
+				},
+				"type": {
+					"type": "string"
+				},
+				"chartType": {
+					"type": "string"
+				},
+				"default": {
+					"type": "boolean"
+				}
+			}
+		}
+	]
+}

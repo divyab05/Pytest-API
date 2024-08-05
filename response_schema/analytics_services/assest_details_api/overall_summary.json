@@ -1,0 +1,175 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "tracking_id": {
+          "type": "string"
+        },
+        "package_status": {
+          "type": "string"
+        },
+        "dim_date_key": {
+          "type": "string"
+        },
+        "locker_size_requested": {
+          "type": "string"
+        },
+        "c\narrier": {
+          "type": "string"
+        },
+        "no_of_parcels_received": {
+          "type": "string"
+        },
+        "no_of_parcels_delivered": {
+          "type": "string"
+        },
+        "no_of_locker_delivery": {
+          "type": "string"
+        },
+        "agent_name": {
+          "type": "string"
+        },
+        "dim_month": {
+          "type": "string"
+        },
+        "dim_hour": {
+          "type": "string"
+        },
+        "dim_year": {
+          "type": "string"
+        },
+        "dim_day": {
+          "type": "string"
+        },
+        "dim_week": {
+          "type": "string"
+        },
+        "no_of_packages": {
+          "type": "string"
+        },
+        "no_of_parcels_undelivered": {
+          "type": "string"
+        },
+        "direct_retrivals": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_undelivered": {
+          "type": "string"
+        },
+        "avg_direct_retrivals": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_delivered": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_recei\nved": {
+          "type": "string"
+        },
+        "derived_package_status_2": {
+          "type": "string"
+        },
+        "local_hour": {
+          "type": "string"
+        },
+        "avg_no_of_locker_delivery": {
+          "type": "string"
+        },
+        "avg_no_of_packages": {
+          "type": "string"
+        },
+        "no\n_of_parcels_attempted": {
+          "type": "string"
+        },
+        "no_of_parcels_refused": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_attempted": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_refused": {
+          "type": "string"
+        },
+        "intransit_t\nime": {
+          "type": "string"
+        },
+        "inlocker_transit_time": {
+          "type": "string"
+        },
+        "inlocker_time": {
+          "type": "string"
+        },
+        "asset_id": {
+          "type": "string"
+        },
+        "first_day_of_week": {
+          "type": "string"
+        },
+        "last_day_of_week": {
+          "type": "string"
+        },
+        "no_of_parcels_created": {
+          "type": "string"
+        },
+        "day_in_week": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_placed_in_locker": {
+          "type": "string"
+        },
+        "no_of_parcels_placed_in_locker": {
+          "type": "string"
+        },
+        "avg_intran\nsit_time": {
+          "type": "string"
+        },
+        "avg_inlocker_transit_time": {
+          "type": "string"
+        },
+        "avg_inlocker_time": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "tracking_id",
+        "package_status",
+        "dim_date_key",
+        "locker_size_requested",
+        "carrier",
+        "no_of_parcels_received",
+        "no_of_parcels_delivered",
+        "no_of_locker_delivery",
+        "agent_name",
+        "dim_month",
+        "dim_hour",
+        "dim_year",
+        "dim_day",
+        "dim_week",
+        "no_of_packages",
+        "no_of_parcels_undelivered",
+        "direct_retrivals",
+        "avg_no_of_parcels_undelivered",
+        "avg_direct_retrivals",
+        "avg_no_of_parcels_delivered",
+        "avg_no_of_parcels_received",
+        "derived_package_status_2",
+        "local_hour",
+        "avg_no_of_locker_delivery",
+        "avg_no_of_packages",
+        "no_of_parcels_attempted",
+        "no_of_parcels_refused",
+        "avg_no_of_parcels_attempted",
+        "avg_no_of_parcels_refused",
+        "asset_id",
+        "first_day_of_week",
+        "last_day_of_week",
+        "no_of_parcels_created",
+        "day_in_week",
+        "avg_no_of_parcels_placed_in_locker",
+        "no_of_parcels_placed_in_locker"
+      ]
+    }
+  ]
+}

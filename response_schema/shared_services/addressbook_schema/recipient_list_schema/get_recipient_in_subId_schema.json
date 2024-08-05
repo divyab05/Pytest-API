@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "pageInfo": {
+      "type": "object",
+      "properties": {
+        "totalCount": {
+          "type": "number"
+        },
+        "startCount": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        }
+      }
+    },
+    "recipientlists": {
+      "type": "array",
+      "properties": {
+        "subID": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "recipientlistId": {
+          "type": "string"
+        },
+        "contacts": {
+          "type": "array",
+          "properties": {
+            "contactId": {
+              "type": "string"
+            },
+            "isKeyContact": {
+              "type": "boolean"
+            }
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "insertTimestamp": {
+            "type": "date-time"
+          },
+          "updateTimestamp": {
+            "type": "date-time"
+          },
+          "createdBy": {
+            "type": "string"
+          },
+          "updatedBy": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "recipientlistId",
+          "contacts",
+          "insertTimestamp"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

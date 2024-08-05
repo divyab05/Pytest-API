@@ -1,0 +1,57 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "jL9D1qaJZP2",
+      "div_Surchar1",
+      "JYjAWRDeAWq",
+      "23",
+      "P-Series_div",
+      "div_one",
+      "4545",
+      "810D47m6WG9",
+      "3YVxnqG2dgv",
+      "spadivision",
+      "spadivisionnew",
+      "mailcenter",
+      "zWpKaZR1eg6",
+      "J1BQWneZpxN",
+      "JX5PoEV8Mmo",
+      "MGa4Gkr8x9j"
+    ],
+    "startDate": "20220101",
+    "endDate": "20221231",
+    "country": "US",
+    "startdate": "20220101"
+  },
+  "groupByCriteria": {
+    "groupByColumns": [
+      "city",
+      "region",
+      "case_type",
+      "status",
+      "record_type__c",
+      "getProductId(contract_material,contract_serial_number)",
+      "casenumber",
+      "subject",
+      "reasons__c",
+      "case_created_date",
+      "case_closed_date"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+      "city"
+    ]
+  },
+  "responseType": "DETAILS",
+  "subFilter": {
+    "productIds": [],
+    "psdPcns": [],
+    "productDisplayName": "PSP - 9534",
+    "isExcludedProducts": true
+  },
+  "filtersGroup": {}
+}

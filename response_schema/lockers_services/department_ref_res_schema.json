@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "departments": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "departmentCode": {
+              "type": "string"
+            },
+            "status": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "departmentCode",
+            "status"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "departments"
+  ]
+}

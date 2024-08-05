@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "cartid": {
+      "type": "string"
+    },
+       "orderDetail": {
+      "type": "array",
+      "items": [
+		  {
+			  "type": "object",
+			  "properties": {
+				  "orderID": {
+					  "type": "string"
+				  }
+			  }
+		  }
+          ]
+        },
+          "type": "object",
+          "properties": {
+            "storeKey": {
+              "type": "string"
+            },
+
+            "carrierCode": {
+              "type": "string"
+            },
+            "mailClass": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "cart_id",
+            "cart_name",
+            "cart_versions",
+            "params"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cart_id": {
+              "type": "string"
+            },
+            "cart_name": {
+              "type": "string"
+            },
+            "cart_versions": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "cart_id",
+            "cart_name",
+            "cart_versions",
+            "params"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "countryCode",
+    "appId",
+    "integratorId",
+    "cartList"
+  ]
+}

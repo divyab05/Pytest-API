@@ -1,0 +1,1568 @@
+{
+  "pageInfo": {
+    "totalCount": 18,
+    "startCount": 1,
+    "limit": 10
+  },
+  "usersDetailWithSubLocation": [
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00ux0vpeffboeo7at1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "emailSubjectForTrackingNumber": "You have a package on the way",
+          "emailSubjectForPackageDelivered": "A Shipment was Delivered",
+          "uspsServiceOption": true,
+          "printFullSheet": true,
+          "doNotShowRollPrinter": true,
+          "isReturnAddressSame": false,
+          "defaultCarrierAccountID": {
+            "adsnlee": "",
+            "gofor": "",
+            "rmg": "",
+            "supremeSystems": ""
+          },
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": true,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "shippingLabelSize": "DOC_8X11",
+            "showLabelPrinterOptions": true
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "#10"
+          },
+          "label": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "DOC_8X11"
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2024-01-25T16:01:14.874Z",
+        "updateTimestamp": "2024-01-25T16:01:39.049Z",
+        "createdBy": "kathleen_loria@glic.com",
+        "updatedBy": "00ux0vpeffboeo7at1t7",
+        "updatedByEmail": "kathleen_loria@glic.com",
+        "status": "ACTIVE",
+        "consType": 1
+      },
+      "detail": {
+        "id": "00ux0vpeffboeo7at1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "Sabrina",
+          "lastName": "Stoeckel",
+          "email": "sabrina_stoeckel@glic.com",
+          "login": "sabrina_stoeckel@glic.com",
+          "displayName": "Sabrina Stoeckel"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-01-25T16:28:48.534Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00ux0vlbs6rEIDhq21t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "emailSubjectForTrackingNumber": "You have a package on the way",
+          "emailSubjectForPackageDelivered": "A Shipment was Delivered",
+          "uspsServiceOption": true,
+          "printFullSheet": true,
+          "doNotShowRollPrinter": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "65b2a60fe5947c02713dce4e",
+          "defaultCarrierAccountID": {
+            "adsnlee": "",
+            "gofor": "",
+            "rmg": "",
+            "supremeSystems": ""
+          },
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "shippingLabelSize": "DOC_8X11",
+            "showLabelPrinterOptions": true
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "#10"
+          },
+          "label": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "DOC_8X11"
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2024-01-25T15:56:57.079Z",
+        "updateTimestamp": "0001-01-01T00:00:00Z",
+        "createdBy": "kathleen_loria@glic.com",
+        "updatedByEmail": "kathleen_loria@glic.com",
+        "status": "ACTIVE",
+        "consType": 1
+      },
+      "detail": {
+        "id": "00ux0vlbs6rEIDhq21t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "David",
+          "lastName": "Lippincott",
+          "email": "david_lippincott@glic.com",
+          "login": "david_lippincott@glic.com",
+          "displayName": "David Lippincott"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-01-25T16:09:41.644Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00umroup6zha1W66k1t6",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": false,
+          "printScanForm": false,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "65b3efcc9be41b0a9a948744",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "defaultLocale": "en-US",
+          "showWelcomeTour": false,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": null
+          },
+          "roll": {
+            "showPrinterOptions": null
+          },
+          "stamp": {
+            "showPrinterOptions": null
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2023-10-06T05:56:33Z",
+        "updateTimestamp": "2023-10-06T05:56:58Z",
+        "createdBy": "0oafowcscwBIEJKmT1t7",
+        "updatedBy": "0oafowcscwBIEJKmT1t7",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00umroup6zha1W66k1t6",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Tracy",
+          "lastName": "Stout",
+          "email": "tracy_stout@glic.com",
+          "login": "tracy_stout@glic.com",
+          "displayName": "Tracy Stout"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-10-24T16:07:14.205Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uojezfilDspCF3o1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "lastUsedSenderAddressID": "65a80bb5413202f271e31d1d",
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "65a80bb5413202f271e31d1d",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "dynamicPreferences": {
+            "rateShopViewToggle": "list",
+            "showOnlyMyDeviceHub": "true"
+          },
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2022-10-04T15:20:46Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "drex_fung@glic.com",
+        "updatedByEmail": "drex_fung@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uojezfilDspCF3o1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "Drex",
+          "lastName": "Fung",
+          "email": "drex_fung@glic.com",
+          "login": "drex_fung@glic.com",
+          "displayName": "Drex Fung"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T14:17:19Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00unq6n7yvMbK4yK51t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "emailSubjectForTrackingNumber": "You have a package on the way",
+          "emailSubjectForPackageDelivered": "A Shipment was Delivered",
+          "uspsServiceOption": true,
+          "printFullSheet": true,
+          "doNotShowRollPrinter": true,
+          "isReturnAddressSame": false,
+          "defaultCarrierAccountID": {
+            "adsnlee": "",
+            "rmg": "",
+            "supremeSystems": ""
+          },
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": true,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "shippingLabelSize": "DOC_8X11",
+            "showLabelPrinterOptions": true
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "#10"
+          },
+          "label": {
+            "showPrinterOptions": true,
+            "defaultPrintSize": "DOC_8X11"
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2022-05-31T18:41:11Z",
+        "updateTimestamp": "2023-12-05T13:45:43.899Z",
+        "createdBy": "gary_stewart@glic.com",
+        "updatedBy": "angel_ayala@glic.com",
+        "updatedByEmail": "angel_ayala@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00unq6n7yvMbK4yK51t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "gary",
+          "lastName": "Stewart",
+          "email": "gary_stewart@glic.com",
+          "login": "gary_stewart@glic.com",
+          "displayName": "gary Stewart"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-05T13:56:50.288Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uq8wr1rXJGAloBa1t6",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2022-05-27T19:23:08Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "ian_t_webster@glic.com",
+        "updatedByEmail": "ian_t_webster@glic.com",
+        "status": "INVITED",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uq8wr1rXJGAloBa1t6",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Ian",
+          "lastName": "Webstwer",
+          "email": "ian_t_webster@glic.com",
+          "login": "ian_t_webster@glic.com",
+          "displayName": "Ian Webstwer"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2022-05-27T19:23:08Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00ul55czjdre1khxY1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "66436738a64267c5e67dc692",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2021-12-07T17:42:23Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "jamie_ruiz@glic.com",
+        "updatedByEmail": "jamie_ruiz@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00ul55czjdre1khxY1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "Jaime",
+          "lastName": "Ruiz",
+          "email": "jamie_ruiz@glic.com",
+          "login": "jamie_ruiz@glic.com",
+          "displayName": "Jaime Ruiz"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T14:03:52.593Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00ujocgv4u2G1dhfx1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2021-08-19T15:47:20Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "mary_crafcheck@glic.com",
+        "updatedByEmail": "mary_crafcheck@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00ujocgv4u2G1dhfx1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "mary",
+          "lastName": "crafcheck",
+          "email": "mary_crafcheck@glic.com",
+          "login": "mary_crafcheck@glic.com",
+          "displayName": "mary crafcheck"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T12:55:29.343Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00ui8qlz17knsubm91t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "lastUsedSenderAddressID": "656dcd40bbed57b9d97144f6",
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "656dcd40bbed57b9d97144f6",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "dynamicPreferences": {
+            "rateShopViewToggle": "list"
+          },
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2021-05-10T13:58:01Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "deryck_sueho@glic.com",
+        "updatedByEmail": "deryck_sueho@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00ui8qlz17knsubm91t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "deryck",
+          "lastName": "sue-ho",
+          "email": "deryck_sueho@glic.com",
+          "login": "deryck_sueho@glic.com",
+          "displayName": "deryck sue-ho"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T12:34:35.841Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00u762g49kSUWcqSJ1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": false,
+          "printScanForm": false,
+          "shippingLabelSize": "DOC_4X6",
+          "lastUsedSenderAddressID": "22661901",
+          "inductionPostalCode": "07733",
+          "isReturnAddressSame": false,
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "defaultLocale": "en-US",
+          "preferredShipmentType": "boxesAndLetters",
+          "showOnboardingPanel": true,
+          "showWelcomeTour": false,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": null
+          },
+          "roll": {
+            "showPrinterOptions": null
+          },
+          "stamp": {
+            "showPrinterOptions": null
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2020-12-29T18:26:07Z",
+        "updateTimestamp": "2023-10-06T05:56:58Z",
+        "createdBy": "0oafowcscwBIEJKmT1t7",
+        "updatedBy": "0oafowcscwBIEJKmT1t7",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00u762g49kSUWcqSJ1t7",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Alana",
+          "lastName": "Godbolt",
+          "email": "alana_godbolt@glic.com",
+          "login": "alana_godbolt@glic.com",
+          "displayName": "Alana Godbolt"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-10-16T18:41:15.213Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00u7uti58sqBwVn0Z1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "numOfStamps": 1,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "656de144bbed57b9d971487c",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "defaultLocale": "en-US",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "roll": {
+            "showPrinterOptions": null,
+            "numOfStamps": 1
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-24T16:21:58Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "kathleen_loria@glic.com",
+        "updatedByEmail": "kathleen_loria@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00u7uti58sqBwVn0Z1t7",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Kathleen",
+          "lastName": "Loria",
+          "email": "kathleen_loria@glic.com",
+          "login": "kathleen_loria@glic.com",
+          "displayName": "Kathleen Loria"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T14:22:14.897Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uasmcs3v27Jza8g1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "6577795b79bed9ee5ecdf467",
+          "defaultCarrierAccountID": {
+            "adsnlee": "",
+            "gofor": "",
+            "rmg": "",
+            "supremeSystems": ""
+          },
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-24T00:22:18Z",
+        "updateTimestamp": "2024-05-14T13:11:32.139Z",
+        "createdBy": "gina_oliva@glic.com",
+        "updatedBy": "00uasmcs3v27Jza8g1t7",
+        "updatedByEmail": "kathleen_loria@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uasmcs3v27Jza8g1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "Gina",
+          "lastName": "Oliva",
+          "email": "gina_oliva@glic.com",
+          "login": "gina_oliva@glic.com",
+          "displayName": "Gina Oliva"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uaseupbuYbrru1e1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["USER"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-23T18:53:34Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "Sally_Penterman@glic.com",
+        "updatedByEmail": "Sally_Penterman@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uaseupbuYbrru1e1t7",
+        "status": "ACTIVE",
+        "profile": {
+          "firstName": "Sally",
+          "lastName": "Penterman",
+          "email": "Sally_Penterman@glic.com",
+          "login": "Sally_Penterman@glic.com",
+          "displayName": "Sally Penterman"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-03-08T17:02:19.355Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uan7s7oft7yj5ec1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-23T18:36:20Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "carmelo_rodriguez@glic.com",
+        "updatedByEmail": "carmelo_rodriguez@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uan7s7oft7yj5ec1t7",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "carmelo",
+          "lastName": "rodriguez",
+          "email": "carmelo_rodriguez@glic.com",
+          "login": "carmelo_rodriguez@glic.com",
+          "displayName": "carmelo rodriguez"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T13:24:10.12Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00umpyaq59FwKaG4q1t6",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-23T17:54:04Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "Carolyn_Bishop@glic.com",
+        "updatedByEmail": "Carolyn_Bishop@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00umpyaq59FwKaG4q1t6",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Carolyn",
+          "lastName": "Bishop",
+          "email": "carolyn_bishop@glic.com",
+          "login": "carolyn_bishop@glic.com",
+          "displayName": "Carolyn Bishop"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-03-08T16:38:41.014Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uasc104vfOV10fH1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "lastUsedSenderAddressID": "656dd0e679bed9ee5eccb3b7",
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "656dd0e679bed9ee5eccb3b7",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "dynamicPreferences": {
+            "rateShopViewToggle": "list"
+          },
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": null,
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-23T14:58:12Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "angel_ayala@glic.com",
+        "updatedByEmail": "angel_ayala@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uasc104vfOV10fH1t7",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Angel",
+          "lastName": "Ayala",
+          "email": "angel_ayala@glic.com",
+          "login": "angel_ayala@glic.com",
+          "displayName": "Angel Ayala"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2023-12-04T13:04:58.264Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00uas1xquxKkcS1bM1t7",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": true,
+          "printScanForm": false,
+          "printShippingLabelReceipt": true,
+          "printPostageCostOnLabel": true,
+          "saveRecipientAddress": true,
+          "emailToSenderPackageTrackingNumber": true,
+          "emailToSenderPackageDeliveredEvent": true,
+          "emailToRecipientPackageTrackingNumber": true,
+          "emailToRecipientOnPackageDeliveredEvent": true,
+          "numOfStamps": 1,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "6643636272b95f382937d8f7",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "showWelcomeTour": true,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "roll": {
+            "showPrinterOptions": null,
+            "numOfStamps": 1
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2019-05-22T17:36:26Z",
+        "updateTimestamp": "2019-05-17T14:30:33Z",
+        "createdBy": "deepti_parmar@glic.com",
+        "updatedByEmail": "deepti_parmar@glic.com",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00uas1xquxKkcS1bM1t7",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "deepti",
+          "lastName": "parmar",
+          "email": "deepti_parmar@glic.com",
+          "login": "deepti_parmar@glic.com",
+          "displayName": "deepti parmar"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-05-14T13:12:39.781Z"
+      }
+    },
+    {
+      "subLocation": {
+        "subID": "saa6792",
+        "productID": "SPA",
+        "userID": "00umsw02d7g5AKYeZ1t6",
+        "locationID": "spong_386787",
+        "enabled": true,
+        "subscriptionRoles": ["ADMIN"],
+        "archived": false,
+        "properties": {
+          "showLabelOptions": false,
+          "printScanForm": false,
+          "saveRecipientAddress": true,
+          "isReturnAddressSame": false,
+          "defaultSenderAddressID": "6644a1a2a486dbfb0782bf8a",
+          "defaultDimensionUnit": "IN",
+          "defaultWeightUnit": "OZ",
+          "defaultLocale": "en-US",
+          "showWelcomeTour": false,
+          "sameReturnAddressForLabels": false,
+          "tncAccepted": false,
+          "msContactsRequired": false,
+          "defaultMeasurementUnit": "IMPERIAL",
+          "showCostOnIntLabels": false,
+          "isNewEcomUser": false,
+          "printReturnLabelWithShipping": false,
+          "carrierReturnServices": null
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": false,
+          "labelProperties": {
+            "showLabelPrinterOptions": false
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": null
+          },
+          "roll": {
+            "showPrinterOptions": null
+          },
+          "stamp": {
+            "showPrinterOptions": null
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+          "addressLine1": "",
+          "addressLine2": "",
+          "addressLine3": "",
+          "company": "",
+          "city": "",
+          "state": "",
+          "countryCode": "",
+          "postalCode": "",
+          "email": "",
+          "phone": ""
+        },
+        "insertTimestamp": "2023-10-06T05:53:46Z",
+        "updateTimestamp": "2023-10-06T05:56:58Z",
+        "createdBy": "0oafowcscwBIEJKmT1t7",
+        "updatedBy": "0oafowcscwBIEJKmT1t7",
+        "status": "ACTIVE",
+        "consType": 0
+      },
+      "detail": {
+        "id": "00umsw02d7g5AKYeZ1t6",
+        "status": "ACTIVE",
+        "adminLevelAt": "E",
+        "adminLevelEntity": ["ent_saa6792"],
+        "profile": {
+          "firstName": "Jeff",
+          "lastName": "Spengler",
+          "email": "jeff_spengler@glic.com",
+          "login": "jeff_spengler@glic.com",
+          "displayName": "Jeff Spengler"
+        },
+        "groupIds": ["00gfow2omlVXIeHqv1t7"],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "2024-01-10T16:26:18.953Z"
+      }
+    }
+  ]
+}

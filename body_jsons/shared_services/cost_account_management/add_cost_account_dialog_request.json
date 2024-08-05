@@ -1,0 +1,18 @@
+{
+  "name": "5 Nov CA client 1",
+  "code": "5 Nov CA client 1",
+  "billable": true,
+  "description": "pyauto cost account test",
+  "status": true,
+  "permission": {
+    "permissionByEntity": "E",
+    "permissionByValue": []
+  },
+  "subID": "sa848bd",
+  "accountID": "5249",
+  "passwordEnabled": false,
+  "passwordCode": "",
+  "parent": "",
+  "budgetAmount": null,
+  "budgetNotification": {}
+}

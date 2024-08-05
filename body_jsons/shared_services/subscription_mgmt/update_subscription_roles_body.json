@@ -1,0 +1,9 @@
+{
+  "roleID": "USER_ADMIN",
+  "name": "User",
+  "features": [
+      "MANAGE_USER",
+      "VIEW_COST_ACCOUNT",
+      "VIEW_CONTACTS"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+    "jobId": "should_not_be_null",
+    "listing": {
+      "Accessibility": "Accessibility",
+      "AdditionalEmailIds": "AdditionalEmailIds",
+      "CityTownArea": "CityTownArea",
+      "Company": "Company",
+      "Country": "Country",
+      "Department Name": "Department Name",
+      "Email": "Email",
+      "InternalDelivery": "InternalDelivery",
+      "MailStop.Building": "MailStop.Building",
+      "MailStop.Floor": "MailStop.Floor",
+      "MailStop.Office": "MailStop.Office",
+      "MailStop.Site": "MailStop.Site",
+      "Name": "Name",
+      "NotificationAll": "NotificationAll",
+      "OfficeLocation.Building": "OfficeLocation.Building",
+      "OfficeLocation.Floor": "OfficeLocation.Floor",
+      "OfficeLocation.Office": "OfficeLocation.Office",
+      "OfficeLocation.Site": "OfficeLocation.Site",
+      "PersonnelID": "PersonnelID",
+      "Phone": "Phone",
+      "Postal/ZIP Code": "Postal/ZIP Code",
+      "PrimaryLocation": "PrimaryLocation",
+      "StateProvinceRegion": "StateProvinceRegion",
+      "Street Address 1": "Street Address 1",
+      "Street Address 2": "Street Address 2",
+      "Street Address 3": "Street Address 3"
+    }
+  }

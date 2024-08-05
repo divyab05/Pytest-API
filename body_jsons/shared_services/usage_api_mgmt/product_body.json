@@ -1,0 +1,53 @@
+{
+   "aggregationType":{
+      "aggregationTypesEnum":"NONE"
+   },
+   "filter":{
+      "startdate":"0",
+      "endDate":"99999999",
+      "country":"US",
+      "divisionIds":[
+         "j6dnBl3GeKZ",
+         "GprG6GZWWvV",
+         "gKdQVvGJq2r"
+      ]
+   },
+   "groupByCriteria":{
+      "groupByColumns":[
+
+      ]
+   },
+   "orderByCriteria":{
+      "orderByColumns":[
+
+      ]
+   },
+   "responseType":"DETAILS",
+   "subFilter":{
+      "spendType":[
+
+      ],
+      "productIds":[
+
+      ],
+      "cities":[
+
+      ],
+      "psdPcns":[
+
+      ],
+      "is_usage_available":[
+         "1"
+      ],
+      "reference_contract_number":[
+         "NA"
+      ]
+   },
+   "selectQueryColumnsList":[
+      "product_id",
+      "device_plan"
+   ],
+   "filtersGroup":{
+
+   }
+}

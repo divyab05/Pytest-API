@@ -1,0 +1,8 @@
+{
+  "pageInfo": {
+    "totalCount": "only_digits",
+    "startCount": "only_digits",
+    "limit": "only_digits"
+  },
+  "usersDetailWithSubLocation": "should_not_be_null"
+}

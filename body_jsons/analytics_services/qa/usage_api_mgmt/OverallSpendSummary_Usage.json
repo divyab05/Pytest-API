@@ -1,0 +1,61 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "jL9D1qaJZP2",
+      "div_Surchar1",
+      "JYjAWRDeAWq",
+      "23",
+      "P-Series_div",
+      "div_one",
+      "4545",
+      "810D47m6WG9",
+      "3YVxnqG2dgv",
+      "spadivision",
+      "spadivisionnew",
+      "mailcenter",
+      "J1BQWneZpxN",
+      "JX5PoEV8Mmo",
+      "MGa4Gkr8x9j"
+    ],
+    "startDate": "20230926",
+    "startdate": "20230926",
+    "endDate": "20231002",
+    "country": "US"
+  },
+  "groupByCriteria": {
+    "groupByColumns": [
+      "spend_type",
+      "location_city",
+      "location_state"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+      ""
+    ]
+  },
+  "responseType": "OVERALL_SPEND_SUMMARY",
+  "subFilter": {
+    "spendType": [
+      "mailing",
+      "shipping",
+      "manual transaction"
+    ],
+    "productIds": []
+  },
+  "selectQueryColumnsList": [
+    "spend_type",
+    "postage_spend",
+    "piece_count",
+    "latitude",
+    "longitude",
+    "location_city",
+    "location_state",
+    "postage_saving",
+    "meter_nickname"
+  ],
+  "filtersGroup": {}
+}

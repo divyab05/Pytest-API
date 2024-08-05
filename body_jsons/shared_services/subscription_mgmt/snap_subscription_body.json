@@ -1,0 +1,38 @@
+{
+    "eventId": "testeventId",
+    "eventType": "CreateSubscription",
+    "provisioningData": {
+        "addressLine1": "10 Downing Street",
+        "addressLine2": "string",
+        "city": "London",
+        "stateOrProvince": "Middlesex",
+        "country": "AU",
+        "postalCode": "SW1A 2AA"
+    },
+    "subscription": {
+        "companyName": "Test Comp",
+        "country": "AU",
+        "plans": [
+            {
+                "pbPlanId": "BOOST8"
+            }
+        ],
+        "productId": "string",
+        "status": "ACTIVE",
+        "subscriptionId": "sa36c72"
+    },
+    "users": [
+        {
+            "id": "",
+            "displayName": "PK Test",
+            "email": "test_snapuser_14@mailinator.com",
+            "firstName": "PK",
+            "idpAccountId": "111111111",
+            "lastName": "Test",
+            "locale": "string",
+            "status": "string",
+            "title": "string",
+            "username": ""
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "dev",
+      "hr",
+      "tester"
+    ],
+    "startdate": "20240419",
+    "endDate": "20240425",
+    "country": "US"
+  },
+  "groupByCriteria": {
+    "groupByColumns": [
+      "account_type",
+      "account_id"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+      "account_type",
+      "account_id"
+    ]
+  },
+  "responseType": "DETAILS",
+  "subFilter": {
+	},
+  "batchSize": 300,
+  "selectQueryColumnsList": [
+    "account_type",
+    "account_id",
+    "available_credit",
+    "balance_available",
+    "account_enabled",
+    "bpn"
+  ],
+  "filtersGroup": {}
+}

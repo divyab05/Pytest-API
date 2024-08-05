@@ -1,0 +1,88 @@
+dev_config = {
+    'username': 'Andrew1@yopmail.com',
+    'enc_pwd': 'Aqswde@123',
+    'Project': 'lockers_services',
+    'base_api': 'https://api-dev.fedramp.pitneycloud.com/locker',
+    'badge_idp': '',
+    'ilp_lms': 'https://api-dev.fedramp.pitneycloud.com/ilplms',
+    'env': 'DEV',
+    'product_name': 'fedramp',
+    'CLIENTUSERNAME': "manvifedrampclient@yopmail.com",
+    'client_pwd': "Aqswde@123",
+    'X-PB-TransactionId': 'lockers_{unique_no}',
+    'app_type': 'lockers',
+    'oauth_2.0': 'https://sso.pitneycloud.com/oauth2/ausqafra89UKfEF1A0h7/v1/token',
+    'ILP_clientID': '0oa1gbkiwdqoPPCwj0h8',
+    'ILP_secret': '1nnh6EpP245f8S2cDkZdEj8eZMsBsTJ9RgBtlUT9',
+    'INT_clientID': '0oa1t2o98u4v5ygzr0h8',
+    'INT_secret': 'z8QCc0O02ktmvPoyY9_BgB3afR6p2Y0hC0gGrpr_KUlW5hTQ744hYh_-WSrs3TJo',
+    'json_body': {"grant_type": "client_credentials", "scope": "spa"},
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'receiving_api': 'https://api-dev.fedramp.pitneycloud.com/fireball',
+    'devicehub_api': 'https://api-dev.fedramp.pitneycloud.com/devicehub',
+    'notification_api': 'https://notificationsvc-dev.fedramp.pitneycloud.com',
+    'imap_email': 'lockerspitney@gmail.com',
+    # 'imap_password': 'avrlpiokfvjgimxk'
+    'imap_password': 'wqjDg8KzwrXCvMKuwr3CrsK4w4_CusK7wrLCvMOGwrY='
+
+}
+
+qa_config = {
+    'username': 'manvimoza@yopmail.com',
+    'enc_pwd': 'Aqswde@123',
+    'Project': 'lockers_services',
+    'product_name': 'fedramp',
+    'base_api': 'https://api-qa.fedramp.pitneycloud.com/locker',
+    'badge_idp': '',
+    'ilp_lms': 'https://api-qa.fedramp.pitneycloud.com//ilplms',
+    'env': 'QA',
+    'CLIENTUSERNAME': "manvifedclient@yopmail.com",
+    'client_pwd': 'Aqswde@123',
+    'X-PB-TransactionId': 'lockers_{unique_no}',
+    'app_type': 'lockers',
+    'oauth_2.0': 'https://sso.pitneycloud.com/oauth2/ausrn35svt41lxHZw0h7/v1/token',
+    'ILP_clientID': '0oa1s719nymvrm9bD0h8',
+    'ILP_secret': 'X1fYb-5uK6NHraMu9zImCezudvKjsxYGPJESLmlXp6wQnb-I4teBfhXYjIUGCFCB',
+    'INT_clientID': '0oa1svwl84h5fGciO0h8',
+    'INT_secret': 'tINxDTv3ilPC_HUpUYBbTSjFK_zM-k_kA56vY5sNRAxtr9w90Jp96X1MxthFY-7s',
+    'json_body': {"grant_type": "client_credentials", "scope": "spa"},
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'receiving_api': 'https://api-qa.fedramp.pitneycloud.com/fireball',
+    'devicehub_api': 'https://api-qa.fedramp.pitneycloud.com/devicehub',
+    'notification_api': 'https://notificationsvc-qa.fedramp.pitneycloud.com',
+    'imap_email': 'lockerspitney@gmail.com',
+    # 'imap_password': 'avrlpiokfvjgimxk'
+    'imap_password': 'wqjDg8KzwrXCvMKuwr3CrsK4w4_CusK7wrLCvMOGwrY='
+
+}
+
+ppd_config = {
+    'username': 'lockers.user1.ppd@gmail.com',
+    'enc_pwd': 'Qwerty@123',
+    'Project': 'lockers_services',
+    'product_name': 'fedramp',
+    'base_api': 'https://api-ppd.sendpro360gov.pitneybowes.com/locker',
+    'badge_idp': '',
+    'ilp_lms': 'https://api-ppd.sendpro360gov.pitneybowes.com/ilp',
+    'env': 'PPD',
+    'CLIENTUSERNAME': "lockers.user1.ppd@gmail.com",
+    'client_pwd': 'Qwerty@123',
+    'X-PB-TransactionId': 'lockers_{unique_no}',
+    'app_type': 'lockers',
+    'oauth_2.0': 'https://sso-ppd.sendpro360gov.pitneybowes.com/oauth2/auss1gfzEdbKFjmks1d5/v1/token',
+    'ILP_clientID': '0oa723bx3nowmmBtY1d7',
+    'ILP_secret': '2uFQ4HkhzfHP4q5lu7y-Qf0AihzxkhRcS9G6FBBu',
+    'INT_clientID': '0oac7eg0kfzUPbb331d7',
+    'INT_secret': 'IQdgvM4H0U1MnEvizlNQRtoGmQ0QfH7Z10bru_e2zrcISbWzRDlmQmG6uRMpMPqu',
+    'json_body': {"grant_type": "client_credentials", "scope": "spa"},
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'receiving_api': 'https://api-ppd.sendpro360gov.pitneybowes.com/fireball',
+    'devicehub_api': 'https://api-ppd.sendpro360gov.pitneybowes.com/devicehub',
+    'notification_api': 'https://notificationsvc-ppd.fedramp.pitneycloud.com',
+    'imap_email': 'lockerspitney@gmail.com',
+    # 'imap_password': 'avrlpiokfvjgimxk'
+    'imap_password': 'wqjDg8KzwrXCvMKuwr3CrsK4w4_CusK7wrLCvMOGwrY='
+}

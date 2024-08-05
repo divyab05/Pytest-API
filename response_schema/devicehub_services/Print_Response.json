@@ -1,0 +1,193 @@
+{
+  "type": "object",
+  "properties": {
+    "serialNumber": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "deviceinfo": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "modelName": {
+          "type": "string"
+        },
+        "serialNumber": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "modelName",
+        "serialNumber"
+      ]
+    },
+    "jobs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "jobId": {
+              "type": "string"
+            },
+            "transactionId": {
+              "type": "string"
+            },
+            "recover": {
+              "type": "boolean"
+            },
+            "status": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            },
+            "fileName": {
+              "type": "string"
+            },
+            "jobStatus": {
+              "type": "string"
+            },
+            "documentInfo": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "formName": {
+                  "type": "string"
+                },
+                "orientation": {
+                  "type": "string"
+                },
+                "envelope": {
+                  "type": "object",
+                  "properties": {
+                    "DL": {
+                      "type": "object",
+                      "properties": {
+                        "top": {
+                          "type": "integer"
+                        },
+                        "right": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "top",
+                        "right"
+                      ]
+                    },
+                    "C5": {
+                      "type": "object",
+                      "properties": {
+                        "top": {
+                          "type": "integer"
+                        },
+                        "right": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "top",
+                        "right"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "DL",
+                    "C5"
+                  ]
+                },
+                "align": {
+                  "type": "string"
+                },
+                "face": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "formName",
+                "orientation",
+                "envelope",
+                "align",
+                "face"
+              ]
+            },
+            "jobHistory": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "jobStatus": {
+                      "type": "string"
+                    },
+                    "recover": {
+                      "type": "boolean"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "updatedOn": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "status",
+                    "jobStatus",
+                    "recover",
+                    "message",
+                    "updatedOn"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "type",
+            "name",
+            "jobId",
+            "transactionId",
+            "recover",
+            "status",
+            "message",
+            "fileName",
+            "jobStatus",
+            "documentInfo",
+            "jobHistory"
+          ]
+        }
+      ]
+    },
+    "lastUpdate": {
+      "type": "string"
+    },
+    "version": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "serialNumber",
+    "status",
+    "deviceinfo",
+    "jobs",
+    "lastUpdate",
+    "version"
+  ]
+}

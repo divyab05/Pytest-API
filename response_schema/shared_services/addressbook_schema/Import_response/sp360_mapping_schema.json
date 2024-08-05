@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "type": "string"
+    },
+    "listing": {
+      "type": "object",
+      "properties": {
+        "Acc Postal Cd": {
+          "type": "string"
+        },
+        "Account Number": {
+          "type": "string"
+        },
+        "City": {
+          "type": "string"
+        },
+        "Company Name": {
+          "type": "string"
+        },
+        "Cons Ind": {
+          "type": "string"
+        },
+        "Contact Email": {
+          "type": "string"
+        },
+        "Contact Fax": {
+          "type": "string"
+        },
+        "Contact Name": {
+          "type": "string"
+        },
+        "Contact Phone": {
+          "type": "string"
+        },
+        "Contact Tel Ext": {
+          "type": "string"
+        },
+        "Country": {
+          "type": "string"
+        },
+        "Loc ID": {
+          "type": "string"
+        },
+        "Nick Name":{
+          "type": "string"
+        },
+        "Postal Cd": {
+          "type": "string"
+        },
+        "Res Ind": {
+          "type": "string"
+        },
+        "St/Prov": {
+          "type": "string"
+        },
+        "Street Address Line 1": {
+          "type": "string"
+        },
+        "Street Address Line 2": {
+          "type": "string"
+        },
+        "Street Address Line 3":{
+          "type": "string"
+        },
+        "USPSPO Box IND": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,106 @@
+{
+  "type": "object",
+  "properties": {
+    "supportedLockerTypes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "supportedLockerTypes"
+  ]
+}

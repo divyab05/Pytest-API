@@ -1,0 +1,270 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "kvp": {
+              "type": "object",
+              "properties": {
+                "supportEmail": {
+                  "type": "string"
+                },
+                "reportName": {
+                  "type": "string"
+                },
+                "reportId": {
+                  "type": "string"
+                },
+                "enterpriseId": {
+                  "type": "string"
+                },
+                "enterpriseName": {
+                  "type": "string"
+                },
+                "userId": {
+                  "type": "string"
+                },
+                "userName": {
+                  "type": "string"
+                },
+                "subType": {
+                  "type": "string"
+                },
+                "query": {
+                  "type": "string"
+                },
+                "locale": {
+                  "type": "string"
+                },
+                "fileFormat": {
+                  "type": "string"
+                },
+                "exportType": {
+                  "type": "string"
+                },
+                "isShippingUsageRequired": {
+                  "type": "boolean"
+                },
+                "selectQueryColumnsList": {
+                  "type": "string"
+                },
+                "divisionName": {
+                  "type": "string"
+                },
+                "aggregationTypesEnum": {
+                  "type": "string"
+                },
+                "filter_divisionIds": {
+                  "type": "string"
+                },
+                "filter_startdate": {
+                  "type": "string"
+                },
+                "filter_endDate": {
+                  "type": "string"
+                },
+                "timeframe": {
+                  "type": "string"
+                },
+                "schedule": {
+                  "type": "string"
+                },
+                "filter_country": {
+                  "type": "string"
+                },
+                "groupByColumns": {
+                  "type": "string"
+                },
+                "orderByColumns": {
+                  "type": "string"
+                },
+                "responseType": {
+                  "type": "string"
+                },
+                "subFilter_spendType": {
+                  "type": "string"
+                },
+                "subFilter_productIds": {
+                  "type": "string"
+                },
+                "reportContext": {
+                  "type": "string"
+                },
+                "reportType": {
+                  "type": "string"
+                },
+                "viewBy": {
+                  "type": "string"
+                },
+                "filterType": {
+                  "type": "string"
+                },
+                "filterBy": {
+                  "type": "string"
+                },
+                "filterDate": {
+                  "type": "string"
+                },
+                "reportColumns": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "supportEmail",
+                "reportName",
+                "reportId",
+                "enterpriseId",
+                "enterpriseName",
+                "userId",
+                "userName",
+                "subType",
+                "query",
+                "locale",
+                "fileFormat",
+                "exportType",
+                "isShippingUsageRequired",
+                "selectQueryColumnsList",
+                "divisionName",
+                "aggregationTypesEnum",
+                "filter_divisionIds",
+                "filter_startdate",
+                "filter_endDate",
+                "timeframe",
+                "schedule",
+                "filter_country",
+                "groupByColumns",
+                "orderByColumns",
+                "responseType",
+                "subFilter_spendType",
+                "reportContext",
+                "reportType",
+                "viewBy",
+                "filterType",
+                "filterBy",
+                "filterDate",
+                "reportColumns"
+              ]
+            },
+            "sid": {
+              "type": "string"
+            },
+            "barcode": {
+              "type": "string"
+            },
+            "orgId": {
+              "type": "string"
+            },
+            "ownerId": {
+              "type": "string"
+            },
+            "ownerDesc": {
+              "type": "string"
+            },
+            "events": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "terminalEvents": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "objectType": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "subscriptionFields": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "channels": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "address": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "address"
+                  ]
+                }
+              ]
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "isCompleted": {
+              "type": "boolean"
+            },
+            "noPolling": {
+              "type": "boolean"
+            },
+            "createDate": {
+              "type": "string"
+            },
+            "updateDate": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kvp",
+            "sid",
+            "barcode",
+            "orgId",
+            "ownerId",
+            "ownerDesc",
+            "events",
+            "terminalEvents",
+            "objectType",
+            "subscriptionFields",
+            "channels",
+            "enabled",
+            "isCompleted",
+            "noPolling",
+            "createDate",
+            "updateDate"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

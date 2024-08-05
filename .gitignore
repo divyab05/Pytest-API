@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*__pycache__/
+.idea/
+.vscode
+*/logs/
+Logs
+reports/
+/.pytest_cache
+*.html

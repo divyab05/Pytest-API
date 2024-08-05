@@ -1,0 +1,118 @@
+{
+  "type": "object",
+  "properties": {
+    "supportedSize": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "supportedSize"
+  ]
+}

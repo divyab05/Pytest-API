@@ -1,0 +1,9 @@
+{
+    "planID": "SPSS1",
+    "name": "SPSS Plan 1",
+    "status": "ACTIVE",
+    "features": [
+        "MANAGE_CARRIER"
+    ],
+    "desc": "This is SPSS auto test"
+}

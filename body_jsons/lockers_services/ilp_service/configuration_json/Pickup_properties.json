@@ -1,0 +1,10 @@
+{
+    "accessCodeRequired": false,
+    "accessCardRequired": false,
+    "recipientPhotoRequired": true,
+    "recipientSignatureRequired": false,
+    "reopenDuration": 0,
+    "multiPackageEnabled": true,
+    "reportProblemEnabled": true,
+    "departmentMailPickupEnabled": true
+}

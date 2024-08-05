@@ -1,0 +1,77 @@
+{
+	"aggregationType": {
+		"aggregationTypesEnum": "NONE"
+	},
+	"filter": {
+		"divisionIds": [
+			"23",
+			"div_one",
+			"4545",
+			"spadivision",
+			"spadivisionnew",
+			"J1BQWneZpxN",
+			"JX5PoEV8Mmo",
+			"MGa4Gkr8x9j",
+			"765"
+		],
+		"startDate": "20220101",
+		"endDate": "20220803",
+		"country": "US",
+		"startdate": "20220101"
+	},
+	"groupByCriteria": {
+		"groupByColumns": [
+			"recommendation_code"
+		]
+	},
+	"orderByCriteria": {
+		"orderByColumns": []
+	},
+	"responseType": "DETAILS",
+	"subFilter": {
+		"spendType": [],
+		"productIds": [
+			"0632274_K7M0",
+			"4886969_1W05",
+			"0876016_G900",
+			"0373344_4W00",
+			"0335821_4W00",
+			"SendPro",
+			"0374382_4W00",
+			"0880286_G900",
+			"1396029_1W00",
+			"1399350_1W00",
+			"1396102_1W00",
+			"0336667_4W00",
+			"1387765_1W00"
+		],
+		"cities": [],
+		"psdPcns": []
+	},
+	"selectQueryColumnsList": [
+		"dim_date_key",
+		"bpn",
+		"psd_model",
+		"psd_serial_number",
+		"meter_type",
+		"missed_savings",
+		"fee_symbol",
+		"job_name",
+		"job_type",
+		"operator",
+		"qualified_piece_count",
+		"qualified_spend",
+		"rating_class",
+		"spend_type",
+		"recommendation_code",
+		"locale",
+		"recommendation_text1",
+		"recommendation_text2",
+		"links",
+		"category",
+		"location",
+		"latitude",
+		"longitude"
+	],
+	"filtersGroup": {}
+}

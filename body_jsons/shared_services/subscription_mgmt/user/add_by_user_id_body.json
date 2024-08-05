@@ -1,0 +1,9 @@
+{
+	"locationID":"PB_SLT",
+	"enabled":true,
+	"subscriptionRoles":["23456"],
+	"userID":"00uytji4z5BgvojIY0h7",
+	"analyticsRollupBy":"E",
+	"rollupEntity": ["Pitney"],
+	"defaultSenderAddressID":"123"
+}

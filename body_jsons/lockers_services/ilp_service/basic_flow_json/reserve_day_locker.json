@@ -1,0 +1,20 @@
+{
+    "size": "",
+    "accessible": false,
+    "refrigerated": false,
+    "lockerType":"",
+    "reservationType": "",
+    "expireReservedDate": null,
+    "assetsReserved": {
+        "userID": "UserID",
+        "recipient": {
+            "recipientID": "",
+            "personalID": ""
+        },
+        "assets": [
+            {
+                "primaryTrackingID": ""
+            }
+        ]
+    }
+}

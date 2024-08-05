@@ -1,0 +1,21 @@
+{
+    "subID": "should_not_be_null",
+    "customFieldID": "should_not_be_null",
+    "name": "should_not_be_null",
+    "customFieldType": "should_not_be_null",
+    "assignPageForm": "should_not_be_null",
+    "associatedEntities": "skip",
+    "values": "skip",
+    "stickyValue": "skip",
+    "recallLastValue": "skip",
+    "permission": {
+        "permissionByEntity": "should_not_be_null",
+        "permissionByValue": "should_not_be_null"
+    },
+    "insertTimestamp": "skip",
+    "updateTimestamp": "skip",
+    "createdBy": "skip",
+    "updatedBy": "skip",
+    "archived": "skip",
+    "status": "ACTIVE"
+}

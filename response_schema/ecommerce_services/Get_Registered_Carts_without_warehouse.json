@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "properties": {
+    "integratorId": {
+      "type": "string"
+    },
+    "subscriptionId": {
+      "type": "string"
+    },
+    "stores": {
+      "type": "object",
+      "properties": {
+        "store": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "cartId": {
+                  "type": "string"
+                },
+                "storeKey": {
+                  "type": "string"
+                },
+                "countryCode": {
+                  "type": "string"
+                },
+                "storesdetails": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "storeId": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "timezone": {
+                          "type": "string"
+                        },
+                        "country": {
+                          "type": "string"
+                        },
+                        "active": {
+                          "type": "boolean"
+                        },
+                        "weightUnit": {
+                          "type": "string"
+                        },
+                        "pricesIncludeTax": {
+                          "type": "boolean"
+                        },
+                        "defaultWarehouseId": {
+                          "type": "string"
+                        },
+                        "dimensionUnit": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "storeId",
+                        "name",
+                        "timezone",
+                        "country",
+                        "active",
+                        "weightUnit",
+                        "pricesIncludeTax",
+                        "defaultWarehouseId",
+                        "dimensionUnit"
+                      ]
+                    }
+                  ]
+                },
+                "warehouses": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "cartId",
+                "storeKey",
+                "countryCode",
+                "storesdetails",
+                "warehouses"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "store"
+      ]
+    }
+  },
+  "required": [
+    "integratorId",
+    "subscriptionId",
+    "stores"
+  ]
+}

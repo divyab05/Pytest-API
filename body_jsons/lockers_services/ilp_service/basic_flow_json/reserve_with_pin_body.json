@@ -1,0 +1,24 @@
+{
+    "size": "",
+    "accessible": null,
+    "refrigerated": null,
+    "reservationType": "",
+    "departmentMail": null,
+    "assetsReserved": {
+        "userID": "",
+        "departmentCode": "",
+        "recipient": {
+            "recipientID": ""
+        },
+        "depositor": {
+            "recipientID": "",
+            "departmentCode": "",
+            "departmentMail": true
+        },
+        "assets": [
+            {
+                "primaryTrackingID": ""
+            }
+        ]
+    }
+}

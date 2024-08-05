@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "accessCodeRequired": {
+      "type": "boolean"
+    },
+    "accessCardRequired": {
+      "type": "boolean"
+    },
+    "recipientPhotoRequired": {
+      "type": "boolean"
+    },
+    "recipientSignatureRequired": {
+      "type": "boolean"
+    },
+    "reopenDuration": {
+      "type": "integer"
+    },
+    "multiPackageEnabled": {
+      "type": "boolean"
+    },
+    "reportProblemEnabled": {
+      "type": "boolean"
+    },
+    "departmentMailPickupEnabled": {
+      "type": "boolean"
+    },
+    "lastUpdated": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accessCodeRequired",
+    "accessCardRequired",
+    "recipientPhotoRequired",
+    "recipientSignatureRequired",
+    "reopenDuration",
+    "multiPackageEnabled",
+    "reportProblemEnabled",
+    "departmentMailPickupEnabled",
+    "lastUpdated"
+  ]
+}

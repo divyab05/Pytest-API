@@ -1,0 +1,48 @@
+{
+	"aggregationType": {
+		"aggregationTypesEnum": "DAILY"
+	},
+	"filter": {
+		"divisionIds": [
+			"j6dnBl3GeKZ",
+			"Auto_Import_Div",
+			"LX1p6lxjxzJ",
+			"12",
+			"Index_Test_Div",
+			"GprG6GZWWvV",
+			"4K2RJ0dMeaM",
+			"0JMVOoByMyw",
+			"supplies_div",
+			"z74bAKVpOOQ",
+			"TestId01",
+			"gKdQVvGJq2r"
+		],
+		"startDate": "20220407",
+		"startdate": "20220407",
+		"endDate": "20220413",
+		"country": "US"
+	},
+	"groupByCriteria": {
+		"groupByColumns": [
+			""
+		]
+	},
+	"orderByCriteria": {
+		"orderByColumns": [
+			""
+		]
+	},
+	"responseType": "SUMMARY",
+	"subFilter": {
+		"cities": [],
+		"caseType": [
+			"Client Service",
+			"Technical Support"
+		],
+		"productIds": [],
+		"psdPcns": [],
+		"spendType": [],
+		"caseStatus": []
+	},
+	"filtersGroup": {}
+}

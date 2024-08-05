@@ -1,0 +1,16 @@
+{
+    "kip": true,
+    "customerType": "Federal1",
+    "omasCustomer": true,
+    "sched48Customer": true,
+    "sharedAddressBookEnabled": true,
+    "federatedUser": false,
+    "oktaGroupID": "00gr1v6ytgeMuOxXQ0h7",
+    "ledgerProductID": "LEDPR1",
+    "receivingSchema": "RECSCHM",
+    "systemUserNotification":"test message",
+    "maxTxLimitEnabled" :true,
+    "maxTxLimit":15,
+    "costAccountsEnabled":true,
+    "costAccountRequireShippingLabel":true
+}

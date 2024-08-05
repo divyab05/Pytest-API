@@ -1,0 +1,14 @@
+{
+    "subID": "sacf421",
+    "enterpriseID": "590NBvrkoqV",
+    "countryCode": "US",
+    "plans": [
+        "SENDING_PLAN",
+        "PITNEYSHIP_PRO",
+        "LOCKER_PLAN",
+        "FIREBALL_2.0"
+    ],
+    "properties": {
+        "oktaGroupID": "00gtl9cu6fdFr2OkH0h7"
+    }
+}

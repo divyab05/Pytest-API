@@ -1,0 +1,62 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "saml": {
+        "sub_id": "sa8d174",
+        "ent_id": "eNweZ5dVGE5",
+        "ent_name": "SPSS SSO Ent (sa8d174)",
+        "domain": "yahoo.com",
+        "po_user": "sa8d174.dev.po1@yopmail.com",
+        "po_pwd": "Horizon#123",
+        "po_user_okta_id": "00u1zg0z3bc8eThPx0h8",
+        "sso_user1": "spss.qa1@yahoo.com",
+        "sso_user1_pwd": "Group!234",
+        "sso_user1_okta_id": "00u1l84tepz1VXZoU0h8",
+        "sso_user2": "unmesha_clientuser@yahoo.com",
+        "sso_user2_pwd": "Group!234",
+        "sso_user2_okta_id": "00u1l89lrqjAcNHe60h8"
+      }
+    },
+    "qa": {
+      "saml": {
+        "sub_id": "sa81ce4",
+        "ent_id": "2A0DqmwWDyn",
+        "ent_name": "SSO Ent2 for Platform (sa81ce4)",
+        "domain": "ymail.rr.nu",
+        "po_user": "jason.smith@yopmail.com",
+        "po_pwd": "Horizon#123",
+        "po_user_okta_id": "00u1wbsml1loRuqzB0h8",
+        "sso_user1": "ssouser1-spss@ymail.rr.nu",
+        "sso_user1_pwd": "Group!234",
+        "sso_user1_okta_id": "00u1lh90ayixMG79e0h8",
+        "sso_user2": "ssouser2-spss@ymail.rr.nu",
+        "sso_user2_pwd": "Horizon#123",
+        "sso_user2_okta_id": "00u1lhfyw9tPclTYo0h8",
+        "sso_user3": "ssouser3-spss@ymail.rr.nu",
+        "sso_user3_pwd": "Horizon#123",
+        "sso_user3_okta_id": "00u1lhfzlhkxOgM6k0h8",
+        "sso_user4": "ssouser4-spss@ymail.rr.nu",
+        "sso_user4_pwd": "Horizon#123",
+        "sso_user4_okta_id": "00u1lhfzt0nCB6t840h8"
+      },
+      "oidc": {
+        "sub_id": "sac70cc",
+        "ent_id": "ent_auto_sac70cc",
+        "ent_name": "SPSS SSO OIDC QA PeS Ent1 (sac70cc)",
+        "domain": "zinc.fr.nf",
+        "po_user": "sac43b4.pouser1@yopmail.com",
+        "po_pwd": "Horizon#123",
+        "po_user_okta_id": "00u1wrih83z6nvhUX0h8",
+        "sso_user1": "oidcuser1-spss@zinc.fr.nf",
+        "sso_user1_pwd": "Horizon#123",
+        "sso_user1_okta_id": "00u1w7n7yvkrDC1J60h8",
+        "sso_user2": "oidcuser2-spss@zinc.fr.nf",
+        "sso_user2_pwd": "Horizon#123",
+        "sso_user2_okta_id": "00u1w7n83i956wZd70h8",
+        "sso_user3": "oidcuser3-spss@zinc.fr.nf",
+        "sso_user3_pwd": "Horizon#123",
+        "sso_user3_okta_id": "00u1w7nhvjoNiftDz0h8"
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220726",
+			"country": "US",
+			"startdate": "20220101"
+		},
+		"groupByCriteria": {
+			"groupByColumns": [
+				"latest_psd_serial_number",
+				"bpn",
+				"latest_psd_model"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"latest_psd_serial_number",
+				"bpn",
+				"latest_psd_model"
+			]
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"spendType": [],
+			"productIds": [],
+			"cities": [],
+			"psdPcns": []
+		},
+		"selectQueryColumnsList": [
+			"location_info",
+			"bpn",
+			"street1",
+			"street2",
+			"street3",
+			"city",
+			"region",
+			"country",
+			"zip_code",
+			"latest_dim_date_key",
+			"latest_daily_pieces_count",
+			"latest_di_register_piece_count",
+			"latest_di_desc_register_amount",
+			"latest_di_asc_register_amount",
+			"latest_psd_model",
+			"latest_psd_serial_number",
+			"product_id",
+			"product_type",
+			"latest_psd_serial_number",
+			"bpn",
+			"latest_psd_model"
+		],
+		"filtersGroup": {}
+	},
+	"reportColumns": {
+		"bpn": {
+			"label": "Bussiness Partner Number",
+			"value": "bpn",
+			"name": "Bussiness Partner Number",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"street1": {
+			"label": "Address Line1",
+			"value": "street1",
+			"name": "Address Line1",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"street2": {
+			"label": "Address Line2",
+			"value": "street2",
+			"name": "Address Line2",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"city": {
+			"label": "City",
+			"value": "city",
+			"name": "City",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 3,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"region": {
+			"label": "State",
+			"value": "region",
+			"name": "State",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 4,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"country": {
+			"label": "Country",
+			"value": "country",
+			"name": "Country",
+			"aggregationType": "",
+			"description": "",
+			"order": 5,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"latest_psd_serial_number": {
+			"label": "Serial Number",
+			"value": "latest_psd_serial_number",
+			"name": "Serial Number",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 6,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"latest_psd_model": {
+			"label": "Meter Model",
+			"value": "latest_psd_model",
+			"name": "Meter Model",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 7,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields"
+		},
+		"latest_di_desc_register_amount": {
+			"label": "Latest Available Balance",
+			"value": "latest_di_desc_register_amount",
+			"name": "Latest Available Balance",
+			"aggregationType": "",
+			"description": "",
+			"order": 8,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"latest_dim_date_key": {
+			"label": "Last Transaction Date",
+			"value": "latest_dim_date_key",
+			"name": "Last Transaction Date",
+			"aggregationType": "",
+			"description": "",
+			"order": 9,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "featureID": "SPSS1",
+    "name": "SPSS Auto Test",
+    "functionalityTag": "SPSS Test1",
+    "resource": "SPSS-Test-1",
+    "supportedCountries": [
+        "GB",
+        "AU",
+        "CA",
+        "US"
+    ],
+    "operations": [
+        "GET"
+    ]
+}

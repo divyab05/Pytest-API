@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "manufacturerID": {
+      "type": "string"
+    },
+    "siteID": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "deliveryEnabled": {
+      "type": "boolean"
+    },
+    "timeZone": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "manufacturerID",
+    "siteID",
+    "siteName",
+    "bankName",
+    "deliveryEnabled",
+    "timeZone"
+  ]
+}

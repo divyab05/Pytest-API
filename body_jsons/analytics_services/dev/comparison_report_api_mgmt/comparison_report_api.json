@@ -1,0 +1,220 @@
+{
+	"apiRequest": {
+		"JAN 01   JUL 27 2022": {
+			"aggregationType": {
+				"aggregationTypesEnum": "NONE"
+			},
+			"groupByCriteria": {
+				"groupByColumns": [
+					"location_city",
+					"location_state"
+				]
+			},
+			"orderByCriteria": {
+				"orderByColumns": [
+					"location_city",
+					"location_state"
+				]
+			},
+			"responseType": "DETAILS",
+			"subFilter": {
+				"spendType": [
+					"mailing",
+					"shipping"
+				],
+				"productIds": []
+			},
+			"selectQueryColumnsList": [
+				"piece_count",
+				"postage_spend",
+				"postage_saving",
+				"avg_spend",
+				"last_transaction_date",
+				"base_rate",
+				"fee_amount",
+				"surcharges_amount",
+				"mailing_piece_count",
+				"shipping_piece_count",
+				"transaction_end_time",
+				"transaction_start_time",
+				"cost_account_id",
+				"cost_account_name",
+				"cost_account_path",
+				"l1_account_code",
+				"l1_account_name",
+				"l2_account_code",
+				"l2_account_name",
+				"l3_account_code",
+				"street1",
+				"street2",
+				"country",
+				"location_city",
+				"location_state",
+				"product_id"
+			],
+			"filtersGroup": {},
+			"filter": {
+				"divisionIds": [
+					"j6dnBl3GeKZ",
+					"Auto_Import_Div",
+					"LX1p6lxjxzJ",
+					"12",
+					"Index_Test_Div",
+					"GprG6GZWWvV",
+					"4K2RJ0dMeaM",
+					"0JMVOoByMyw",
+					"supplies_div",
+					"z74bAKVpOOQ",
+					"TestId01",
+					"gKdQVvGJq2r"
+				],
+				"startDate": "20220101",
+				"endDate": "20220727",
+				"country": "US",
+				"startdate": "20220101"
+			}
+		},
+		"JAN 01   JUL 27 2021": {
+			"aggregationType": {
+				"aggregationTypesEnum": "NONE"
+			},
+			"groupByCriteria": {
+				"groupByColumns": [
+					"location_city",
+					"location_state"
+				]
+			},
+			"orderByCriteria": {
+				"orderByColumns": [
+					"location_city",
+					"location_state"
+				]
+			},
+			"responseType": "DETAILS",
+			"subFilter": {
+				"spendType": [
+					"mailing",
+					"shipping"
+				],
+				"productIds": []
+			},
+			"selectQueryColumnsList": [
+				"piece_count",
+				"postage_spend",
+				"postage_saving",
+				"avg_spend",
+				"last_transaction_date",
+				"base_rate",
+				"fee_amount",
+				"surcharges_amount",
+				"mailing_piece_count",
+				"shipping_piece_count",
+				"transaction_end_time",
+				"transaction_start_time",
+				"cost_account_id",
+				"cost_account_name",
+				"cost_account_path",
+				"l1_account_code",
+				"l1_account_name",
+				"l2_account_code",
+				"l2_account_name",
+				"l3_account_code",
+				"street1",
+				"street2",
+				"country",
+				"location_city",
+				"location_state",
+				"product_id"
+			],
+			"filtersGroup": {},
+			"filter": {
+				"divisionIds": [
+					"j6dnBl3GeKZ",
+					"Auto_Import_Div",
+					"LX1p6lxjxzJ",
+					"12",
+					"Index_Test_Div",
+					"GprG6GZWWvV",
+					"4K2RJ0dMeaM",
+					"0JMVOoByMyw",
+					"supplies_div",
+					"z74bAKVpOOQ",
+					"TestId01",
+					"gKdQVvGJq2r"
+				],
+				"startDate": "20210101",
+				"endDate": "20210727",
+				"country": "US",
+				"startdate": "20210101"
+			}
+		}
+	},
+	"reportColumns": {
+		"location_city": {
+			"label": "City",
+			"value": "location_city",
+			"name": "City",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields",
+			"isGroupedCol": true
+		},
+		"location_state": {
+			"label": "State",
+			"value": "location_state",
+			"name": "State",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields",
+			"isGroupedCol": true
+		},
+		"avg_spend": {
+			"label": "Average Spend",
+			"value": "avg_spend",
+			"name": "Average Spend",
+			"aggregationType": "averagePieces",
+			"description": "",
+			"order": 2,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"fee_amount": {
+			"label": "Extra Services Amount",
+			"value": "fee_amount",
+			"name": "Extra Services Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 3,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"postage_spend": {
+			"label": "Total Spend",
+			"value": "postage_spend",
+			"name": "Total Spend",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 4,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"product_id": {
+			"label": "Product",
+			"value": "product_id",
+			"name": "Product",
+			"aggregationType": "length",
+			"description": "Concatenation for Meter serial number and pcn. Sendpro is for sendpro, SSL, SPE and SSX for sendpro",
+			"order": 5,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields",
+			"isGroupedCol": false
+		}
+	}
+}

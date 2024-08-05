@@ -1,0 +1,44 @@
+{
+   "aggregationType":{
+      "aggregationTypesEnum":"NONE"
+   },
+   "filter":{
+      "startdate":"20210302",
+      "endDate":"20210308",
+      "country":"US",
+      "divisionIds":[
+         "j6dnBl3GeKZ",
+         "GprG6GZWWvV",
+         "gKdQVvGJq2r"
+      ]
+   },
+   "groupByCriteria":{
+      "groupByColumns":[
+
+      ]
+   },
+   "orderByCriteria":{
+      "orderByColumns":[
+
+      ]
+   },
+   "responseType":"SUMMARY",
+   "subFilter":{
+      "spendType":[
+         "mailing",
+         "shipping"
+      ],
+      "productIds":[
+
+      ],
+      "cities":[
+
+      ],
+      "psdPcns":[
+
+      ]
+   },
+   "filtersGroup":{
+
+   }
+}

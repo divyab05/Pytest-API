@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "properties": {
+    "pageInfo": {
+      "type": "object",
+      "properties": {
+        "totalCount": {
+          "type": "number"
+        },
+        "startCount": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        }
+      }
+    },
+    "departments": {
+      "type": "array",
+      "properties": {
+        "subID": {
+          "type": "string"
+        },
+        "locationID": {
+          "type": "string"
+        },
+        "departmentID": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "archived": {
+          "type": "boolean"
+        },
+        "insertTimestamp": {
+          "type": "date-time"
+        },
+        "updateTimestamp": {
+          "type": "date-time"
+        },
+        "createdBy": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "contacts": {
+          "type": "array"
+        }
+      },
+      "required": ["locationID", "departmentID", "status", "contacts", "subID"]
+    }
+  },
+  "additionalProperties": false
+}

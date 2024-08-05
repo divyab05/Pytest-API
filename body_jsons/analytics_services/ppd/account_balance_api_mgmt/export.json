@@ -1,0 +1,125 @@
+{
+  "apiRequest": {
+    "aggregationType": {
+      "aggregationTypesEnum": "NONE"
+    },
+    "filter": {
+      "divisionIds": [
+        "dev",
+        "hr",
+        "tester"
+      ],
+      "startDate": "20240419",
+      "startdate": "20240419",
+      "endDate": "20240425",
+      "country": "US"
+    },
+    "groupByCriteria": {
+      "groupByColumns": [
+        "account_type",
+        "account_id"
+      ]
+    },
+    "orderByCriteria": {
+      "orderByColumns": [
+        "account_type",
+        "account_id"
+      ]
+    },
+    "responseType": "DETAILS",
+    "subFilter": {},
+    "batchSize": 300,
+    "selectQueryColumnsList": [
+      "account_type",
+      "account_id",
+      "available_credit",
+      "balance_available",
+      "account_enabled",
+      "bpn",
+      "account_type",
+      "account_id"
+    ],
+    "filtersGroup": {}
+  },
+  "reportColumns": {
+    "account_type": {
+      "label": "Account Type",
+      "value": "account_type",
+      "name": "Account Type",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 0,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "account_id": {
+      "label": "Account Id",
+      "value": "account_id",
+      "name": "Account Id",
+      "aggregationType": "",
+      "description": "",
+      "order": 1,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "available_credit": {
+      "label": "Available Credit",
+      "value": "available_credit",
+      "name": "Available Credit",
+      "aggregationType": "",
+      "description": "",
+      "order": 2,
+      "dataType": "Double",
+      "parentElement": "Other Fields"
+    },
+    "balance_available": {
+      "label": "Available Balance",
+      "value": "balance_available",
+      "name": "Available Balance",
+      "aggregationType": "",
+      "description": "",
+      "order": 3,
+      "dataType": "Double",
+      "parentElement": "Other Fields"
+    },
+    "account_enabled": {
+      "label": "Status",
+      "value": "account_enabled",
+      "name": "Status",
+      "aggregationType": "",
+      "description": "",
+      "order": 4,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "bpn": {
+      "label": "Business Partner Number",
+      "value": "bpn",
+      "name": "Business Partner Number",
+      "aggregationType": "",
+      "description": "",
+      "order": 5,
+      "dataType": "String",
+      "parentElement": "Other Fields",
+      "bpn": "true",
+      "visibility": "false"
+    }
+  },
+  "customFieldExcludedColumns": {
+    "Yaxj0VO0bko": "CF : SAN DIEGO",
+    "gZq708eBbZ2": "CF: Myrtle"
+  },
+  "delimeterConfigRequest": {
+    "DATE_FORMAT": "dd-MMM-yyyy",
+    "DATE_SPACER": "DASH",
+    "DELIMETER_FORMAT": "COMMA",
+    "TEXT_QUALIFIER": "DOUBLE_QUOTES",
+    "INCLUDE_TIMESTAMP": true,
+    "USE_TWELVE_HOUR_DISPLAY": true
+  },
+  "exportCustomConfigRequest": {
+    "INCLUDE_COLUMN_HEADER": true,
+    "INCLUDE_COLUMN_TOTAL": false,
+    "decimalPreference": 3
+  }
+}

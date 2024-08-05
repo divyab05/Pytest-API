@@ -1,0 +1,8 @@
+{
+    "carrierID": "SPSS1",
+    "name": "SPSS Auto Carrier",
+    "originCountry": "US",
+    "properties": {
+        "prePay": false
+    }
+}

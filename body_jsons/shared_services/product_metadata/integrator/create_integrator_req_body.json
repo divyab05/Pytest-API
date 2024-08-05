@@ -1,0 +1,8 @@
+{
+    "integratorID": "123456",
+    "clientID": "34543",
+    "name": "TestIntegrate",
+    "qURL": "http://localhost",
+    "notifyFlag": true,
+    "notificationQURL": "http://localhost"
+}

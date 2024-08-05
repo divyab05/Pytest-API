@@ -1,0 +1,15 @@
+{
+    "jobId": "should_not_be_null",
+    "subID": "should_not_be_null",
+    "status": "should_not_be_null",
+    "inputFileName": "should_not_be_null",
+    "records": "skip",
+    "successfulRecords": "skip",
+    "downloadAvailable": "should_not_be_null",
+    "jobType": "should_not_be_null",
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null",
+    "updatedBy": "should_not_be_null",
+    "archived": "should_not_be_null"
+}

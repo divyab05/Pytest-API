@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "productID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "archived": {
+      "type": "boolean"
+    },
+    "updatedBy": {
+      "type": "string"
+    },
+    "systemData": {
+      "type": "boolean"
+    },
+    "insertTimestamp": {
+      "type": "string"
+    },
+    "updateTimestamp": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "productID",
+    "name",
+    "archived",
+    "systemData"
+  ]
+}

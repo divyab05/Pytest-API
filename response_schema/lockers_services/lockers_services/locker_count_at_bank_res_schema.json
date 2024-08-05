@@ -1,0 +1,217 @@
+{
+  "type": "object",
+  "properties": {
+    "siteID": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "lockerBanks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerID": {
+              "type": "string"
+            },
+            "bankName": {
+              "type": "string"
+            },
+            "availableLockerCount": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "lockerSize": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "object",
+                      "properties": {
+                        "countAvailable": {
+                          "type": "integer"
+                        },
+                        "countEnabled": {
+                          "type": "integer"
+                        },
+                        "countStale": {
+                          "type": "integer"
+                        },
+                        "countAccessible": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "countAvailable",
+                        "countEnabled",
+                        "countStale",
+                        "countAccessible"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lockerSize",
+                    "count"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "lockerSize": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "object",
+                      "properties": {
+                        "countAvailable": {
+                          "type": "integer"
+                        },
+                        "countEnabled": {
+                          "type": "integer"
+                        },
+                        "countStale": {
+                          "type": "integer"
+                        },
+                        "countAccessible": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "countAvailable",
+                        "countEnabled",
+                        "countStale",
+                        "countAccessible"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lockerSize",
+                    "count"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "lockerSize": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "object",
+                      "properties": {
+                        "countAvailable": {
+                          "type": "integer"
+                        },
+                        "countEnabled": {
+                          "type": "integer"
+                        },
+                        "countStale": {
+                          "type": "integer"
+                        },
+                        "countAccessible": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "countAvailable",
+                        "countEnabled",
+                        "countStale",
+                        "countAccessible"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lockerSize",
+                    "count"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "lockerSize": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "object",
+                      "properties": {
+                        "countAvailable": {
+                          "type": "integer"
+                        },
+                        "countEnabled": {
+                          "type": "integer"
+                        },
+                        "countStale": {
+                          "type": "integer"
+                        },
+                        "countAccessible": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "countAvailable",
+                        "countEnabled",
+                        "countStale",
+                        "countAccessible"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lockerSize",
+                    "count"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "lockerSize": {
+                      "type": "string"
+                    },
+                    "count": {
+                      "type": "object",
+                      "properties": {
+                        "countAvailable": {
+                          "type": "integer"
+                        },
+                        "countEnabled": {
+                          "type": "integer"
+                        },
+                        "countStale": {
+                          "type": "integer"
+                        },
+                        "countAccessible": {
+                          "type": "integer"
+                        }
+                      },
+                      "required": [
+                        "countAvailable",
+                        "countEnabled",
+                        "countStale",
+                        "countAccessible"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "lockerSize",
+                    "count"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "manufacturerID",
+            "bankName",
+            "availableLockerCount"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "siteID",
+    "siteName",
+    "lockerBanks"
+  ]
+}

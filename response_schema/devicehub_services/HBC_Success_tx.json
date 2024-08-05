@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "serialNumber": {
+      "type": "string"
+    },
+    "jobId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "printStatusTransaction": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "status"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "serialNumber",
+    "jobId",
+    "status",
+    "printStatusTransaction"
+  ]
+}

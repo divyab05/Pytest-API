@@ -1,0 +1,157 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220726",
+			"country": "US",
+			"startdate": "20220101"
+		},
+		"groupByCriteria": {
+			"groupByColumns": [
+				"sales_document",
+				"sales_document_item"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": []
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"spendType": [],
+			"productIds": [],
+			"cities": [],
+			"psdPcns": []
+		},
+		"selectQueryColumnsList": [
+			"adjusted_net_value",
+			"basic_material",
+			"bill_to",
+			"bill_to_contact",
+			"bill_to_contact_name",
+			"corporate_group",
+			"cpq_quote_id",
+			"created_by_first_name",
+			"created_by_last_name",
+			"created_on_time",
+			"derived_material_type",
+			"external_material_group",
+			"latitude",
+			"location_address",
+			"location_address_line_2",
+			"location_city",
+			"location_country",
+			"location_org_name",
+			"location_postal_code",
+			"location_state",
+			"adjusted_net_value",
+			"longitude",
+			"material",
+			"material_desc",
+			"material_group",
+			"material_group_desc",
+			"material_type",
+			"material_type_desc",
+			"material_type_id",
+			"meter_type",
+			"net_value",
+			"order_approved_date",
+			"order_creation_date",
+			"order_shipped_date",
+			"product_hierarchy_1_desc",
+			"product_hierarchy_2_desc",
+			"product_hierarchy_3_desc",
+			"product_hierarchy_4_desc",
+			"product_quantity",
+			"sales_document",
+			"sales_document_item",
+			"sales_document_type",
+			"sales_document_type_desc",
+			"sales_rep_1_name",
+			"serial_number",
+			"ship_to",
+			"ship_to_name",
+			"status_code",
+			"status_desc"
+		],
+		"filtersGroup": {}
+	},
+	"reportColumns": {
+		"location_city": {
+			"label": "Location City",
+			"value": "location_city",
+			"name": "Location City",
+			"aggregationType": "",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"location_state": {
+			"label": "Location State",
+			"value": "location_state",
+			"name": "Location State",
+			"aggregationType": "",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"material_type": {
+			"label": "Material Type",
+			"value": "material_type",
+			"name": "Material Type",
+			"aggregationType": "",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"product_quantity": {
+			"label": "Product Quantity",
+			"value": "Product_Quantity",
+			"name": "Product Quantity",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 3,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"adjusted_net_value": {
+			"label": "Total Amount",
+			"value": "adjusted_net_value",
+			"name": "Total Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 4,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"order_creation_date": {
+			"label": "Order Creation Date",
+			"value": "order_creation_date",
+			"name": "Order Creation Date",
+			"aggregationType": "maxVal",
+			"description": "",
+			"order": 5,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "errorCode": "DC-CR-CMLC2-E-BPN-EXIST",
+      "errorDescription": "Invalid request: Location with BPN [4777614464] already exists"
+    }
+  ]
+}

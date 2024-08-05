@@ -1,0 +1,31 @@
+{
+	"accountNumber": "should_not_be_null",
+	"name": "should_not_be_null",
+	"paymentAccountId": "should_not_be_null",
+	"feesPercentage": "skip",
+	"prepayBalance": "skip",
+	"paymentType": "skip",
+	"paymentDetails": "skip",
+	"billingAddress": {
+		"city": "skip",
+		"company": "skip",
+		"countryName": "US",
+		"email": "skip",
+		"firstName": "skip",
+		"fullName": "skip",
+		"isoCountry": "US",
+		"lastLineOnly": "skip",
+		"lastName": "skip",
+		"middleName": "skip",
+		"phone": "skip",
+		"postalCode": "skip",
+		"residential": "skip",
+		"state": "skip",
+		"streetLine1": "skip",
+		"streetLine2": "skip",
+		"streetLine3": null,
+		"streetLine4": null,
+		"type": "",
+		"verified": "skip"
+	}
+}

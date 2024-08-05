@@ -1,0 +1,20 @@
+{
+    "id": "00u17txbloqhtxfl40h8",
+    "adminLevelAt": "E",
+    "groupIds": [
+        "00g11uypzt2krCDRD0h8"
+    ],
+    "active": true,
+    "analyticsRollupBy": "",
+    "rollupEntity": [],
+    "profile": {
+        "firstName": "Sohail",
+        "lastName": "Support",
+        "displayName": "Sohail DevSupport",
+        "email": "sohail.dev.support@yopmail.com"
+    },
+    "userPermissions": {
+        "subCarriers": null,
+        "costAccounts": null
+    }
+}

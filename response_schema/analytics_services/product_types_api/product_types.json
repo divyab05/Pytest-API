@@ -1,0 +1,40 @@
+{
+	"type": "array",
+	"items": [
+		{
+			"type": "object",
+			"properties": {
+				"category": {
+					"type": "string"
+				},
+				"country": {
+					"type": "string"
+				},
+				"product_type": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"uic_pcn": {
+					"type": "string"
+				},
+				"production_range": {
+					"type": "string"
+				},
+				"qa_range": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"category",
+				"country",
+				"product_type",
+				"psd_model",
+				"uic_pcn",
+				"production_range",
+				"qa_range"
+			]
+		}
+	]
+}

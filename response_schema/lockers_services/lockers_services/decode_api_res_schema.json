@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "decoded": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "is_bad_scan": {
+              "type": "boolean"
+            },
+            "tracking_number": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "is_bad_scan",
+            "tracking_number"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "decoded"
+  ]
+}

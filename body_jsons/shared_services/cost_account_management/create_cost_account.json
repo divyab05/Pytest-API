@@ -1,0 +1,28 @@
+{
+    "name": "",
+    "code": "",
+    "billable": false,
+    "description": "Test_Account_Auto Desc",
+    "status": true,
+    "permission": {
+        "permissionByEntity": "",
+        "permissionByValue": [
+            ""
+        ]
+    },
+    "subID": "",
+    "accountID": "AUT12356",
+    "passwordCode": "Test",
+    "passwordEnabled": false,
+    "parent": "",
+    "metadata": {
+        "key": "test",
+        "type": "test",
+        "value": "test"
+    },
+    "extendedMetadata": {
+        "key": "test",
+        "type": "test",
+        "value": "test"
+    }
+}

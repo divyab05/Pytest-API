@@ -1,0 +1,16 @@
+{
+    "name": "",
+    "customFieldType": "TEXT",
+    "defaultValue": "",
+    "assignPageForm": [
+        "NOTIFICATIONS",
+        "CONTACTS_ADDRESS_BOOK"],
+    "stickyValue": false,
+    "recallLastValue": false,
+    "status": "ACTIVE",
+    "permission": {
+        "permissionByEntity": "",
+        "permissionByValue": []
+    },
+    "values": ""
+}

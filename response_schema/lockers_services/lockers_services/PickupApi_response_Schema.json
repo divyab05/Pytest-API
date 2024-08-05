@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "properties": {
+    "pickupRequests": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "accesscode": {
+              "type": "string"
+            },
+            "recordUpdated": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "manufacturerLockerID",
+            "accesscode",
+            "recordUpdated"
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "type": "object",
+      "properties": {
+        "base64": {
+          "type": "string"
+        },
+        "data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "base64",
+        "data"
+      ]
+    },
+    "photo": {
+      "type": "object",
+      "properties": {
+        "base64": {
+          "type": "string"
+        },
+        "data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "base64",
+        "data"
+      ]
+    },
+    "pickupDate": {
+      "type": "string"
+    },
+    "recipients": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "pickupRequests",
+    "signature",
+    "photo",
+    "pickupDate",
+    "recipients"
+  ]
+}

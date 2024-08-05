@@ -1,0 +1,431 @@
+{
+	"type": "array",
+	"items": [
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"psd_serial_number": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"j\nob_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"rating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recommendation_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"recommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"cat\negory": {
+					"type": "string"
+				},
+				"location": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_mode\nl": {
+					"type": "string"
+				},
+				"psd_serial_number": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"missed_savings": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"job_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"rating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recommendatio\nn_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"recommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"location": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"psd_serial_number": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"missed_savings\n": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"job_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"rating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recommendation_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"recommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"location": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"psd_serial_number": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"missed_savi\nngs": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"job_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"rating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recommendation_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"recommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"location\n": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"psd_serial_numbe\nr": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"missed_savings": {
+					"type": "string"
+				},
+				"fee_symbol": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"job_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"rating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recomme\nndation_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"recommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"location": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"dim_date_key": {
+					"type": "string"
+				},
+				"bpn": {
+					"type": "string"
+				},
+				"psd_model": {
+					"type": "string"
+				},
+				"psd_serial_number": {
+					"type": "string"
+				},
+				"meter_type": {
+					"type": "string"
+				},
+				"missed_savings": {
+					"type": "string"
+				},
+				"job_name": {
+					"type": "string"
+				},
+				"job_type": {
+					"type": "string"
+				},
+				"operator": {
+					"type": "string"
+				},
+				"qualified_piece_count": {
+					"type": "string"
+				},
+				"qualified_spend": {
+					"type": "string"
+				},
+				"\nrating_class": {
+					"type": "string"
+				},
+				"spend_type": {
+					"type": "string"
+				},
+				"recommendation_code": {
+					"type": "string"
+				},
+				"locale": {
+					"type": "string"
+				},
+				"recommendation_text1": {
+					"type": "string"
+				},
+				"\nrecommendation_text2": {
+					"type": "string"
+				},
+				"links": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"location": {
+					"type": "string"
+				},
+				"latitude": {
+					"type": "string"
+				},
+				"longitude": {
+					"type": "string"
+				}
+			}
+		}
+	]
+}

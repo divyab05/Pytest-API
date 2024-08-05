@@ -1,0 +1,61 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "service_call": {
+          "type": "string"
+        },
+        "days_open": {
+          "type": "string"
+        },
+        "mean_time_to_repair_to_completion": {
+          "type": "string"
+        },
+        "machines_serviced": {
+          "type": "string"
+        },
+        "percent_uptime_for_machines_serviced": {
+          "type": "string"
+        },
+        "percent_uptime_for_machines_in_fleet": {
+          "type": "string"
+        },
+        "time_elapsed\n": {
+          "type": "string"
+        },
+        "closed_cases": {
+          "type": "string"
+        },
+        "open_cases": {
+          "type": "string"
+        },
+        "pending_cas\nes": {
+          "type": "string"
+        },
+        "inprogress_cases": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "open_work_orders": {
+          "type": "string"
+        },
+        "\nclosed_work_orders": {
+          "type": "string"
+        },
+        "work_order_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+
+
+
+      ]
+    }
+  ]
+}

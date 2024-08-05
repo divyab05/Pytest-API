@@ -1,0 +1,145 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "package_status": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "locker_size_requested": {
+          "type": "string"
+        },
+        "no_of_parcels_received": {
+          "type": "string"
+        },
+        "no_of_parcels_delivered": {
+          "type": "string"
+        },
+        "no_of_locker_delivery": {
+          "type": "string"
+        },
+        "no_of_packages": {
+          "type": "string"
+        },
+        "no_of_parcels_undelivered": {
+          "type": "string"
+        },
+        "direct_retrivals": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_undelivered": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_delivered": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_received": {
+          "type": "string"
+        },
+        "derived_package_status_2": {
+          "type": "string"
+        },
+        "avg_no_of_locker_delivery": {
+          "type": "string"
+        },
+        "avg_no_of_packages": {
+          "type": "string"
+        },
+        "no_of_parcels_attempted": {
+          "type": "string"
+        },
+        "no_of_parcels_refused": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_attempted": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_refused": {
+          "type": "string"
+        },
+        "intransit_time": {
+          "type": "string"
+        },
+        "inlocker_transit_time": {
+          "type": "string"
+        },
+        "inlocker_time": {
+          "type": "string"
+        },
+        "asset_id": {
+          "type": "string"
+        },
+        "no_of_parcels_created": {
+          "type": "string"
+        },
+        "small_locker_size_requested": {
+          "type": "string"
+        },
+        "medium_locker_size_requested": {
+          "type": "string"
+        },
+        "large_locker_size_requested": {
+          "type": "string"
+        },
+        "avg_no_of_parcels_placed_in_locker": {
+          "type": "string"
+        },
+        "no_of_parcels_placed_in_locker": {
+          "type": "string"
+        },
+        "avg_intransit_time": {
+          "type": "string"
+        },
+        "avg_inlocker_transit_time": {
+          "type": "string"
+        },
+        "avg_inlocker_time": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "package_status",
+        "type",
+        "source",
+        "locker_size_requested",
+        "no_of_parcels_received",
+        "no_of_parcels_delivered",
+        "no_of_locker_delivery",
+        "no_of_packages",
+        "no_of_parcels_undelivered",
+        "direct_retrivals",
+        "avg_no_of_parcels_undelivered",
+        "avg_no_of_parcels_delivered",
+        "avg_no_of_parcels_received",
+        "derived_package_status_2",
+        "avg_no_of_locker_delivery",
+        "avg_no_of_packages",
+        "no_of_parcels_attempted",
+        "no_of_parcels_refused",
+        "avg_no_of_parcels_attempted",
+        "avg_no_of_parcels_refused",
+        "intransit_time",
+        "inlocker_transit_time",
+        "inlocker_time",
+        "asset_id",
+        "no_of_parcels_created",
+        "small_locker_size_requested",
+        "medium_locker_size_requested",
+        "large_locker_size_requested",
+        "avg_no_of_parcels_placed_in_locker",
+        "no_of_parcels_placed_in_locker",
+        "avg_intransit_time",
+        "avg_inlocker_transit_time",
+        "avg_inlocker_time"
+      ]
+    }
+  ]
+}

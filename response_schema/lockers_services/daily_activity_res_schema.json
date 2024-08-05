@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "depositActivityCount": {
+      "type": "integer"
+    },
+    "pickupActivityCount": {
+      "type": "integer"
+    },
+    "reservationActivityCount": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "depositActivityCount",
+    "pickupActivityCount",
+    "reservationActivityCount"
+  ]
+}

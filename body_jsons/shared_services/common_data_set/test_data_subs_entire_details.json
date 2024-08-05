@@ -1,0 +1,76 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "7923",
+        "ent_id": "APIAutomation",
+        "ent_user": "7923_Auto_jcyeu.dev.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "7923_Auto_udngc.dev.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "7923_Auto_evaml.dev.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "7923_Auto_kvlsv.dev.user1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "1931",
+        "ent_id": "APIAutomation_QA",
+        "ent_user": "1931_Auto_vbtco.qa.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "1931_Auto_kpbof.qa.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "1931_Auto_tsfrc.qa.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "1931_Auto_kpgfd.qa.user1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "ppd": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "5190",
+        "ent_id": "3385",
+        "ent_user": "pyauto.ppd.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "1931_Auto_gmwqr.ppd.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "1931_Auto_jhqkl.ppd.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "1931_Auto_omnup.ppd.user1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "6969",
+        "ent_id": "2521",
+        "ent_user": "1931_Auto_letiq.dev.e1@yopmail.com",
+        "ent_pwd": "Pitney@123",
+        "div_user": "1931_Auto_nalxd.dev.d1@yopmail.com",
+        "div_pwd": "Pitney@123",
+        "loc_user": "1931_Auto_epyag.dev.l1@yopmail.com",
+        "loc_pwd": "Pitney@123",
+        "user": "1931_Auto_gnkam.dev.user1@yopmail.com",
+        "user_pwd": "Pitney@123"
+      }
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "2794",
+        "ent_id": "9685",
+        "ent_user": "2794_Auto_oriat.qa.e1@yopmail.com",
+        "ent_pwd": "Pitney@123",
+        "div_user": "2794_Auto_mxlsv.qa.d1@yopmail.com",
+        "div_pwd": "Pitney@123",
+        "loc_user": "2794_Auto_ijqmo.qa.l1@yopmail.com",
+        "loc_pwd": "Pitney@123",
+        "user": "2794_Auto_lguwf.qa.user1@yopmail.com",
+        "user_pwd": "Pitney@123"
+      }
+    }
+  }
+}

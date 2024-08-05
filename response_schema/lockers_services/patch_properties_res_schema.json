@@ -1,0 +1,323 @@
+{
+  "type": "object",
+  "properties": {
+    "accessible": {
+      "type": "boolean"
+    },
+    "cameraEnabled": {
+      "type": "boolean"
+    },
+    "signatureCaptureEnabled": {
+      "type": "boolean"
+    },
+    "rearLoadingEnabled": {
+      "type": "boolean"
+    },
+    "barcodeScanningEnabled": {
+      "type": "boolean"
+    },
+    "supportedSize": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "uom": {
+              "type": "string"
+            },
+            "dimension": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "width": {
+                  "type": "number"
+                },
+                "height": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "length",
+                "width",
+                "height"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "uom",
+            "dimension"
+          ]
+        }
+      ]
+    },
+    "supportedLockerTypes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "lockerType": {
+              "type": "string"
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "minTemperature": {
+                  "type": "integer"
+                },
+                "maxTemperature": {
+                  "type": "integer"
+                },
+                "uom": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "minTemperature",
+                "maxTemperature",
+                "uom"
+              ]
+            }
+          },
+          "required": [
+            "lockerType",
+            "temperature"
+          ]
+        }
+      ]
+    },
+    "numberOfLockerColumn": {
+      "type": "integer"
+    },
+    "numberOfDoors": {
+      "type": "integer"
+    },
+    "lastUpdated": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "accessible",
+    "cameraEnabled",
+    "signatureCaptureEnabled",
+    "rearLoadingEnabled",
+    "barcodeScanningEnabled",
+    "supportedSize",
+    "supportedLockerTypes",
+    "numberOfLockerColumn",
+    "numberOfDoors",
+    "lastUpdated",
+    "userID"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "uploadedRecords": {
+      "type": "number"
+    },
+    "updatedRecords": {
+      "type": "number"
+    },
+    "errors": {
+      "type": "string"
+    }
+  },
+  "required": ["uploadedRecords","updatedRecords"],
+  "additionalProperties": false
+}

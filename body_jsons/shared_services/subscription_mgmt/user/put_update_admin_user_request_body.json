@@ -1,0 +1,18 @@
+{
+    "id": "00u17txk0i0Hjq7Tu0h8",
+    "adminLevelAt": "E",
+    "groupIds": [],
+    "active": true,
+    "profile": {
+        "firstName": "Auto",
+        "lastName": "User",
+        "displayName": "Auto User",
+        "email": "auto.user2@yopmail.com",
+        "login": "auto.user2@yopmail.com",
+        "status": "ACTIVE"
+    },
+    "userPermissions": {
+        "subCarriers": null,
+        "costAccounts": null
+    }
+}

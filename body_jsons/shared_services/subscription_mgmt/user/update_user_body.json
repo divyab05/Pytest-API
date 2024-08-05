@@ -1,0 +1,44 @@
+{
+  "id": "00u10lyuh2eqgllV60h8",
+  "adminLevelAt": "E",
+  "adminLevelEntity": [
+    "0231"
+  ],
+  "enterpriseName": "SP_Analytics",
+  "analyticsRollupBy": "E",
+  "rollupEntity": [
+    "0231"
+  ],
+  "subscriptionRoles": [
+    "SPA_ADMIN_ROLES"
+  ],
+  "active": true,
+  "recUID": 249,
+  "fedexCarrier": false,
+  "UPSCarrier": false,
+  "USPSCarrier": false,
+  "locationID": "PB_SLT",
+  "costAccounts": [
+    "927APG9RaKm",
+    "WWLZDP4Q4wE"
+  ],
+  "carrierAccounts": [
+    "G27pwbwY42k"
+  ],
+  "userPermissions": {
+    "costAccounts": [
+      "927APG9RaKm",
+      "WWLZDP4Q4wE"
+    ],
+    "subCarriers": [
+      "G27pwbwY42k"
+    ]
+  },
+  "profile": {
+    "firstName": "MSD007",
+    "lastName": "User",
+    "displayName": "Hitman Sharma",
+    "email": "hitman@mailinator.com"
+  },
+  "subID": "7463"
+}

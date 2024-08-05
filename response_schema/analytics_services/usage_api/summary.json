@@ -1,0 +1,98 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "carrier": {
+          "type": "string"
+        },
+        "cost_account_id": {
+          "type": "string"
+        },
+        "cost_account_name": {
+          "type": "string"
+        },
+        "last_transaction_date": {
+          "type": "string"
+        },
+        "location_city": {
+          "type": "string"
+        },
+        "location_state": {
+          "type": "string"
+        },
+        "piece_count": {
+          "type": "integer"
+        },
+        "postage_saving": {
+          "type": "number"
+        },
+        "postage_spend": {
+          "type": "number"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "rating_class": {
+          "type": "string"
+        },
+        "avg_spend": {
+          "type": "number"
+        },
+        "mailing_piece_count": {
+          "type": "string"
+        },
+        "shipping_piece_count": {
+          "type": "string"
+        },
+        "fee_amount": {
+          "type": "string"
+        },
+        "operator": {
+          "type": "string"
+        },
+        "service_category": {
+          "type": "string"
+        },
+        "surcharges_amount": {
+          "type": "string"
+        },
+        "base_rate": {
+          "type": "string"
+        },
+        "cost_account_path": {
+          "type": "string"
+        },
+        "surcharges_name": {
+          "type": "string"
+        },
+        "ship_to_company": {
+          "type": "string"
+        },
+        "division_id": {
+          "type": "string"
+        },
+        "division_name": {
+          "type": "string"
+        },
+        "service_class_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "avg_spend",
+        "cost_account_path",
+        "piece_count",
+        "postage_saving",
+        "postage_spend",
+        "product_id",
+        "ship_to_company"
+
+      ]
+    }
+  ]
+}
+
+

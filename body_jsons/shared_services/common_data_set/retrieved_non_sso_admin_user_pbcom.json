@@ -1,0 +1,34 @@
+[
+    {
+        "id": "00u3y2eiqnxYidSWi1t7",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "6pwQaJ84yQ4",
+            "Lockers_ge_prod"
+        ],
+        "profile": {
+            "firstName": "Cezary",
+            "lastName": "Charusta",
+            "email": "cezary.charusta@pb.com",
+            "login": "cezary.charusta@pb.com",
+            "displayName": "Cezary Charusta"
+        },
+        "groupIds": [
+            "00gutomes7cfSLvDL1t7",
+            "00gutokdttEaB0pSX1t7",
+            "00gutonkhlbE7Aqd61t7",
+            "00gutomenybRcvAQI1t7"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    }
+]

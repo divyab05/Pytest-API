@@ -1,0 +1,41 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "subid": "8711",
+      "admin_email_id": "shiv_dev_admin@yopmail.com",
+      "admin_password": "Aqswde@123",
+      "client_email_id": "shiv_dev_client@yopmail.com",
+      "client_password": "Aqswde@123"
+    },
+    "qa": {
+      "subid": "1478",
+      "admin_email_id": "demo_adminuser@yopmail.com",
+      "admin_password": "Aqswde@123",
+      "client_email_id": "newdemoentuser@yopmail.com",
+      "client_password": "Aqswde@123"
+    },
+    "ppd": {
+      "subid": "O5JGqE6k6B9",
+      "admin_email_id": "shiv_ppd_comm_admin_user@yopmail.com",
+      "admin_password": "Aqswde@123",
+      "client_email_id": "auto_ppd_shiv_clientuser@yopmail.com",
+      "client_password": "Aqswde@123"
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "subid": "7820",
+      "admin_email_id": "automationadminfedramp01@yopmail.com",
+      "admin_password": "Aqswde@123",
+      "client_email_id": "fed_dev_user01@yopmail.com",
+      "client_password": "Aqswde@123"
+    },
+    "qa": {
+      "subid": "q8xK7Lg2gB4",
+      "admin_email_id": "fedramp_admin_qa_auto@yopmail.com",
+      "admin_password": "Qawsed@123",
+      "client_email_id": "qa_fed_clientuser01@yopmail.com",
+      "client_password": "Aqswde@123"
+    }
+  }
+}

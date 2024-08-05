@@ -1,0 +1,61 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "bpn": {
+          "type": "string"
+        },
+        "cost_account_id": {
+          "type": "string"
+        },
+        "cost_account_name": {
+          "type": "string"
+        },
+        "carrier": {
+          "type": "string"
+        },
+        "clerk_name": {
+          "type": "string"
+        },
+        "enterprise_customer": {
+          "type": "string"
+        },
+        "enterprise_customer_name": {
+          "type": "string"
+        },
+        "customer_name": {
+          "type": "string"
+        },
+        "location_address": {
+          "type": "string"
+        },
+        "location_city": {
+          "type": "string"
+        },
+        "location_state": {
+          "type": "string"
+        },
+        "location_country": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "bpn",
+        "cost_account_id",
+        "cost_account_name",
+        "carrier",
+        "clerk_name",
+        "enterprise_customer",
+        "enterprise_customer_name",
+        "customer_name",
+        "location_address",
+        "location_city",
+        "location_state",
+        "location_country"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "jobId": "should_not_be_null",
+    "subscriptionId": "should_not_be_null",
+    "enterpriseID": "",
+    "status": "should_not_be_null",
+    "inputFileName": "should_not_be_null",
+    "exportFileLocation": "should_not_be_null",
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null"
+}

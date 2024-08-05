@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "manufacturerID": {
+      "type": "string"
+    },
+    "manufacturerHardwareID": {
+      "type": "string"
+    },
+    "tenantID": {
+      "type": "string"
+    },
+    "siteID": {
+      "type": "string"
+    },
+    "clientID": {
+      "type": "string"
+    },
+    "integratorID": {
+      "type": "string"
+    },
+    "enterpriseID": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "manufacturerID",
+    "manufacturerHardwareID",
+    "tenantID",
+    "siteID",
+    "clientID",
+    "integratorID",
+    "enterpriseID",
+    "siteName",
+    "bankName"
+  ]
+}

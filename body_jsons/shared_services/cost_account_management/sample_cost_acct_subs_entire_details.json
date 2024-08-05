@@ -1,0 +1,90 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "sa5993d",
+        "ent_id": "ent_auto_sa5993d",
+        "ent_user": "sa5993d.dev.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "sa5993d.dev.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "sa5993d.dev.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "sa5993d.dev.u1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "saca98a",
+        "ent_id": "x8p2xXy4KD6",
+        "ent_user": "saca98a.qa.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "saca98a.qa.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "saca98a.qa.all.loc1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "saca98a.qa.u1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "ppd": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "sa59937",
+        "ent_id": "ent_auto_sa59937",
+        "ent_user": "sa59937.ppd.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "sa59937.ppd.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "sa59937.ppd.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "sa59937.ppd.u1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "zoyPbXoEyykN",
+        "ent_id": "RYOkByKA0Op",
+        "ent_user": "sazoy.dev.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "sazoy.dev.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "sazoy.dev.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "sazoy.dev.u1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "rwRZqj3RNBVz",
+        "ent_id": "m8Rv4brj10x",
+        "ent_user": "sarwrz.qa.e1@yopmail.com",
+        "ent_pwd": "Horizon#123",
+        "div_user": "sarwrz.qa.d1@yopmail.com",
+        "div_pwd": "Horizon#123",
+        "loc_user": "sarwrz.qa.l1@yopmail.com",
+        "loc_pwd": "Horizon#123",
+        "user": "sarwrz.qa.u1@yopmail.com",
+        "user_pwd": "Horizon#123"
+      }
+    },
+    "ppd": {
+      "PITNEYSHIP_PRO": {
+        "sub_id": "XjLx5kM74Y0",
+        "ent_id": "eJmRGbwovYJ",
+        "ent_user": "pbsp360+ppd.fe1@gmail.com",
+        "ent_pwd": "Pitney@123",
+        "div_user": "pbsp360+ppd.fd1@gmail.com",
+        "div_pwd": "Pitney@123",
+        "loc_user": "pbsp360+ppd.fl1@gmail.com",
+        "loc_pwd": "Pitney@123",
+        "user": "pbsp360+ppd.fu1@gmail.com",
+        "user_pwd": "Pitney@123"
+      }
+    }
+  }
+}

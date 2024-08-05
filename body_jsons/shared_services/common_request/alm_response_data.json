@@ -1,0 +1,28 @@
+{
+  "accountListCreateRespDTO": [
+    {
+      "responseCode": null,
+      "responseMsg": null,
+      "parentSharingId": null,
+      "sharingId": 317311,
+      "accountName": "942307.336510",
+      "accountCode": "942307.336510",
+      "description": "942307.336510",
+      "status": "Y",
+      "password": null,
+      "children": []
+    },
+    {
+      "responseCode": null,
+      "responseMsg": null,
+      "parentSharingId": null,
+      "sharingId": 317312,
+      "accountName": "942307.253486",
+      "accountCode": "942307.253486",
+      "description": "942307.253486",
+      "status": "Y",
+      "password": null,
+      "children": []
+    }
+  ]
+}

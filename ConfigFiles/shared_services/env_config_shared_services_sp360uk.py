@@ -1,0 +1,22 @@
+ppd_config = {
+    'username': 'common.uk.ppd.admin1@yopmail.com',
+    'pwd_encrypted_key': 'DBENCRYPTIONKEY',
+    'enc_pwd': 'Horizon#123',
+    'Project': 'shared_services',
+    'product_name': 'sp360global',
+    'env': 'PPD',
+    'is_admin': 'N',
+    'CLIENTUSERNAME': "pbsp360+uk.ppd.e1@gmail.com",
+    'client_pwd': 'Horizon#123',
+    'okta_group_id': '00gty36gnfuO9hE430h7',
+    'submgmt_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/submgmt',
+    'climgmt_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/climgmt',
+    'addrbook_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/addressbook',
+    'subcarrieractmgmt_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/subcarrieractmgmt',
+    'costactmgmt_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/costactmgmt',
+    'prodmgmt_api': 'https://api-uk-ppd.shipping360.pitneybowes.com/prodmgmt',
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'enrich_api': 'https://enrichtoken-uk-ppd.sendpro360.pitneybowes.com/enrichtoken',
+    'custom_field_endpoint': 'https://api-uk-ppd.shipping360.pitneybowes.com/submetadata'
+}

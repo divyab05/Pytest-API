@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "reservationWORecipient": {
+      "type": "string"
+    },
+    "rollingReservation": {
+      "type": "string"
+    },
+    "badgeSupport": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "reservationWORecipient",
+    "rollingReservation",
+    "badgeSupport"
+  ]
+}

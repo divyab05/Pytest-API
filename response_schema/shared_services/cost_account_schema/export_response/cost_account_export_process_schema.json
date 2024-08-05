@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "type": "string"
+    },
+    "subscriptionId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "inputFileName": {
+      "type": "string"
+    },
+    "exportFileLocation": {
+      "type": "string"
+    },
+    "insertTimestamp": {
+      "type": "string"
+    },
+    "updateTimestamp": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    }
+  },
+  "required": ["jobId", "status","exportFileLocation"],
+  "additionalProperties": false
+}

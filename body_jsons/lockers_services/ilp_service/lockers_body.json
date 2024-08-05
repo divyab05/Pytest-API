@@ -1,0 +1,17 @@
+{
+    "size": "small",
+    "accessible": false,
+    "refrigerated": false,
+    "assetsReserved": {
+        "userID": "pravin.bankar@pb.com",
+        "recipient": {
+            "email" : "pravin.bankar@pb.com"
+        },
+        "assets": [
+            {
+                "primaryTrackingID": "track123456"
+            }
+
+        ]
+    }
+}

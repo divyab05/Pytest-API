@@ -1,0 +1,17 @@
+{
+    "isGuestUser": false,
+    "aq": "$sort(criteria: relevancy)",
+    "cq": "@categories==(sendpro)",
+    "lq": "cost account",
+    "searchHub": "pb_dashboard_resommendations",
+    "firstResult": 0,
+    "numberOfResults": 5,
+    "excerptLength": 200,
+    "enableDidYouMean": false,
+    "sortCriteria": "relevancy",
+    "context": {
+        "siteCountry": "us",
+        "siteLanguage": "en",
+        "InputDescription": "install"
+    }
+}

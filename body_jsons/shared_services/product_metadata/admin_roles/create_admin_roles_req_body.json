@@ -1,0 +1,9 @@
+{
+    "roleID": "test01",
+    "name": "PB_OPERATOR",
+    "oktaGroupID": "00gr1v6ytgeMuOxXQ0h7",
+    "oktaGroupName": "idp-pb-spa",
+    "features": [
+        "MANAGE_CARRIER_ACCOUNT"
+    ]
+}

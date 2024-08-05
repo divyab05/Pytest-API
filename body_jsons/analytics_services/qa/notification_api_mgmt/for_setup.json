@@ -1,0 +1,80 @@
+{
+  "orgId": "SP360US",
+  "ownerId": "SP360USownerId",
+  "ownerDesc": "SP360USowner",
+  "barcode": "IHqJpDzx3R2vm4GrZMDac",
+  "enabled": "true",
+  "events": [
+    "ScheduledReportEvent",
+    "EndSubscriptionEvent"
+  ],
+  "isCompleted": false,
+  "kvp": {
+    "query": "",
+    "locale": "en_US",
+    "aggregationTypesEnum": "NONE",
+    "responseType": "DETAILS",
+    "subFilter_spendType": "mailing,shipping,manual transaction",
+    "userName": "spanalytics_client_qa@yopmail.com",
+    "enterpriseName": "SP_Analytics",
+    "supportEmail": "no-reply@pb.com",
+    "reportContext": "sending",
+    "reportType": "summary",
+    "viewBy": "Location",
+    "filterType": "divisionRegion",
+    "filterBy": "Division / Location, 16 Division, All Locations",
+    "filterDate": "Last 7 days",
+    "scheduled_startDate": "20231017",
+    "scheduled_endDate": "20231031",
+    "exportType": "CUSTOM_REPORT",
+    "divisionName": "",
+    "filter_divisionIds": "jL9D1qaJZP2,div_Surchar1,JYjAWRDeAWq,23,P-Series_div,div_one,4545,810D47m6WG9,3YVxnqG2dgv,spadivision,spadivisionnew,mailcenter,zWpKaZR1eg6,J1BQWneZpxN,JX5PoEV8Mmo,MGa4Gkr8x9j",
+    "filter_startdate": "20231011",
+    "filter_endDate": "20231017",
+    "filter_country": "US",
+    "groupByColumns": "lref_location_id",
+    "orderByColumns": "lref_location_id",
+    "selectQueryColumnsList": "piece_count,postage_spend,postage_saving,avg_spend,last_transaction_date,base_rate,fee_amount,surcharges_amount,mailing_piece_count,shipping_piece_count,transaction_end_time,transaction_start_time,display_cost_account_code,display_cost_account_name,cost_account_path,l1_account_code,l1_account_name,l2_account_code,l2_account_name,l3_account_code,l3_account_name,street1,street2,country,item_type,refund_amount,refund_piece_count,meter_nickname,total_with_savings,total_with_surcharges,total_add_spl_chrgs_fee,display_add_spl_sur_chrgs_name,add_spl_chrgs_name,address_line_1,company_name,location_name,bpn,lref_location_id,product_id",
+    "customFieldExcludedColumns": "{\"PdD5MoJr9J9\":\"CF (HOUSTON and Tempe)\",\"ryJ7M9Ak38m\":\"CF (SAN DIEGO & Towson)\",\"98kaZVdvpyO\":\"CF (Washi)\",\"8oNnJyQnv5b\":\"CF - Indianapolis\",\"9Ok9n3N63K9\":\"CF :BONHAM\",\"35RjKJ1kNok\":\"CF: FRANKFORT\",\"BRXY75DDy63\":\"CF: Fairfield\",\"AoR7zdb2q50\":\"CF: Metairie\",\"lXqeMPAl7xk\":\"CF: PHILADELPHIA\",\"nepjBdbovLO\":\"CF: Realm\"}",
+    "subFilter_productIds": "",
+    "isShippingUsageRequired": false,
+    "customFieldRequired": true,
+    "fileFormat": "XLSX",
+    "timeframe": "last7Days",
+    "schedule": "Daily",
+    "sftpConfigRequest": "{\"port\":0,\"SFTP_CONFIG_ID\":1,\"FILE_PATH\":\"local\",\"URL\":\"sftp-ppd.sendpro360.pitneybowes.com:22\",\"USER_NAME\":\"SFTP-Test9\",\"PASSWORD\":\"RRSyNm#*tJ5eB2\",\"USER_ID\":\"00uwrbqyipmWMTfj00h7\",\"ENTERPRISE_ID\":\"6278\",\"MODIFIED_BY\":\"00uwrbqyipmWMTfj00h7\",\"IS_UPLOAD_TO_SERVER\":false,\"EMAILS\":[\"pandey.vaibhav@pb.com\"],\"IS_CREATE_UNIQUE_NAME\":true}",
+    "sftpFileName": "Spend_Summary_Report",
+    "schedularTimeDetails": "{\"time\":\"12:00\",\"timeType\":\"AM\"}",
+    "reportName": "Automation_Report",
+    "enterpriseId": "6278",
+    "reportId": "IHqJpDzx3R2vm4GrZMDac",
+    "userId": "00uwrbqyipmWMTfj00h7",
+    "subType": "NOTIFICATION_SCHEREP_USAGE",
+    "delimeterConfig": "{\"DATE_FORMAT\":\"MMM/yyyy\",\"DATE_SPACER\":\"SLASH\",\"DELIMETER_FORMAT\":\"PIPE\",\"TEXT_QUALIFIER\":\"DOUBLE_QUOTES\",\"INCLUDE_TIMESTAMP\":true,\"USE_TWELVE_HOUR_DISPLAY\":false}",
+    "exportCustomConfigRequest": "{\"INCLUDE_COLUMN_HEADER\":true}",
+    "reportColumns": "{\"lref_location_id\":{\"label\":\"Location\",\"value\":\"location_name\",\"name\":\"Location\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":0,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"company_name\":{\"label\":\"Company Name\",\"value\":\"company_name\",\"name\":\"Company Name\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":1,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"address_line_1\":{\"label\":\"Address Line 1\",\"value\":\"address_line_1\",\"name\":\"Address Line 1\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":2,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"base_rate\":{\"label\":\"Base Amount\",\"value\":\"base_rate\",\"name\":\"Base Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":3,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"fee_amount\":{\"label\":\"Extra Services / Surcharges Amount\",\"value\":\"fee_amount\",\"name\":\"Extra Services / Surcharges Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":4,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"postage_spend\":{\"label\":\"Total Amount\",\"value\":\"postage_spend\",\"name\":\"Total Amount\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":5,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"surcharges_amount\":{\"label\":\"Addl. Surcharges\",\"value\":\"surcharges_amount\",\"name\":\"Addl. Surcharges\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":6,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"total_with_surcharges\":{\"label\":\"Total + Addl. Surcharges\",\"value\":\"total_with_surcharges\",\"name\":\"Total + Addl. Surcharges\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":7,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"shipping_piece_count\":{\"label\":\"Shipping Count\",\"value\":\"shipping_piece_count\",\"name\":\"Shipping Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":8,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"mailing_piece_count\":{\"label\":\"Mailing Count\",\"value\":\"mailing_piece_count\",\"name\":\"Mailing Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":9,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"piece_count\":{\"label\":\"Total Piece Count\",\"value\":\"piece_count\",\"name\":\"Total Piece Count\",\"aggregationType\":\"count\",\"description\":\"\",\"order\":10,\"dataType\":\"Integer\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"avg_spend\":{\"label\":\"Average Spend\",\"value\":\"avg_spend\",\"name\":\"Average Spend\",\"aggregationType\":\"averagePieces\",\"description\":\"\",\"order\":11,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"postage_saving\":{\"label\":\"Savings\",\"value\":\"postage_saving\",\"name\":\"Savings\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":12,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"total_with_savings\":{\"label\":\"Total + Savings\",\"value\":\"total_with_savings\",\"name\":\"Total + Savings\",\"aggregationType\":\"sum\",\"description\":\"\",\"order\":13,\"dataType\":\"Double\",\"parentElement\":\"Other Fields\",\"isGroupedCol\":false},\"bpn\":{\"label\":\"Business Partner Number\",\"value\":\"bpn\",\"name\":\"Business Partner Number\",\"aggregationType\":\"\",\"description\":\"\",\"order\":1,\"dataType\":\"String\",\"parentElement\":\"Other Fields\",\"bpn\":\"true\",\"visibility\":\"false\"}}"
+  },
+  "noPolling": true,
+  "canExpire": false,
+  "objectType": [
+    "ReportNotify"
+  ],
+  "terminalEvents": [
+    "EndSubscriptionEvent"
+  ],
+  "source": [
+    "Pitney Analytics",
+    "Scheduled Report"
+  ],
+  "channels": [
+    {
+      "type": "Email",
+      "address": "sachin.more@pb.com"
+    }
+  ],
+  "subscriptionFields": [
+    "enterpriseId_6278",
+    "userId_00uwrbqyipmWMTfj00h7",
+    "reportId_IHqJpDzx3R2vm4GrZMDac"
+  ]
+}

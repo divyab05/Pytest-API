@@ -1,0 +1,102 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220726",
+			"country": "US",
+			"startdate": "20220101"
+		},
+		"groupByCriteria": {
+			"groupByColumns": [
+				"account_type",
+				"account_id"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"account_type",
+				"account_id"
+			]
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"productIds": [],
+			"accountTypes": [
+				"PP",
+				"RA",
+				"TR"
+			],
+			"spendType": []
+		},
+		"batchSize": 300,
+		"selectQueryColumnsList": [
+			"account_type",
+			"account_id",
+			"available_credit",
+			"balance_available",
+			"account_enabled",
+			"account_type",
+			"account_id"
+		],
+		"filtersGroup": {}
+	},
+	"reportColumns": {
+		"account_type": {
+			"label": "Account Type",
+			"value": "account_type",
+			"name": "Account Type",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"account_id": {
+			"label": "Account Id",
+			"value": "account_id",
+			"name": "Account Id",
+			"aggregationType": "",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"available_credit": {
+			"label": "Available Credit",
+			"value": "available_credit",
+			"name": "Available Credit",
+			"aggregationType": "",
+			"description": "",
+			"order": 3,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"balance_available": {
+			"label": "Available Balance",
+			"value": "balance_available",
+			"name": "Available Balance",
+			"aggregationType": "",
+			"description": "",
+			"order": 4,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		}
+	}
+}

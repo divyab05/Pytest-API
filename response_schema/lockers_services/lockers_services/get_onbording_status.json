@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "integer"
+    },
+    "value": {
+      "type": "string"
+    },
+    "bankRegistered": {
+      "type": "boolean"
+    },
+    "kioskDiagnosed": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "value",
+    "bankRegistered",
+    "kioskDiagnosed"
+  ]
+}

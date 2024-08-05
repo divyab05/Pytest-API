@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "subID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "contacts": {
+      "type": "array"
+    },
+    "archived": {
+      "type": "boolean"
+    },
+    "insertTimestamp": {
+      "type": "string"
+    },
+    "updateTimestamp": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "recipientlistId": {
+      "type": "string"
+    }
+  },
+  "required": [
+      "subID",
+      "name",
+      "contacts",
+      "recipientlistId"
+    ],
+   "additionalProperties": {"type": "string"}
+
+}

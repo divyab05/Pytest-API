@@ -1,0 +1,296 @@
+{
+	"contractApiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"groupByCriteria": {
+			"groupByColumns": [
+				"contract_number",
+				"total_payments",
+				"total_monthly_payments"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"contract_number",
+				"total_payments",
+				"total_monthly_payments"
+			]
+		},
+		"responseType": "DETAILS",
+		"contractSubFilter": {
+			"cities": [],
+			"contractType": [
+				"lease",
+				"rental"
+			],
+			"productIds": [
+				"0885073_G900",
+				"0365471_4W00",
+				"1397507_1W00",
+				"5171931_4W10",
+				"SendPro",
+				"1923910_1MEC",
+				"5170270_4W10",
+				"0349578_4W00",
+				"0349466_4W00",
+				"3209570_G900",
+				"0374787_4W00",
+				"0385338_4W00",
+				"1377729_1W00",
+				"0339265_4W00",
+				"SendPro",
+				"0348623_4W00",
+				"3007992_1R0T",
+				"0336977_4W00",
+				"3007604_1R0T"
+			],
+			"psdPcns": [],
+			"spendType": [],
+			"spiStatus": [
+				"LEASE-BOOKED",
+				"LEASE-EVERGREEN",
+				"LEASE-TERMINATED",
+				"LEASE-EXPIRED",
+				"LEASE-PENDING",
+				"RENTAL-ACTIVE",
+				"RENTAL-DEACTIVE",
+				"RENTAL-PENDING"
+			]
+		},
+		"filtersGroup": {},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20100101",
+			"endDate": "20231231",
+			"country": "US",
+			"startdate": "20100101",
+			"contractInputTypesEnum": "SHIPTO"
+		}
+	},
+	"reportColumns": {
+		"customer_name": {
+			"label": "Customer Name",
+			"value": "customer_name",
+			"name": "Customer Name",
+			"aggregationType": "",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"ship_to_location": {
+			"label": "Ship To Location",
+			"value": "ship_to_location",
+			"name": "Ship To Location",
+			"aggregationType": "",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"ship_to_bpn": {
+			"label": "Ship To BPN",
+			"value": "ship_to_bpn",
+			"name": "Ship To BPN",
+			"aggregationType": "",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"bill_to_bpn": {
+			"label": "Bill To BPN",
+			"value": "bill_to_bpn",
+			"name": "Bill To BPN",
+			"aggregationType": "",
+			"description": "",
+			"order": 3,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"contract_number": {
+			"label": "Contract Number",
+			"value": "contract_number",
+			"name": "Contract Number",
+			"aggregationType": "",
+			"description": "",
+			"order": 4,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"contract_start_date": {
+			"label": "Contract Start Date",
+			"value": "contract_start_date",
+			"name": "Contract Start Date",
+			"aggregationType": "",
+			"description": "",
+			"order": 5,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"contract_end_date": {
+			"label": "Contract End Date",
+			"value": "contract_end_date",
+			"name": "Contract End Date",
+			"aggregationType": "",
+			"description": "",
+			"order": 6,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"contract_term": {
+			"label": "Contract Term",
+			"value": "contract_term",
+			"name": "Contract Term",
+			"aggregationType": "",
+			"description": "",
+			"order": 7,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"remaining_contract_term": {
+			"label": "Remaining Contract Term",
+			"value": "remaining_contract_term",
+			"name": "Remaining Contract Term",
+			"aggregationType": "",
+			"description": "",
+			"order": 8,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"billing_frequency": {
+			"label": "Billing Frequency",
+			"value": "billing_frequency",
+			"name": "Billing Frequency",
+			"aggregationType": "",
+			"description": "",
+			"order": 9,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"billing_frequency_payments": {
+			"label": "Billing Frequency Payments",
+			"value": "billing_frequency_payments",
+			"name": "Billing Frequency Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 10,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"total_monthly_payments": {
+			"label": "Total Monthly Payments",
+			"value": "total_monthly_payments",
+			"name": "Total Monthly Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 11,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"equipment_lease_payments": {
+			"label": "Equipment Lease Payments",
+			"value": "equipment_lease_payments",
+			"name": "Equipment Lease Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 12,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"meter_payments": {
+			"label": "Meter Payments",
+			"value": "meter_payments",
+			"name": "Meter Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 13,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"service_payments": {
+			"label": "Service Payments",
+			"value": "service_payments",
+			"name": "Service Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 14,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"intellilink_payments": {
+			"label": "Intellilink Payments",
+			"value": "intellilink_payments",
+			"name": "Intellilink Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 15,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"softguard_payments": {
+			"label": "Softguard Payments",
+			"value": "softguard_payments",
+			"name": "Softguard Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 16,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"valuemax_payments": {
+			"label": "Valuemax Payments",
+			"value": "valuemax_payments",
+			"name": "Valuemax Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 17,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"inview_payments": {
+			"label": "Inview Payments",
+			"value": "inview_payments",
+			"name": "Inview Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 18,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"err_payments": {
+			"label": "Err Payments",
+			"value": "err_payments",
+			"name": "Err Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 19,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"miscellaneous_payments": {
+			"label": "Miscellaneous Payments",
+			"value": "miscellaneous_payments",
+			"name": "Miscellaneous Payments",
+			"aggregationType": "",
+			"description": "",
+			"order": 20,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		}
+	}
+}

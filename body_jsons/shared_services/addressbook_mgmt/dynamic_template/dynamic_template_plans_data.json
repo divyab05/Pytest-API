@@ -1,0 +1,42 @@
+{
+  "case1": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "FIREBALL_2.0", "LOCKER_PLAN", "PitneyTrack_Pro"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation.Site,OfficeLocation.Building,OfficeLocation.Floor,OfficeLocation.Office,MailStop.Site,MailStop.Building,MailStop.Floor,MailStop.Office,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case2": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "LOCKER_PLAN", "FIREBALL_2.0"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation.Site,OfficeLocation.Building,OfficeLocation.Floor,OfficeLocation.Office,MailStop.Site,MailStop.Building,MailStop.Floor,MailStop.Office,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case3": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "LOCKER_PLAN", "TRACKING_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation,MailStopID,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case4": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "FIREBALL_2.0","SMS_NOTIFICATION_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation.Site,OfficeLocation.Building,OfficeLocation.Floor,OfficeLocation.Office,MailStop.Site,MailStop.Building,MailStop.Floor,MailStop.Office,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds,SMSNotificationEnabled"
+  },
+  "case5": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "FIREBALL_2.0"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation.Site,OfficeLocation.Building,OfficeLocation.Floor,OfficeLocation.Office,MailStop.Site,MailStop.Building,MailStop.Floor,MailStop.Office,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case6": {
+    "plans": ["SENDING_PLAN", "PITNEYSHIP_PRO", "TRACKING_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation,MailStopID,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case7": {
+    "plans": ["PITNEYSHIP_PRO", "TRACKING_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation,MailStopID,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case8": {
+    "plans": ["PITNEYSHIP_PRO", "LOCKER_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,PersonnelID,Department Name,Accessibility,NotificationAll,AdditionalEmailIds"
+  },
+  "case9": {
+    "plans": ["PITNEYSHIP_PRO", "FIREBALL_2.0"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,InternalDelivery,PersonnelID,Department Name,OfficeLocation.Site,OfficeLocation.Building,OfficeLocation.Floor,OfficeLocation.Office,MailStop.Site,MailStop.Building,MailStop.Floor,MailStop.Office,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds"
+  },
+  "case10": {
+    "plans": ["PITNEYSHIP_PRO", "SENDING_PLAN"],
+    "csv_headers": "Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,CityTownArea,StateProvinceRegion,Postal/ZIP Code,Country,PersonnelID,Department Name,Accessibility,NotificationAll,AdditionalEmailIds"
+  }
+}

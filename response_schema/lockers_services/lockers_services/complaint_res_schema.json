@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "manufacturerID": {
+      "type": "string"
+    },
+    "subID": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "messageID": {
+      "type": "integer"
+    },
+    "reportedTime": {
+      "type": "string"
+    },
+    "complaintID": {
+      "type": "integer"
+    },
+    "recipient": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email"
+      ]
+    },
+    "operator": {
+      "type": "object"
+    },
+    "authUnits": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "assetsDeposited": {
+              "type": "object",
+              "properties": {
+                "parcels": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "parcels"
+              ]
+            }
+          },
+          "required": [
+            "assetsDeposited"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "manufacturerID",
+    "subID",
+    "message",
+    "messageID",
+    "reportedTime",
+    "complaintID",
+    "recipient",
+    "operator",
+    "authUnits"
+  ]
+}

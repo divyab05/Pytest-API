@@ -1,0 +1,67 @@
+{
+  "sp360commercial":{
+    "dev": {
+      "admin": {
+        "email": "spss.adm.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9hyuwzCqVckI0h8"
+      },
+      "client": {
+        "email": "spss.cli.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9b9qyn8rQDMn0h8"
+      }
+    },
+    "qa": {
+      "admin": {
+        "email": "spss.adm.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9hyuwzCqVckI0h8"
+      },
+      "client": {
+        "email": "spss.cli.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9b9qyn8rQDMn0h8"
+      }
+    },
+    "ppd": {
+      "admin": {
+        "email": "pyauto.adm.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1mvxwa4pb8DE560h8"
+      },
+      "client": {
+        "email": "pyauto.ppd.e1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1md5zx6oE87sp30h8"
+      }
+    }
+  },
+  "fedramp":{
+    "dev": {
+      "admin": {
+        "email": "spss.adm.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9hyuwzCqVckI0h8"
+      },
+      "client": {
+        "email": "spss.cli.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1b9b9qyn8rQDMn0h8"
+      }
+    },
+    "qa": {
+      "admin": {
+        "email": "spss.fed.adm.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1d03mb8vq2BcVT0h8"
+      },
+      "client": {
+        "email": "spss.fed.cli.user1@yopmail.com",
+        "password": "Horizon#123",
+        "user_id": "00u1d03r44pZno5CJ0h8"
+      }
+    }
+  }
+
+}

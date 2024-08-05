@@ -1,0 +1,15 @@
+{
+  "spa": {
+    "entID": "should_not_be_null",
+    "locID": "should_not_be_null",
+    "subID": "should_not_be_null",
+    "cntry": "US",
+    "roles": "should_not_be_null",
+    "status": "ACTIVE",
+    "divID": "should_not_be_null",
+    "locl": "should_not_be_null"
+  },
+  "adm": {
+    "lvlAt": "E"
+  }
+}

@@ -1,0 +1,45 @@
+# Framework
+pytest
+requests
+pycmd
+polling
+jsonschema==3.2.0
+DateTime
+requests-ntlm
+attrs
+certifi
+chardet
+glob2
+idna
+importlib-metadata
+Mako
+uuid
+MarkupSafe
+more-itertools
+packaging
+pandas
+urllib3
+pyhamcrest
+Faker
+
+# Reporting
+allure-pytest
+pytest-reportportal == 5.1.6
+pytest-rerunfailures
+pytest-html
+pytest-html-reporter
+pytest-order
+pytest-depends
+allure-python-commons
+
+# Data Driven
+pyexcel
+pyexcel-xls
+pyexcel-xlsx
+boto3
+pandas
+openpyxl
+pyjwt==v1.7.1
+
+# Database
+pymongo

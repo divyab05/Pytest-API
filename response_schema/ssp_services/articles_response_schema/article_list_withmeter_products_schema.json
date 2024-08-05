@@ -1,0 +1,134 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "productName": {
+          "type": "string"
+        },
+        "shortDesc": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "plan_product": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "plan": {
+                  "type": "string"
+                },
+                "Title": {
+                  "type": "string"
+                },
+                "productName": {
+                  "type": "string"
+                },
+                "categories": {
+                  "type": "object",
+                  "properties": {
+                    "Accounting": {
+                      "type": "object",
+                      "properties": {
+                        "categoryDescription": {
+                          "type": "string"
+                        },
+                        "articleList": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "articleNumber": {
+                                  "type": "string"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "productName": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "articleNumber",
+                                "title",
+                                "productName"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "categoryDescription",
+                        "articleList"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "categories": {
+          "type": "object",
+          "properties": {
+            "Accounting": {
+              "type": "object",
+              "properties": {
+                "categoryDescription": {
+                  "type": "string"
+                },
+                "articleList": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "articleNumber": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "productName": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "articleNumber",
+                        "title",
+                        "productName"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "categoryDescription",
+                "articleList"
+              ]
+            }
+          }
+        }
+      },
+      "required": [
+        "productName",
+        "region",
+        "categories",
+        "plan_product"
+      ]
+    }
+  ]
+}

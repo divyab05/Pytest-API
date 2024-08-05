@@ -1,0 +1,11 @@
+{
+    "packagePhotoRequired": true,
+    "packageWithoutBarcodeEnabled": true,
+    "categorizeDepartmentMailEnabled": true,
+    "autoLockerSizeUpEnabled": false,
+    "expPackagePickupEnabled": false,
+    "pkgExpireDuration": 1,
+    "personalPackageAllAtOnce": true,
+    "oneTimePinEnabled": true,
+    "oneTimePinExpDuration": 2
+}

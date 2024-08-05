@@ -1,0 +1,118 @@
+{
+  "type": "object",
+  "properties": {
+    "deliveryUnits": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "object",
+              "properties": {
+                "countEnabled": {
+                  "type": "integer"
+                },
+                "countAvailable": {
+                  "type": "integer"
+                },
+                "countRequested": {
+                  "type": "integer"
+                },
+                "countCurrent": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "countEnabled",
+                "countAvailable",
+                "countRequested",
+                "countCurrent"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "object",
+              "properties": {
+                "countEnabled": {
+                  "type": "integer"
+                },
+                "countAvailable": {
+                  "type": "integer"
+                },
+                "countRequested": {
+                  "type": "integer"
+                },
+                "countCurrent": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "countEnabled",
+                "countAvailable",
+                "countRequested",
+                "countCurrent"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "object",
+              "properties": {
+                "countEnabled": {
+                  "type": "integer"
+                },
+                "countAvailable": {
+                  "type": "integer"
+                },
+                "countRequested": {
+                  "type": "integer"
+                },
+                "countCurrent": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "countEnabled",
+                "countAvailable",
+                "countRequested",
+                "countCurrent"
+              ]
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "deliveryUnits"
+  ]
+}

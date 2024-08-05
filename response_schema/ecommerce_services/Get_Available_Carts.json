@@ -1,0 +1,142 @@
+{
+  "type": "object",
+  "properties": {
+    "countryCode": {
+      "type": "string"
+    },
+    "appId": {
+      "type": "string"
+    },
+    "integratorId": {
+      "type": "string"
+    },
+    "cartList": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cart_id": {
+              "type": "string"
+            },
+            "cart_name": {
+              "type": "string"
+            },
+            "cart_versions": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "cart_id",
+            "cart_name",
+            "cart_versions",
+            "params"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cart_id": {
+              "type": "string"
+            },
+            "cart_name": {
+              "type": "string"
+            },
+            "cart_versions": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "cart_id",
+            "cart_name",
+            "cart_versions",
+            "params"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "cart_id": {
+              "type": "string"
+            },
+            "cart_name": {
+              "type": "string"
+            },
+            "cart_versions": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "cart_id",
+            "cart_name",
+            "cart_versions",
+            "params"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "countryCode",
+    "appId",
+    "integratorId",
+    "cartList"
+  ]
+}

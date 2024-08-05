@@ -1,0 +1,24 @@
+[
+  {
+    "id": "00umo7roj39B1t6",
+    "adminLevelAt": "E",
+    "adminLevelEntity": ["9529"],
+    "profile": {
+      "firstName": "Test",
+      "lastName": "User",
+      "email": "test.user1@pb.com",
+      "login": "test.user1@pb.com"
+    },
+    "groupIds": [
+      "00gfow0xdp0bqlgEO1t7",
+      "00gfow6su4gsSvOXZ1t7",
+      "00gkmn8prbizSfSig1t7",
+      "00gfow2omlVXIeHqv1t7"
+    ],
+    "active": true,
+    "lastLoginTime": "0001-01-01T00:00:00Z",
+    "customTemplate": {},
+    "credentials": {},
+    "firstLoginTime": "0001-01-01T00:00:00Z"
+  }
+]

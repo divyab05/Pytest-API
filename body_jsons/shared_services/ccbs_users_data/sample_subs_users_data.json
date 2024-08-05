@@ -1,0 +1,102 @@
+[
+  {
+    "subLocation": {
+      "subID": "saed3f8",
+      "productID": "SPA",
+      "userID": "00udxcmlwbRmyY2Wk1t7",
+      "locationID": "spong_267316",
+      "enabled": true,
+      "subscriptionRoles": ["ADMIN"],
+      "archived": false,
+      "properties": {
+        "showLabelOptions": true,
+        "printScanForm": false,
+        "printShippingLabelReceipt": true,
+        "printPostageCostOnLabel": true,
+        "emailToSenderPackageTrackingNumber": true,
+        "emailToSenderPackageDeliveredEvent": true,
+        "emailToRecipientPackageTrackingNumber": true,
+        "emailToRecipientOnPackageDeliveredEvent": true,
+        "emailSubjectForTrackingNumber": "You have a package on the way",
+        "emailSubjectForPackageDelivered": "A Shipment was Delivered",
+        "uspsServiceOption": true,
+        "printFullSheet": true,
+        "doNotShowRollPrinter": true,
+        "isReturnAddressSame": false,
+        "defaultSenderAddressID": "6545236e7beb14c064984074",
+        "defaultCarrierAccountID": {
+          "adsnlee": "",
+          "rmg": ""
+        },
+        "defaultDimensionUnit": "IN",
+        "defaultWeightUnit": "OZ",
+        "showWelcomeTour": true,
+        "sameReturnAddressForLabels": false,
+        "tncAccepted": false,
+        "msContactsRequired": false,
+        "defaultMeasurementUnit": "IMPERIAL",
+        "showCostOnIntLabels": false,
+        "isNewEcomUser": true,
+        "printReturnLabelWithShipping": false,
+        "carrierReturnServices": null
+      },
+      "deviceHubProperties": {
+        "envelopeProperties": {},
+        "showPrinterOptions": false,
+        "labelProperties": {
+          "shippingLabelSize": "DOC_8X11",
+          "showLabelPrinterOptions": true
+        }
+      },
+      "scaleProperties": null,
+      "dispenseCategorySettings": {
+        "envelope": {
+          "showPrinterOptions": true,
+          "defaultPrintSize": "#10"
+        },
+        "label": {
+          "showPrinterOptions": true,
+          "defaultPrintSize": "DOC_8X11"
+        }
+      },
+      "userPermissions": {},
+      "userAddress": {
+        "addressLine1": "",
+        "addressLine2": "",
+        "addressLine3": "",
+        "company": "",
+        "city": "",
+        "state": "",
+        "countryCode": "",
+        "postalCode": "",
+        "email": "",
+        "phone": ""
+      },
+      "insertTimestamp": "2020-04-14T19:49:23Z",
+      "updateTimestamp": "2023-10-27T18:49:20.591Z",
+      "createdBy": "0oafowcscwBIEJKmT1t7",
+      "updatedBy": "wproffitt@pcgus.com",
+      "updatedByEmail": "wproffitt@pcgus.com",
+      "status": "ACTIVE"
+    },
+    "detail": {
+      "id": "00udxcmlwbRmyY2Wk1t7",
+      "status": "ACTIVE",
+      "adminLevelAt": "E",
+      "adminLevelEntity": ["ent_saed3f8"],
+      "profile": {
+        "firstName": "Amy",
+        "lastName": "Sayler",
+        "email": "asayler@pplfirst.com",
+        "login": "asayler@pplfirst.com",
+        "displayName": "Amy Sayler"
+      },
+      "groupIds": ["00gfow2omlVXIeHqv1t7"],
+      "active": true,
+      "lastLoginTime": "0001-01-01T00:00:00Z",
+      "customTemplate": {},
+      "credentials": {},
+      "firstLoginTime": "0001-01-01T00:00:00Z"
+    }
+  }
+]

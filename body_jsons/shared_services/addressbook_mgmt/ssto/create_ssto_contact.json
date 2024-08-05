@@ -1,0 +1,53 @@
+{
+    "id": null,
+    "contactType": "",
+    "internalDelivery": false,
+    "type": "",
+    "name": "",
+    "company": null,
+    "emails": [
+        {
+            "default": true,
+            "email": null,
+            "id": null,
+            "label": "Home"
+        }
+    ],
+    "phones": [
+        {
+            "default": true,
+            "id": null,
+            "label": "Home",
+            "phone": null
+        }
+    ],
+    "personalID": null,
+    "officeLocationID": null,
+    "mailstopID": null,
+    "AddedDepartmentIds": null,
+    "additionalEmailIds": null,
+    "primaryLocation": null,
+    "accessibility": null,
+    "notificationAll": null,
+    "addresses": [
+        {
+            "addressLine1": "135 22nd Ave",
+            "addressLine2": "",
+            "addressLine3": null,
+            "addressLine4": null,
+            "city": "Racine",
+            "countryCode": "US",
+            "default": true,
+            "id": null,
+            "label": "Home 1",
+            "postalCode": "53403",
+            "residential": false,
+            "state": "WI"
+        }
+    ],
+    "divisionId": null,
+    "locationId": null,
+    "DeletedDepartmentIds": null,
+    "receivingAccessLevel": "",
+    "subscriptionId": ""
+}

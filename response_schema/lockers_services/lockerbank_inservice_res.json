@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "statusChangeDate": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    },
+    "deliveryEnabled": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "statusChangeDate",
+    "userID",
+    "deliveryEnabled"
+  ]
+}

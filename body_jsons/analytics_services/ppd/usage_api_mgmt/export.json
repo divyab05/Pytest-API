@@ -1,0 +1,188 @@
+{
+  "apiRequest": {
+    "aggregationType": {
+      "aggregationTypesEnum": "NONE"
+    },
+    "groupByCriteria": {
+      "groupByColumns": [
+        "lref_location_id"
+      ]
+    },
+    "orderByCriteria": {
+      "orderByColumns": [
+        "lref_location_id"
+      ]
+    },
+    "responseType": "DETAILS",
+    "subFilter": {
+      "productIds": [],
+      "spendType": [
+        "mailing",
+        "shipping",
+        "manual transaction"
+      ]
+    },
+    "selectQueryColumnsList": [
+      "piece_count",
+      "postage_spend",
+      "postage_saving",
+      "avg_spend",
+      "last_transaction_date",
+      "base_rate",
+      "fee_amount",
+      "surcharges_amount",
+      "mailing_piece_count",
+      "shipping_piece_count",
+      "transaction_end_time",
+      "transaction_start_time",
+      "display_cost_account_code",
+      "display_cost_account_name",
+      "cost_account_path",
+      "l1_account_code",
+      "l1_account_name",
+      "l2_account_code",
+      "l2_account_name",
+      "l3_account_code",
+      "l3_account_name",
+      "street1",
+      "street2",
+      "country",
+      "item_type",
+      "refund_amount",
+      "refund_piece_count",
+      "meter_nickname",
+      "total_with_savings",
+      "total_with_surcharges",
+      "total_add_spl_chrgs_fee",
+      "display_add_spl_sur_chrgs_name",
+      "add_spl_chrgs_name",
+      "address_line_1",
+      "company_name",
+      "location_name",
+      "bpn",
+      "meter_nickname",
+      "lref_location_id",
+      "product_id"
+    ],
+    "filtersGroup": {},
+    "filter": {
+      "divisionIds": [
+        "g2L84nP1Mwk",
+        "analytics_div",
+        "02jjzkp9Rgx",
+        "business_unit1",
+        "SendroP-SeriesDIV",
+        "div_one",
+        "div_three",
+        "div_two",
+        "MailCenterDIVISION",
+        "worker_div",
+        "G8pazEAGwwn"
+      ],
+      "startDate": "20231112",
+      "startdate": "20231112",
+      "endDate": "20231118",
+      "country": "US"
+    }
+  },
+  "reportColumns": {
+    "lref_location_id": {
+      "label": "Locations",
+      "value": "location_name",
+      "name": "Locations",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 0,
+      "dataType": "String",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "company_name": {
+      "label": "Company Name",
+      "value": "company_name",
+      "name": "Company Name",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 1,
+      "dataType": "String",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "address_line_1": {
+      "label": "Address Line 1",
+      "value": "address_line_1",
+      "name": "Address Line 1",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 2,
+      "dataType": "String",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "postage_spend": {
+      "label": "Total Amount",
+      "value": "postage_spend",
+      "name": "Total Amount",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 3,
+      "dataType": "Double",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "piece_count": {
+      "label": "Total Piece Count",
+      "value": "piece_count",
+      "name": "Total Piece Count",
+      "aggregationType": "count",
+      "description": "",
+      "order": 4,
+      "dataType": "Integer",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "avg_spend": {
+      "label": "Average Spend",
+      "value": "avg_spend",
+      "name": "Average Spend",
+      "aggregationType": "averagePieces",
+      "description": "",
+      "order": 5,
+      "dataType": "Double",
+      "parentElement": "Other Fields",
+      "isGroupedCol": false
+    },
+    "bpn": {
+      "label": "Business Partner Number",
+      "value": "bpn",
+      "name": "Business Partner Number",
+      "aggregationType": "",
+      "description": "",
+      "order": 6,
+      "dataType": "String",
+      "parentElement": "Other Fields",
+      "bpn": "true",
+      "visibility": "false"
+    }
+  },
+  "customFieldExcludedColumns": {
+    "rJYmZ57d0RW": "CF: Frankfort",
+    "MdzVqNAGrYG": "CF: New Orleans",
+    "qBDJ75aklez": "CF: TACOMA",
+    "wXP8QLe0wa9": "Custom 2",
+    "67kg73z74bw": "Custom Field",
+    "mP1Y2gv6Yzp": "Custom Fields 1"
+  },
+  "delimeterConfigRequest": {
+    "DATE_FORMAT": "dd/MMM/yyyy",
+    "DATE_SPACER": "DASH",
+    "DELIMETER_FORMAT": "COLON",
+    "TEXT_QUALIFIER": "DOUBLE_QUOTES",
+    "INCLUDE_TIMESTAMP": true,
+    "USE_TWELVE_HOUR_DISPLAY": true
+  },
+  "exportCustomConfigRequest": {
+    "INCLUDE_COLUMN_HEADER": true,
+    "INCLUDE_COLUMN_TOTAL": false
+  }
+}

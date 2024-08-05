@@ -1,0 +1,125 @@
+{
+	"numberOfColumns": 1,
+	"numberOfDoors": 4,
+	"status": {
+		"id": 3,
+		"value": "Configuration In Progress"
+	},
+	"lockerFilterTypes": [],
+	"bankDimensions": {
+		"uom": "in",
+		"dimension": {
+			"width": 22.75,
+			"length": 16.5,
+			"height": 52.5
+		}
+	},
+	"columns": [{
+		"pcnID": "VPR_SHELTON_KIOSK",
+		"columnWidth": 21,
+		"lockerTypes": [{
+			"id": 1,
+			"value": "Standard"
+		}],
+		"units": [{
+			"row": 1,
+			"size": "medium",
+			"accessible": false,
+			"enabled": true,
+			"manufacturerLockerID": "1",
+			"wagoDeviceSerialNumber": "",
+			"wagoCardNumber": 1,
+			"wagoPortNumber": 1,
+			"wagoLockNumber": 0,
+			"column": 1
+		}, {
+			"row": 2,
+			"size": "medium",
+			"accessible": false,
+			"enabled": true,
+			"manufacturerLockerID": "2",
+			"wagoDeviceSerialNumber": "",
+			"wagoCardNumber": 1,
+			"wagoPortNumber": 2,
+			"wagoLockNumber": 1,
+			"column": 1,
+			"bottomOf": "1"
+		}, {
+			"row": 3,
+			"size": "mlarge",
+			"accessible": false,
+			"enabled": true,
+			"bottomOf": "2"
+		}, {
+			"row": 4,
+			"size": "medium",
+			"accessible": true,
+			"enabled": true,
+			"manufacturerLockerID": "3",
+			"wagoDeviceSerialNumber": "",
+			"wagoCardNumber": 1,
+			"wagoPortNumber": 3,
+			"wagoLockNumber": 2,
+			"column": 1,
+			"bottomOf": "kiosk"
+		}, {
+			"row": 5,
+			"size": "large",
+			"accessible": true,
+			"enabled": true,
+			"manufacturerLockerID": "4",
+			"wagoDeviceSerialNumber": "",
+			"wagoCardNumber": 1,
+			"wagoPortNumber": 4,
+			"wagoLockNumber": 3,
+			"column": 1,
+			"bottomOf": "3"
+		}]
+	}],
+	"properties": {
+		"supportedSize": [{
+			"size": "medium",
+			"uom": "in",
+			"dimension": {
+				"length": 22.75,
+				"width": 16.5,
+				"height": 7
+			}
+		}, {
+			"size": "large",
+			"uom": "in",
+			"dimension": {
+				"length": 22.75,
+				"width": 16.5,
+				"height": 14
+			}
+		}, {
+			"size": "mlarge",
+			"uom": "in",
+			"dimension": {
+				"length": 22.75,
+				"width": 16.5,
+				"height": 17.5
+			}
+		}]
+	},
+	"skipWagoIndexes": [],
+	"userDevices": [{
+		"serialNumber": "",
+		"column": 1,
+		"row": 3,
+		"type": "kiosk",
+		"modelName": "",
+		"size": "mlarge",
+		"bottomOf": "2"
+	}, {
+		"serialNumber": "",
+		"column": 0,
+		"row": 0,
+		"type": "deviceHub",
+		"modelName": "",
+		"size": ""
+	}],
+	"extraSmallRenderEnabled": false,
+	"wipeOutUnits": true
+}

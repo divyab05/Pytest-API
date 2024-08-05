@@ -1,0 +1,18 @@
+{
+    "jobId": "should_not_be_null",
+    "listing": {
+        "AccountID": "should_not_be_null",
+        "Billable": "should_not_be_null",
+        "BudgetAmount": "should_not_be_null",
+        "Code": "should_not_be_null",
+        "Description": "should_not_be_null",
+        "Name": "should_not_be_null",
+        "Parent": "should_not_be_null",
+        "PasswordCode": "should_not_be_null",
+        "PasswordEnabled": "should_not_be_null",
+        "PermissionByEntity": "should_not_be_null",
+        "PermissionByValue": "should_not_be_null",
+        "Status": "should_not_be_null",
+        "SubID": "should_not_be_null"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "costAccountsEnabled": true,
+    "costAccountsRequiredForShipments": true,
+    "costAccountRequiredForAddShipRequest": true,
+    "costAccountRequiredForERR": true,
+    "costAccountRequiredForAddingPostage": true,
+    "costAccountsRequiredForStamps": true,
+    "costAccountRequiredForLocker": false,
+    "costAccountRequiredForReceiving": false,
+    "costAccountsHierarchyEnabled": false
+}

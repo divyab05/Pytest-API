@@ -1,0 +1,23 @@
+{
+  "attributeMapping": [
+    { "samlAttribute": "email", "userPoolAttribute": "email" },
+    { "samlAttribute": "given_name", "userPoolAttribute": "given_name" },
+    { "samlAttribute": "family_name", "userPoolAttribute": "family_name" },
+    { "samlAttribute": "email", "userPoolAttribute": "custom:uniqueID" },
+    { "samlAttribute": "location", "userPoolAttribute": "custom:location" },
+    { "samlAttribute": "role", "userPoolAttribute": "custom:role" },
+    { "samlAttribute": "cost_center", "userPoolAttribute": "custom:costcenter" }
+  ],
+  "providerDetails": {
+    "MetadataURL": "https://idpsso.pitneycloud.com/app/exk196b691567ABnK0h8/sso/saml/metadata"
+  },
+  "providerName": "ymail.rr.nu",
+  "providerType": "SAML",
+  "insertTimestamp": "2023-08-17T11:44:16.635Z",
+  "updateTimestamp": "2024-03-21T11:58:27.667Z",
+  "createdBy": "00u16l7xx5gDBp4JR0h8",
+  "updatedBy": "00u16l7xx5gDBp4JR0h8",
+  "archived": false,
+  "enabled": true,
+  "consType": 0
+}

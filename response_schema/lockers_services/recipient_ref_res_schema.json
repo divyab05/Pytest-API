@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "recipients": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "recipientID": {
+              "type": "string"
+            },
+            "status": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "recipientID",
+            "status"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "recipients"
+  ]
+}

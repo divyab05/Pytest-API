@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "manufacturerID": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "object",
+      "properties": {
+        "recipientID": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "personalID": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "recipientID",
+        "firstName",
+        "email",
+        "personalID"
+      ]
+    }
+  },
+  "required": [
+    "manufacturerID",
+    "recipient"
+  ]
+}

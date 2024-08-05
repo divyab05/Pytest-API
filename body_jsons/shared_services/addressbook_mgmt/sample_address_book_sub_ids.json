@@ -1,0 +1,24 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "PITNEYSHIP_PRO": "sacf421"
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": "sacf421"
+    },
+    "ppd": {
+      "PITNEYSHIP_PRO": "sacf421"
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "PITNEYSHIP_PRO": "gYadKeGgX8K"
+    },
+    "qa": {
+      "PITNEYSHIP_PRO": "1kzK78JkjE3"
+    },
+    "ppd": {
+      "PITNEYSHIP_PRO": "XjLx5kM74Y0"
+    }
+  }
+}

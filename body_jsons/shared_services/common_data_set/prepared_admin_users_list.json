@@ -1,0 +1,1654 @@
+[
+    {
+        "id": "00u23bzzruifxLkum0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "SPSS Admin CA",
+            "lastName": "PPD API Automation",
+            "email": "pbsp360+ca.ppd.adm1@gmail.com",
+            "login": "pbsp360+ca.ppd.adm1@gmail.com",
+            "displayName": "SPSS Admin CA PPD API Automation"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE_INSTALLER",
+            "PB_SUPPORT_TEAM_LEAD",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1jbeqwbz25jzb60h8",
+        "analyticsRollupBy": "E",
+        "rollupEntity": [
+            "Kx9NO6QgeJP",
+            "zvnoPzpgbwk"
+        ],
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "PA_CA",
+            "Rojlo5Vq0NX"
+        ],
+        "profile": {
+            "firstName": "Fireball",
+            "lastName": "Locker",
+            "email": "sp360.pa@gmail.com",
+            "login": "sp360.pa@gmail.com",
+            "displayName": "Fireball Locker"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_BASIC",
+            "CLIENT_SANDBOX_BASIC"
+        ]
+    },
+    {
+        "id": "00u1atjqrrjL4fCJQ0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "PA_CA",
+            "Rojlo5Vq0NX"
+        ],
+        "profile": {
+            "firstName": "SP360-CC",
+            "lastName": "Admin",
+            "email": "spa.sp360@gmail.com",
+            "login": "spa.sp360@gmail.com",
+            "displayName": "SP360-CC Admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1zj02n97sSN6XZ0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "yRgpV0KRdmO"
+        ],
+        "profile": {
+            "firstName": "test",
+            "lastName": "hamsa patch feb7",
+            "email": "patchfeb7canadaadmin@yopmail.com",
+            "login": "patchfeb7canadaadmin@yopmail.com",
+            "displayName": "test hamsa patch feb7"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1zj07b3chZgsUy0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "feb7 ppd deploy",
+            "lastName": "welcome email",
+            "email": "admincanadafeb7patch@yopmail.com",
+            "login": "admincanadafeb7patch@yopmail.com",
+            "displayName": "feb7 ppd deploy welcome email"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR"
+        ]
+    },
+    {
+        "id": "00u1ziul0kyMFyJ6Y0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "ppd testing",
+            "lastName": "admin",
+            "email": "adminwelcomefeb7canada@yopmail.com",
+            "login": "adminwelcomefeb7canada@yopmail.com",
+            "displayName": "ppd testing admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR"
+        ]
+    },
+    {
+        "id": "00u1zcltpz76jIjvz0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "PPD canada test",
+            "lastName": "user",
+            "email": "ppdcanadausertest@yopmail.com",
+            "login": "ppdcanadausertest@yopmail.com",
+            "displayName": "PPD canada test user"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR"
+        ]
+    },
+    {
+        "id": "00u1zcltult82IIAd0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "BY5jwxKgb4b"
+        ],
+        "profile": {
+            "firstName": "PPD Canada admin",
+            "lastName": "Admin",
+            "email": "ppdcanadaFeb2@yopmail.com",
+            "login": "ppdcanadaFeb2@yopmail.com",
+            "displayName": "PPD Canada admin Admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE"
+        ]
+    },
+    {
+        "id": "00u1xt2ta87m0gT9k0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "7Z1mvG1v2gZ",
+            "7296"
+        ],
+        "profile": {
+            "firstName": "Shelton Lab",
+            "lastName": "Canada Admin",
+            "email": "sheltonlabcanadaadmin@yopmail.com",
+            "login": "sheltonlabcanadaadmin@yopmail.com",
+            "displayName": "Shelton Lab Canada Admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_BASIC"
+        ]
+    },
+    {
+        "id": "00u1waln26xfY8zNg0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "0481",
+            "mGkZG3j0yXg",
+            "BY5jwxKgb4b",
+            "DMdd77yODrK",
+            "kvmDkzorvqQ",
+            "KpAbxeXXWQ6",
+            "eZmN25XM3lz",
+            "NNzJaV4Xo0g",
+            "8ZXzYDZdmb0",
+            "PA_CA",
+            "Qk8L2kmOOEW",
+            "Rojlo5Vq0NX"
+        ],
+        "profile": {
+            "firstName": "Common Canada PPD",
+            "lastName": "All Admin User",
+            "email": "common.ca.ppd.admin1@yopmail.com",
+            "login": "common.ca.ppd.admin1@yopmail.com",
+            "displayName": "Common Canada PPD All Admin User"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_TEAM_LEAD",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1tjah3pnFtSGDR0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "Qk8L2kmOOEW"
+        ],
+        "profile": {
+            "firstName": "testppd_2023",
+            "lastName": "ppd",
+            "email": "testppd_2023@yopmail.com",
+            "login": "testppd_2023@yopmail.com",
+            "displayName": "testppd_2023 ppd"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1qb2nn7mCiT8670h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "jGmLB8wmWG1"
+        ],
+        "profile": {
+            "firstName": "test",
+            "lastName": "broken",
+            "email": "testbrokenca@yopmail.com",
+            "login": "testbrokenca@yopmail.com",
+            "displayName": "test broken"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1n6zazhpPyZMrx0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "4LWyAXyB5a5"
+        ],
+        "profile": {
+            "firstName": "CA admin",
+            "lastName": "PPD user",
+            "email": "ca_ppd_adminuser001@yopmail.com",
+            "login": "ca_ppd_adminuser001@yopmail.com",
+            "displayName": "CA admin PPD user"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE"
+        ]
+    },
+    {
+        "id": "00u1jef66eeqnyREF0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "2068",
+            "9597"
+        ],
+        "profile": {
+            "firstName": "new pb admin",
+            "lastName": "a",
+            "email": "hppbadmin32@yopmail.com",
+            "login": "hppbadmin32@yopmail.com",
+            "displayName": "new pb admin a"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1isrogjbXhyrEz0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "9945",
+            "0689"
+        ],
+        "profile": {
+            "firstName": "hp ad 20 jan",
+            "lastName": "a",
+            "email": "hp20janpb@yopmail.com",
+            "login": "hp20janpb@yopmail.com",
+            "displayName": "hp ad 20 jan a"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1fb5qunf6AYjQR0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "4018",
+            "6811"
+        ],
+        "profile": {
+            "firstName": "Hp ad user",
+            "lastName": "a",
+            "email": "hpaduser18nov@yopmail.com",
+            "login": "hpaduser18nov@yopmail.com",
+            "displayName": "Hp ad user "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1d2ci9ikf8XJrV0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "1131",
+            "4018",
+            "0689",
+            "5970",
+            "1523"
+        ],
+        "profile": {
+            "firstName": "hp ad 23sep",
+            "lastName": "a",
+            "email": "hpad23sep@yopmail.com",
+            "login": "hpad23sep@yopmail.com",
+            "displayName": "hp ad 23sep"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1chgwf7n1iEMp40h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "6811",
+            "4018",
+            "9945"
+        ],
+        "profile": {
+            "firstName": "hp ad 9sep",
+            "lastName": "a",
+            "email": "hpad9sep@yopmail.com",
+            "login": "hpad9sep@yopmail.com",
+            "displayName": "hp ad 9sep a"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1cbzmko2Aff7Kc0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "5809",
+            "8838",
+            "nQmQl31ja1j",
+            "nQmQl3V9zBy",
+            "83Q36WBVy09",
+            "NV6qRKN6lKK"
+        ],
+        "profile": {
+            "firstName": "sspuitest",
+            "lastName": "CAadmin",
+            "email": "sspuitest+caadmin@gmail.com",
+            "login": "sspuitest+caadmin@gmail.com",
+            "displayName": "sspuitest CAadmin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1c19uv7lB6SZzE0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "CA PPD TL",
+            "email": "sohail.ca.ppd.tl1@yopmail.com",
+            "login": "sohail.ca.ppd.tl1@yopmail.com",
+            "displayName": "Sohail CA PPD TL"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE_INSTALLER",
+            "PB_SUPPORT_TEAM_LEAD"
+        ]
+    },
+    {
+        "id": "00u1by7ofllbLl2TO0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Hp 26 aug ppd",
+            "lastName": "a",
+            "email": "hp26augaduser@yopmail.com",
+            "login": "hp26augaduser@yopmail.com",
+            "displayName": "Hp 26 aug ppd "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1b5kr3l6xfUesa0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "7241",
+            "1523",
+            "2303",
+            "0689"
+        ],
+        "profile": {
+            "firstName": "hp support ca b7",
+            "lastName": "a",
+            "email": "hpsupportcab7@yopmail.com",
+            "login": "hpsupportcab7@yopmail.com",
+            "displayName": "hp support ca b7 a"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE"
+        ]
+    },
+    {
+        "id": "00u1b5jcyply8ReCx0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Admin pppd user hp 5 aug",
+            "lastName": "a",
+            "email": "Adminppduserhp5aug@yopmail.com",
+            "login": "Adminppduserhp5aug@yopmail.com",
+            "displayName": "Admin pppd user hp 5 aug "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SUPPORT_BASIC"
+        ]
+    },
+    {
+        "id": "00u1agigji6SDOkr20h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Advanced Support",
+            "email": "sohail.ca.ppd.asup1@yopmail.com",
+            "login": "sohail.ca.ppd.asup1@yopmail.com",
+            "displayName": "Sohail Advanced Support"
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1agidoje99nKVi0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Support Basic",
+            "email": "sohail.ca.ppd.bsup1@yopmail.com",
+            "login": "sohail.ca.ppd.bsup1@yopmail.com",
+            "displayName": "Sohail Support Basic"
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SUPPORT_BASIC"
+        ]
+    },
+    {
+        "id": "00u1agign4l16wiy40h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Installer",
+            "email": "sohail.ca.ppd.ir1@yopmail.com",
+            "login": "sohail.ca.ppd.ir1@yopmail.com",
+            "displayName": "Sohail Installer"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE_INSTALLER"
+        ]
+    },
+    {
+        "id": "00u1agicehvBdRTdf0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "4LWyAXyB5a5",
+            "8537",
+            "WqaX9raWGQD",
+            "6YRyLxBo307",
+            "0DGZW1dR90K",
+            "5970",
+            "7296",
+            "mGkZG3j0yXg"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Client Setup",
+            "email": "sohail.ca.ppd.cs1@yopmail.com",
+            "login": "sohail.ca.ppd.cs1@yopmail.com",
+            "displayName": "Sohail Client Setup"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE"
+        ]
+    },
+    {
+        "id": "00u1agigvpx2r3MRp0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Platform",
+            "email": "sohail.ca.ppd.p1@yopmail.com",
+            "login": "sohail.ca.ppd.p1@yopmail.com",
+            "displayName": "Sohail Platform"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR"
+        ]
+    },
+    {
+        "id": "00u1afz4a2hd7FpIW0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "DG9MjDXxlxq"
+        ],
+        "profile": {
+            "firstName": "Hp Support ca a6",
+            "lastName": "A",
+            "email": "hpsupportcaa6@yopmail.com",
+            "login": "hpsupportcaa6@yopmail.com",
+            "displayName": "Hp Support ca a6 A"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_BASIC"
+        ]
+    },
+    {
+        "id": "00u1afyr34fdn9knR0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0689",
+            "1523"
+        ],
+        "profile": {
+            "firstName": "Ppd test admin user",
+            "lastName": "fsfs",
+            "email": "hpppdad21july@yopmail.com",
+            "login": "hpppdad21july@yopmail.com",
+            "displayName": "Ppd test admin user fsfs"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1aeyownldT6GzG0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Client",
+            "email": "sohail.ca.ppd.client1@yopmail.com",
+            "login": "sohail.ca.ppd.client1@yopmail.com",
+            "displayName": "Sohail Client"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE_INSTALLER",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u1aeyx8pw0DwmPR0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "9597",
+            "0662",
+            "5565",
+            "4LWyAXyB5a5",
+            "8537",
+            "6YRyLxBo307",
+            "WqaX9raWGQD",
+            "wZk3WPwAMzN",
+            "6726",
+            "8967",
+            "mGkZG3j0yXg",
+            "1523",
+            "5301",
+            "7241",
+            "0689",
+            "2303",
+            "7296",
+            "5970",
+            "8996",
+            "DMdd77yODrK",
+            "G3dJzJJymvk",
+            "EBjKB1rm7b6",
+            "XOjAO4xWeQp",
+            "Rojlo5Vq0NX",
+            "XyjA8WLN3Y1",
+            "Epj5zvOXzZr",
+            "px2EDO2R24G",
+            "2D2EmEnNYne",
+            "BY5jwxKgb4b",
+            "xRKx99A89xe",
+            "kvmDkzorvqQ",
+            "Vk3n2zePmVv",
+            "59EO41dDDpa",
+            "KpAbxeXXWQ6",
+            "eZmN25XM3lz",
+            "zNDN1LvEM0Y"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "All Admin",
+            "email": "sohail.ca.ppd.admin1@yopmail.com",
+            "login": "sohail.ca.ppd.admin1@yopmail.com",
+            "displayName": "Sohail All Admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_TEAM_LEAD"
+        ]
+    },
+    {
+        "id": "00u1aeyjg68GMQJQ80h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Support",
+            "email": "sohail.ca.ppd.sup1@yopmail.com",
+            "login": "sohail.ca.ppd.sup1@yopmail.com",
+            "displayName": "Sohail Support"
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u1aeyhlryPIvSJA0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "9597",
+            "0662",
+            "5565",
+            "8537",
+            "0481",
+            "6726",
+            "8DgmaO4Kpl8"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Service",
+            "email": "sohail.ca.ppd.ser1@yopmail.com",
+            "login": "sohail.ca.ppd.ser1@yopmail.com",
+            "displayName": "Sohail Service"
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u1aeyoz1osJqp0H0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Operator",
+            "email": "sohail.ca.ppd.ops1@yopmail.com",
+            "login": "sohail.ca.ppd.ops1@yopmail.com",
+            "displayName": "Sohail Operator"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u19qr3spbtfrMyl0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "hpsupport ca b5",
+            "lastName": "a",
+            "email": "hpsupportcab5@yopmail.com",
+            "login": "hpsupportcab5@yopmail.com",
+            "displayName": "hpsupport ca b5 "
+        },
+        "groupIds": [
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_SERVICE_INSTALLER"
+        ]
+    },
+    {
+        "id": "00u19qqg2duoxYdCd0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "5565"
+        ],
+        "profile": {
+            "firstName": "hpsupport ca a5",
+            "lastName": "a",
+            "email": "hpsupportcaa5@yopmail.com",
+            "login": "hpsupportcaa5@yopmail.com",
+            "displayName": "hpsupport ca a5 "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00uvvwngpcp8C8Mrg0h7",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "5970",
+            "5301"
+        ],
+        "profile": {
+            "firstName": "admin",
+            "lastName": "ppd",
+            "email": "adminppd@yopmail.com",
+            "login": "adminppd@yopmail.com",
+            "displayName": "admin ppd"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u1985vf8r9A74Ge0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Hp support b4",
+            "lastName": "a",
+            "email": "hpsupportcab4@yopmail.com",
+            "login": "hpsupportcab4@yopmail.com",
+            "displayName": "Hp support b4 "
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u1985sf37NsKymG0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "1523",
+            "0689"
+        ],
+        "profile": {
+            "firstName": "Hp support a4",
+            "lastName": "a",
+            "email": "hpsupportcaa4@yopmail.com",
+            "login": "hpsupportcaa4@yopmail.com",
+            "displayName": "Hp support a4 "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u18lvbwm0e8xe850h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "hpsupportcab3",
+            "lastName": "a",
+            "email": "hpsupportcab3@yopmail.com",
+            "login": "hpsupportcab3@yopmail.com",
+            "displayName": "hpsupportcab3 "
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u18luvk5wQcjRbi0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "5970",
+            "0689"
+        ],
+        "profile": {
+            "firstName": "Hp support a3",
+            "lastName": "q",
+            "email": "hpsupportcaa3@yopmail.com",
+            "login": "hpsupportcaa3@yopmail.com",
+            "displayName": "Hp support a3 "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u17lyv21pDdhYCv0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Hp support b2",
+            "lastName": "a",
+            "email": "hpsupportcab2@yopmail.com",
+            "login": "hpsupportcab2@yopmail.com",
+            "displayName": "Hp support b2 a"
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u17lyvdnsBiNhXo0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "7241"
+        ],
+        "profile": {
+            "firstName": "Hp support a2",
+            "lastName": "a",
+            "email": "hpsupportcaa2@yopmail.com",
+            "login": "hpsupportcaa2@yopmail.com",
+            "displayName": "Hp support a2 a"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u17lyoaqesUEPmg0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "7296",
+            "RKj6xmPe5wk",
+            "8622",
+            "Epj5zvOXzZr",
+            "px2EDO2R24G",
+            "Lockers_e2e_Canada",
+            "Qk89dkJDmoW",
+            "3rbPd6oJGvN",
+            "K391d8xB8Zk",
+            "6rl7dLrwjj5",
+            "6X7y3MOPQL4"
+        ],
+        "profile": {
+            "firstName": "Locker",
+            "lastName": "Gmail",
+            "email": "lockerspitney@gmail.com",
+            "login": "lockerspitney@gmail.com",
+            "displayName": "Locker Gmail"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u17lylywoeI7zQH0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "7296"
+        ],
+        "profile": {
+            "firstName": "Manvi",
+            "lastName": "Gmail",
+            "email": "manvi.moza@gmail.com",
+            "login": "manvi.moza@gmail.com",
+            "displayName": "Manvi Gmail"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u174yig80eCbqEr0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "5970"
+        ],
+        "profile": {
+            "firstName": "HP ppd user",
+            "lastName": "a",
+            "email": "hpfinppd@yopmail.com",
+            "login": "hpfinppd@yopmail.com",
+            "displayName": "HP ppd user "
+        },
+        "groupIds": [
+            "00g1640yrqr5IFm8O0h8",
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u174t62dyzJtyYV0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "4LWyAXyB5a5",
+            "wZk3WPwAMzN",
+            "6YRyLxBo307",
+            "0481"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Test45 CA",
+            "email": "pbsp360+ca.admin1@gmail.com",
+            "login": "pbsp360+ca.admin1@gmail.com",
+            "displayName": "Sohail Test45 CA"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u174nb455IidBlT0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Hp support ca b",
+            "lastName": "a",
+            "email": "hpsupportcab@yopmail.com",
+            "login": "hpsupportcab@yopmail.com",
+            "displayName": "Hp support ca b "
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u174n87wrGCUXnA0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "4LWyAXyB5a5",
+            "5565"
+        ],
+        "profile": {
+            "firstName": "Hp support ca a",
+            "lastName": "a",
+            "email": "hpsupportcaa@yopmail.com",
+            "login": "hpsupportcaa@yopmail.com",
+            "displayName": "Hp support ca a "
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16tbzj6iUEAbls0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "8537",
+            "8DgmaO4Kpl8"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "PB Test1",
+            "email": "pbsp360+1@gmail.com",
+            "login": "pbsp360+1@gmail.com",
+            "displayName": "Sohail PB Test1"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16mvtg3kNJUxP10h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662"
+        ],
+        "profile": {
+            "firstName": "Sohail",
+            "lastName": "Admin Test",
+            "email": "sohail056@gmail.com",
+            "login": "sohail056@gmail.com",
+            "displayName": "Sohail Admin Test"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16l3nv20Y9BybY0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "6726",
+            "0481"
+        ],
+        "profile": {
+            "firstName": "James Admin New",
+            "lastName": "CA user",
+            "email": "chadwickjames083+27@gmail.com",
+            "login": "chadwickjames083+27@gmail.com",
+            "displayName": "James Admin New CA user"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16l1axkfhGb0dH0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Sana",
+            "lastName": "Grover",
+            "email": "sanaagrove86@gmail.com",
+            "login": "sanaagrove86@gmail.com",
+            "displayName": "Sana Grover"
+        },
+        "groupIds": [
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16k11kzhTh20G40h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "6726",
+            "0481",
+            "0662"
+        ],
+        "profile": {
+            "firstName": "James",
+            "lastName": "Client",
+            "email": "chadwickjames083+26@gmail.com",
+            "login": "chadwickjames083+26@gmail.com",
+            "displayName": "James Client"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16k0snxjoRn1LU0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "0481"
+        ],
+        "profile": {
+            "firstName": "James",
+            "lastName": "Admin",
+            "email": "chadwickjames083+25@gmail.com",
+            "login": "chadwickjames083+25@gmail.com",
+            "displayName": "James Admin"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16hna3qmx6H1SQ0h8",
+        "analyticsRollupBy": "E",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "6726"
+        ],
+        "profile": {
+            "firstName": "CA PPD",
+            "lastName": "Admin User",
+            "email": "ca.ppd.adminuser@yopmail.com",
+            "login": "ca.ppd.adminuser@yopmail.com",
+            "displayName": "CA PPD Admin User"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16fpkkgyqOf3AL0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "0662",
+            "0481",
+            "NNzJaV4Xo0g",
+            "8996",
+            "7241",
+            "0689",
+            "2303",
+            "1523",
+            "5970",
+            "9945",
+            "8252",
+            "5565",
+            "2511",
+            "4018",
+            "1131",
+            "4168",
+            "8622",
+            "4765",
+            "8552",
+            "7561",
+            "8415",
+            "G3dJzJJymvk",
+            "2068",
+            "7296",
+            "4676",
+            "6584",
+            "8180",
+            "0733",
+            "Rojl01avdQe",
+            "Rojlo5Vq0NX",
+            "ENjPYpJvYYy",
+            "yByzEbV9PLE",
+            "RKj6xmPe5wk",
+            "jGmLB8wmWG1",
+            "Qk8L2kmOOEW",
+            "PA_CA",
+            "xbzDk1wy8mM",
+            "VxExYala2Mm",
+            "WxbxLW489aY",
+            "ARq250anGWq",
+            "9BDEDraorll"
+        ],
+        "profile": {
+            "firstName": "PB User",
+            "lastName": "Service",
+            "email": "pbspbopca_service@yopmail.com",
+            "login": "pbspbopca_service@yopmail.com",
+            "displayName": "PB User Service"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8",
+            "00g1640vs2aCteaa00h8",
+            "00g1640yrqr5IFm8O0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z",
+        "roles": [
+            "PB_OPERATOR",
+            "PB_SERVICE",
+            "PB_SUPPORT_ADVANCED",
+            "CLIENT_SANDBOX_ADVANCED"
+        ]
+    },
+    {
+        "id": "00u16eri7yv0cTTTN0h8",
+        "adminLevelAt": "E",
+        "adminLevelEntity": [
+            "8537"
+        ],
+        "profile": {
+            "firstName": "psproca_ppd",
+            "lastName": "service_opr",
+            "email": "psproca_optr_srvc@yopmail.com",
+            "login": "psproca_optr_srvc@yopmail.com",
+            "displayName": "psproca_ppd service_opr"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8",
+            "00g16410uihqe4T9j0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    },
+    {
+        "id": "00u16eqndojvEW1sH0h8",
+        "adminLevelAt": "E",
+        "profile": {
+            "firstName": "Canada PPD1",
+            "lastName": "Operator",
+            "email": "psproca_operator@yopmail.com",
+            "login": "psproca_operator@yopmail.com",
+            "displayName": "Canada PPD1 Operator"
+        },
+        "groupIds": [
+            "00g1640veihcHMlAS0h8"
+        ],
+        "active": true,
+        "lastLoginTime": "0001-01-01T00:00:00Z",
+        "customTemplate": {},
+        "credentials": {},
+        "firstLoginTime": "0001-01-01T00:00:00Z"
+    }
+]

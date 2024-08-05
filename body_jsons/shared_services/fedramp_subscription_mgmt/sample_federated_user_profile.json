@@ -1,0 +1,452 @@
+{
+  "dev": {
+    "single-subs": [
+      {
+        "firstName": "SPA User2",
+        "lastName": "Federated",
+        "email": "spauser2-fed@mailinator.com",
+        "displayName": "Spa User2 Fed",
+        "sec_id": "0000034401@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034401",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "0360",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User3",
+        "lastName": "Federated",
+        "email": "spauser3-fed@mailinator.com",
+        "displayName": "Spa User3 Fed",
+        "sec_id": "0000034402@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034402",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "0360",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User5",
+        "lastName": "Federated",
+        "email": "spauser5-fed@mailinator.com",
+        "displayName": "Spa User5 Fed",
+        "sec_id": "0000034404@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034404",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "0360",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User6",
+        "lastName": "Federated",
+        "email": "spauser6-fed@mailinator.com",
+        "displayName": "Spa User6 Fed",
+        "sec_id": "0000034405@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034405",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "0360",
+        "domain": "mailinator.com"
+      }
+    ],
+    "multi-subs": [
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User1",
+        "displayName": "Mailsafe SSO User1",
+        "email": "ssouser1-spss@mailsafe.fr.nf",
+        "sec_id": "0000054001@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "ebYRV20RJJ2R",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User2",
+        "displayName": "Mailsafe SSO User2",
+        "email": "ssouser2-spss@mailsafe.fr.nf",
+        "sec_id": "0000054002@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "ebYRV20RJJ2R",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User3",
+        "displayName": "Mailsafe SSO User3",
+        "email": "ssouser3-spss@mailsafe.fr.nf",
+        "sec_id": "0000054003@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "d31gjQzXjwnp",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User4",
+        "displayName": "Mailsafe SSO User4",
+        "email": "ssouser4-spss@mailsafe.fr.nf",
+        "sec_id": "0000054004@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "d31gjQzXjwnp",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User1",
+        "displayName": "Miistermail SSO User1",
+        "email": "ssouser1-spss@miistermail.fr",
+        "sec_id": "0000055001@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "obYR51ZDpJAL",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User2",
+        "displayName": "Miistermail SSO User2",
+        "email": "ssouser2-spss@miistermail.fr",
+        "sec_id": "0000055002@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "obYR51ZDpJAL",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User3",
+        "displayName": "Miistermail SSO User3",
+        "email": "ssouser3-spss@miistermail.fr",
+        "sec_id": "0000055003@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "d69g7QMNMk4V",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User4",
+        "displayName": "Miistermail SSO User4",
+        "email": "ssouser4-spss@miistermail.fr",
+        "sec_id": "0000055004@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "d69g7QMNMk4V",
+        "domain": "miistermail.fr"
+      }
+    ]
+  },
+  "qa": {
+    "single-subs": [
+      {
+        "firstName": "SPA User2",
+        "lastName": "Federated",
+        "email": "spauser2-fed@mailinator.com",
+        "displayName": "Spa User2 Fed",
+        "sec_id": "0000034401@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034401",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "2918",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User3",
+        "lastName": "Federated",
+        "email": "spauser3-fed@mailinator.com",
+        "displayName": "Spa User3 Fed",
+        "sec_id": "0000034402@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034402",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "2918",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User5",
+        "lastName": "Federated",
+        "email": "spauser5-fed@mailinator.com",
+        "displayName": "Spa User5 Fed",
+        "sec_id": "0000034404@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034404",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "2918",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User6",
+        "lastName": "Federated",
+        "email": "spauser6-fed@mailinator.com",
+        "displayName": "Spa User6 Fed",
+        "sec_id": "0000034405@0oa2474rodspr0vvt0h8.idp",
+        "login": "0000034405",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "2918",
+        "domain": "mailinator.com"
+      }
+    ],
+    "multi-subs": [
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User1",
+        "displayName": "Mailsafe SSO User1",
+        "email": "ssouser1-spss@mailsafe.fr.nf",
+        "sec_id": "0000054001@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "jAbgn344w8N3",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User2",
+        "displayName": "Mailsafe SSO User2",
+        "email": "ssouser2-spss@mailsafe.fr.nf",
+        "sec_id": "0000054002@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "jAbgn344w8N3",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User3",
+        "displayName": "Mailsafe SSO User3",
+        "email": "ssouser3-spss@mailsafe.fr.nf",
+        "sec_id": "0000054003@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "zKkEN7yqRoJ7",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User4",
+        "displayName": "Mailsafe SSO User4",
+        "email": "ssouser4-spss@mailsafe.fr.nf",
+        "sec_id": "0000054004@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000054004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "zKkEN7yqRoJ7",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User1",
+        "displayName": "Miistermail SSO User1",
+        "email": "ssouser1-spss@miistermail.fr",
+        "sec_id": "0000055001@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "PKDl6G4827NK",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User2",
+        "displayName": "Miistermail SSO User2",
+        "email": "ssouser2-spss@miistermail.fr",
+        "sec_id": "0000055002@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "PKDl6G4827NK",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User3",
+        "displayName": "Miistermail SSO User3",
+        "email": "ssouser3-spss@miistermail.fr",
+        "sec_id": "0000055003@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "PZw1GXpZNWyL",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User4",
+        "displayName": "Miistermail SSO User4",
+        "email": "ssouser4-spss@miistermail.fr",
+        "sec_id": "0000055004@0oascjusmn8xmHTbI0h7.idp",
+        "login": "0000055004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "PZw1GXpZNWyL",
+        "domain": "miistermail.fr"
+      }
+    ]
+  },
+  "ppd": {
+    "single-subs": [
+      {
+        "firstName": "SPA User2",
+        "lastName": "Federated",
+        "email": "spauser2-fed@mailinator.com",
+        "displayName": "Spa User2 Fed",
+        "sec_id": "0000034401@0oafaidi6lmk8a4ay1d7.idp",
+        "login": "0000034401",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "3591",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User3",
+        "lastName": "Federated",
+        "email": "spauser3-fed@mailinator.com",
+        "displayName": "Spa User3 Fed",
+        "sec_id": "0000034402@0oafaidi6lmk8a4ay1d7.idp",
+        "login": "0000034402",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "3591",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User5",
+        "lastName": "Federated",
+        "email": "spauser5-fed@mailinator.com",
+        "displayName": "Spa User5 Fed",
+        "sec_id": "0000034404@0oafaidi6lmk8a4ay1d7.idp",
+        "login": "0000034404",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "3591",
+        "domain": "mailinator.com"
+      },
+      {
+        "firstName": "SPA User6",
+        "lastName": "Federated",
+        "email": "spauser6-fed@mailinator.com",
+        "displayName": "Spa User6 Fed",
+        "sec_id": "0000034405@0oafaidi6lmk8a4ay1d7.idp",
+        "login": "0000034405",
+        "password": "Group!234",
+        "ent_name": "VATest1",
+        "sub_id": "3591",
+        "domain": "mailinator.com"
+      }
+    ],
+    "multi-subs": [
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User1",
+        "displayName": "Mailsafe SSO User1",
+        "email": "ssouser1-spss@mailsafe.fr.nf",
+        "sec_id": "0000054001@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000054001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "rzKMDOaYYQ45",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User2",
+        "displayName": "Mailsafe SSO User2",
+        "email": "ssouser2-spss@mailsafe.fr.nf",
+        "sec_id": "0000054002@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000054002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs1",
+        "sub_id": "rzKMDOaYYQ45",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User3",
+        "displayName": "Mailsafe SSO User3",
+        "email": "ssouser3-spss@mailsafe.fr.nf",
+        "sec_id": "0000054003@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000054003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "PLO6J2rLdg79",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Mailsafe",
+        "lastName": "SSO User4",
+        "displayName": "Mailsafe SSO User4",
+        "email": "ssouser4-spss@mailsafe.fr.nf",
+        "sec_id": "0000054004@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000054004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs3",
+        "sub_id": "PLO6J2rLdg79",
+        "domain": "mailsafe.fr.nf"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User1",
+        "displayName": "Miistermail SSO User1",
+        "email": "ssouser1-spss@miistermail.fr",
+        "sec_id": "0000055001@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000055001",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "P2EgJ80m68ZZ",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User2",
+        "displayName": "Miistermail SSO User2",
+        "email": "ssouser2-spss@miistermail.fr",
+        "sec_id": "0000055002@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000055002",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs2",
+        "sub_id": "P2EgJ80m68ZZ",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User3",
+        "displayName": "Miistermail SSO User3",
+        "email": "ssouser3-spss@miistermail.fr",
+        "sec_id": "0000055003@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000055003",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "4aBbQjqmKlQA",
+        "domain": "miistermail.fr"
+      },
+      {
+        "firstName": "Miistermail",
+        "lastName": "SSO User4",
+        "displayName": "Miistermail SSO User4",
+        "email": "ssouser4-spss@miistermail.fr",
+        "sec_id": "0000055004@0oa5afagmOjblpEhG1d6.idp",
+        "login": "0000055004",
+        "password": "Horizon#123",
+        "ent_name": "SPSS Fed QA SSO Multi Domain Subs4",
+        "sub_id": "4aBbQjqmKlQA",
+        "domain": "miistermail.fr"
+      }
+    ]
+  }
+}

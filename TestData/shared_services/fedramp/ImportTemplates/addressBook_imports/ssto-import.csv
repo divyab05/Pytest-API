@@ -1,0 +1,2 @@
+Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,City,State/Province,Postal/ZIP Code,Country,Type,InternalDelivery,PersonalID,OfficeLocation,MailStopID,Accessibility,NotificationAll,PrimaryLocation,AdditionalEmailIds
+Auto_SSTO_sub_admin_Import_13,Auto_Test_Comp,auto_test_mail@email.com,203-922-4000,27 Waterview Dr,,,Shelton,CT,6484,US,,True,,,,True,True,OFFICE,

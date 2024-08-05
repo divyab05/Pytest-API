@@ -1,0 +1,11 @@
+{
+    "heartbeatTimestamp": "",
+	"kioskErrors": [
+		{
+			"message":"HardwareError",
+			"details":"Configuration Issue",
+			"context" : "Hardware Failure",
+			"timestamp": ""
+		}
+	]
+}

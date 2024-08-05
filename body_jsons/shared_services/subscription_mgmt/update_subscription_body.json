@@ -1,0 +1,42 @@
+{
+    "subID": "",
+    "productID": "SPA",
+    "enterpriseID": "",
+    "countryCode": "US",
+    "plans": [
+        "SENDING_PLAN",
+        "ANALYTICS_PLAN"
+    ],
+    "enabled": true,
+    "carriers": [
+        "FedEx",
+        "UPS"
+    ],
+    "locations": [
+        "PB_SLT"
+    ],
+    "properties":{
+    	"kip":true,
+    	"customerType":"Federal",
+    	"omasCustomer": true,
+    	"sched48Customer":true,
+    	"sharedAddressBookEnabled":true,
+    	"oktaGroupID":"00gr1v6ytgeMuOxXQ0h7",
+    	"ledgerProductID":"LEDPR1",
+    	"receivingSchema" :"RECSCHM",
+    	"systemUserNotification":"test message",
+    	"maxTxLimitEnabled" :true,
+        "maxTxLimit":23.00,
+        "costAccountsEnabled":true,
+        "costAccountRequireShippingLabel":true
+    },
+    "subscriptionRoles": [
+        {
+            "roleID": "12345",
+            "name": "test",
+            "features": [
+                    "SENDING_MAILING"
+                ]
+        }
+    ]
+}

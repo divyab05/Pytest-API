@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "position": "should_not_be_null", "items": "skip" },
+    {
+      "position": "should_not_be_null",
+      "items": "should_not_be_null"
+    }
+  ],
+  "appTabs": "should_not_be_null"
+}

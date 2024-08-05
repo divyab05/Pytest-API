@@ -1,0 +1,383 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"groupByCriteria": {
+			"groupByColumns": []
+		},
+		"orderByCriteria": {
+			"orderByColumns": []
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"spendType": [
+				"s"
+			],
+			"productIds": []
+		},
+		"selectQueryColumnsList": [
+			"bpn",
+			"subscription_id",
+			"package_id",
+			"shipment_id",
+			"tracking_number",
+			"package_type",
+			"sender_name",
+			"recipient_name",
+			"ship_to_company",
+			"carrier_code",
+			"carrier_account_number",
+			"carrier_service",
+			"package_height",
+			"package_length",
+			"package_width",
+			"package_dimension_uom",
+			"package_weight",
+			"package_weight_uom",
+			"base_charge",
+			"total_package_charge",
+			"surcharges_name",
+			"surcharges_fee",
+			"total_surcharges_fee",
+			"special_services_name",
+			"special_services_fee",
+			"total_special_services_fee",
+			"cost_account_id",
+			"cost_account_name",
+			"cost_account_path",
+			"l1_account_code",
+			"l1_account_name",
+			"l2_account_code",
+			"l2_account_name",
+			"l3_account_code",
+			"shipper_reference",
+			"destination_zip",
+			"shipment_date",
+			"transportation_reference",
+			"shipping_notes",
+			"reference1",
+			"reference2",
+			"reference3",
+			"reference4",
+			"memo",
+			"estimated_delivery_date",
+			"actual_delivery_date",
+			"difference_delivery",
+			"delivery_status",
+			"event_date",
+			"scan_event_name",
+			"event_code",
+			"product_id"
+		],
+		"filtersGroup": {},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220401",
+			"endDate": "20220630",
+			"country": "US",
+			"startdate": "20220401"
+		}
+	},
+	"reportColumns": {
+		"subscription_id": {
+			"label": "Subscription #",
+			"value": "subscription_id",
+			"name": "Subscription #",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"shipment_id": {
+			"label": "Shipment",
+			"value": "shipment_id",
+			"name": "Shipment",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"tracking_number": {
+			"label": "Tracking",
+			"value": "tracking_number",
+			"name": "Tracking",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"sender_name": {
+			"label": "Sender Name",
+			"value": "sender_name",
+			"name": "Sender Name",
+			"aggregationType": "sum",
+			"description": "Other Fields",
+			"order": 3,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"recipient_name": {
+			"label": "Recipient Name",
+			"value": "recipient_name",
+			"name": "Recipient Name",
+			"aggregationType": "sum",
+			"description": "Other Fields",
+			"order": 4,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"carrier_code": {
+			"label": "Carrier Name",
+			"value": "carrier_code",
+			"name": "Carrier Name",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 5,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"carrier_service": {
+			"label": "Carrier Service",
+			"value": "carrier_service",
+			"name": "Carrier Service",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 6,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"package_weight": {
+			"label": "Weight",
+			"value": "package_weight",
+			"name": "Weight",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 7,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"total_package_charge": {
+			"label": "Total Cost",
+			"value": "total_package_charge",
+			"name": "Total Cost",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 8,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"base_charge": {
+			"label": "Base Cost",
+			"value": "base_charge",
+			"name": "Base Cost",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 9,
+			"dataType": "Double",
+			"parentElement": "",
+			"isGroupedCol": false
+		},
+		"surcharges_fee": {
+			"label": "Surcharge Cost",
+			"value": "surcharges_fee",
+			"name": "Surcharge Cost",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 10,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"cost_account_id": {
+			"label": "Cost Account Id",
+			"value": "cost_account_id",
+			"name": "Cost Account Id",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 11,
+			"dataType": "String",
+			"parentElement": "Accounts Fields",
+			"isGroupedCol": false
+		},
+		"shipper_reference": {
+			"label": "Shipper Reference",
+			"value": "shipper_reference",
+			"name": "Shipper Reference",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 12,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"destination_zip": {
+			"label": "Destination Zip",
+			"value": "destination_zip",
+			"name": "Destination Zip",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 13,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"estimated_delivery_date": {
+			"label": "Estimated Deliv. Date",
+			"value": "estimated_delivery_date",
+			"name": "Estimated Deliv. Date",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 14,
+			"dataType": "Date",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"actual_delivery_date": {
+			"label": "Actual Deliv. Date",
+			"value": "actual_delivery_date",
+			"name": "Actual Deliv. Date",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 15,
+			"dataType": "Date",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"difference_delivery": {
+			"label": "Difference (Actual - Est)",
+			"value": "difference_delivery",
+			"name": "Difference (Actual - Est)",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 16,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"delivery_status": {
+			"label": "Delivery Status",
+			"value": "delivery_status",
+			"name": "Delivery Status",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 17,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"reference1": {
+			"label": "Reference 1",
+			"value": "reference1",
+			"name": "Reference 1",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 18,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"reference2": {
+			"label": "Reference 2",
+			"value": "reference2",
+			"name": "Reference 2",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 19,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"reference3": {
+			"label": "Reference 3",
+			"value": "reference3",
+			"name": "Reference 3",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 20,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"reference4": {
+			"label": "Reference 4",
+			"value": "reference4",
+			"name": "Reference 4",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 21,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"transportation_reference": {
+			"label": "Transportation Reference",
+			"value": "transportation_reference",
+			"name": "Transportation Reference",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 22,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"memo": {
+			"label": "Memo",
+			"value": "memo",
+			"name": "Memo",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 23,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"shipping_notes": {
+			"label": "Notes",
+			"value": "shipping_notes",
+			"name": "Notes",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 24,
+			"dataType": "String",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"shipment_date": {
+			"label": "Shipment Date",
+			"value": "shipment_date",
+			"name": "Shipment Date",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 25,
+			"dataType": "Date",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		}
+	}
+}

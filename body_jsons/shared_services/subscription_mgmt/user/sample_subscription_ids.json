@@ -1,0 +1,35 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "PITNEYSHIP": "sa8803c",
+      "PITNEYSHIP_PRO": "sa85335",
+      "PSP_APP": "0397",
+      "PSP_CANADA": "sa853b3",
+      "PSP_GLOBAL": "sa8803a"
+    },
+    "qa": {
+      "PITNEYSHIP": "sa8803c",
+      "PITNEYSHIP_PRO": "sa85335",
+      "PSP_APP": "6227",
+      "PSP_CANADA": "sa853b3",
+      "PSP_GLOBAL": "sa8803a"
+    },
+    "ppd": {
+      "PITNEYSHIP": "sa832a7",
+      "PITNEYSHIP_PRO": "sac9045",
+      "PSP_APP": "5190"
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "PITNEYSHIP": "6969",
+      "PITNEYSHIP_PRO": "6969",
+      "PSP_APP": "6969"
+    },
+    "qa": {
+      "PITNEYSHIP": "2794",
+      "PITNEYSHIP_PRO": "2794",
+      "PSP_APP": "2794"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "expiresAt": "should_not_be_null",
+    "status": "SUCCESS",
+    "sessionToken": "should_not_be_null",
+    "_embedded": {
+      "user": {
+        "id": "should_not_be_null",
+        "passwordChanged": "should_not_be_null",
+        "profile": {
+          "login": "should_not_be_null",
+          "firstName": "should_not_be_null",
+          "lastName": "should_not_be_null",
+          "locale": "should_not_be_null",
+          "timeZone": "should_not_be_null"
+        }
+      }
+    },
+    "_links": {
+      "cancel": {
+        "href": "should_not_be_null",
+        "hints": {
+          "allow": ["should_not_be_null"]
+        }
+      }
+    }
+  }

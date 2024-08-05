@@ -1,0 +1,1175 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"pageNumber": {
+			"type": "integer"
+		},
+		"pagesAvailable": {
+			"type": "integer"
+		},
+		"noOfRecords": {
+			"type": "integer"
+		},
+		"pageItems": {
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"lease_status_code": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"reference_contract": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"sold_to_bpn": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"street_2": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"install_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"yearly_payment": {
+							"type": "string"
+						},
+						"yearly_payment_1": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"list_price": {
+							"type": "string"
+						},
+						"discount": {
+							"type": "string"
+						},
+						"surcharge": {
+							"type": "string"
+						},
+						"equipment_cost": {
+							"type": "string"
+						},
+						"purchase_tax": {
+							"type": "string"
+						},
+						"shipping_handling_freight": {
+							"type": "string"
+						},
+						"document_fee": {
+							"type": "string"
+						},
+						"trade_up": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"lease_status_code": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"sold_to_bpn": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"contract_signed_date": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"street_2": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"install_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"list_price": {
+							"type": "string"
+						},
+						"discount": {
+							"type": "string"
+						},
+						"surcharge": {
+							"type": "string"
+						},
+						"equipment_cost": {
+							"type": "string"
+						},
+						"purchase_tax": {
+							"type": "string"
+						},
+						"shipping_handling_freight": {
+							"type": "string"
+						},
+						"document_fee": {
+							"type": "string"
+						},
+						"trade_up": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"lease_status_code": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"sold_to_bpn": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"contract_signed_date": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"install_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"list_price": {
+							"type": "string"
+						},
+						"discount": {
+							"type": "string"
+						},
+						"surcharge": {
+							"type": "string"
+						},
+						"equipment_cost": {
+							"type": "string"
+						},
+						"purchase_tax": {
+							"type": "string"
+						},
+						"shipping_handling_freight": {
+							"type": "string"
+						},
+						"document_fee": {
+							"type": "string"
+						},
+						"trade_up": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"lease_status_code": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"reference_contract": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"sold_to_bpn": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"install_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"list_price": {
+							"type": "string"
+						},
+						"discount": {
+							"type": "string"
+						},
+						"surcharge": {
+							"type": "string"
+						},
+						"equipment_cost": {
+							"type": "string"
+						},
+						"purchase_tax": {
+							"type": "string"
+						},
+						"shipping_handling_freight": {
+							"type": "string"
+						},
+						"document_fee": {
+							"type": "string"
+						},
+						"trade_up": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"lease_status_code": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"reference_contract": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"sold_to_bpn": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"install_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"yearly_payment": {
+							"type": "string"
+						},
+						"yearly_payment_1": {
+							"type": "string"
+						},
+						"yearly_payment_2": {
+							"type": "string"
+						},
+						"yearly_payment_3": {
+							"type": "string"
+						},
+						"yearly_payment_4": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"list_price": {
+							"type": "string"
+						},
+						"discount": {
+							"type": "string"
+						},
+						"surcharge": {
+							"type": "string"
+						},
+						"equipment_cost": {
+							"type": "string"
+						},
+						"purchase_tax": {
+							"type": "string"
+						},
+						"shipping_handling_freight": {
+							"type": "string"
+						},
+						"document_fee": {
+							"type": "string"
+						},
+						"trade_up": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				},
+				{
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"sales_document_type": {
+							"type": "string"
+						},
+						"sales_document_type_desc": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"stream_type": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"total_payments": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"contract_type": {
+							"type": "string"
+						},
+						"location_country": {
+							"type": "string"
+						},
+						"location_city": {
+							"type": "string"
+						},
+						"location_state": {
+							"type": "string"
+						},
+						"bill_to_location": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"order_date": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"material": {
+							"type": "string"
+						},
+						"serial_number": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"street_1": {
+							"type": "string"
+						},
+						"region": {
+							"type": "string"
+						},
+						"postal_code": {
+							"type": "string"
+						},
+						"contract_end_date_derived": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"yearly_payment": {
+							"type": "string"
+						},
+						"yearly_payment_1": {
+							"type": "string"
+						},
+						"bill_to_location_country": {
+							"type": "string"
+						},
+						"bill_to_location_state": {
+							"type": "string"
+						},
+						"bill_to_location_city": {
+							"type": "string"
+						},
+						"bill_to_customer_name": {
+							"type": "string"
+						},
+						"bill_to_street_1": {
+							"type": "string"
+						},
+						"bill_to_region": {
+							"type": "string"
+						},
+						"bill_to_postal_code": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						},
+						"income_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"year_count": {
+							"type": "integer"
+						}
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,137 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "DAILY"
+		},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220726",
+			"country": "US",
+			"startdate": "20220101"
+		},
+		"useDeviceIdBasedSearch": true,
+		"groupByCriteria": {
+			"groupByColumns": [
+				"fundtype"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"fundtype"
+			]
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"spendType": [],
+			"productIds": [],
+			"cities": [],
+			"psdPcns": []
+		},
+		"selectQueryColumnsList": [
+			"refunds",
+			"refillAmount",
+			"avgRefillAmount",
+			"refillCount",
+			"refundCount",
+			"productType",
+			"lastTransactionTime",
+			"latitude",
+			"longitude",
+			"city",
+			"region",
+			"country",
+			"street1",
+			"street2",
+			"location_address",
+			"location_address_line_2",
+			"fundtype"
+		],
+		"filtersGroup": {}
+	},
+	"reportColumns": {
+		"fundtype": {
+			"label": "Fund Type",
+			"value": "fundType",
+			"name": "Fund Type",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"refillAmount": {
+			"label": "Refill Amount",
+			"value": "refillAmount",
+			"name": "Refill Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 1,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"refunds": {
+			"label": "Refund Amount",
+			"value": "refunds",
+			"name": "Refund Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 2,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"refillCount": {
+			"label": "Refill Count",
+			"value": "refillCount",
+			"name": "Refill Count",
+			"aggregationType": "distinct",
+			"description": "",
+			"order": 3,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"refundCount": {
+			"label": "Refund Count",
+			"value": "refundCount",
+			"name": "Refund Count",
+			"aggregationType": "distinct",
+			"description": "",
+			"order": 4,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"avgRefillAmount": {
+			"label": "Average Refill Amount",
+			"value": "avgRefillAmount",
+			"name": "Average Refill Amount",
+			"aggregationType": "average",
+			"description": "",
+			"order": 5,
+			"dataType": "Double",
+			"parentElement": "Other Fields"
+		},
+		"lastTransactionTime": {
+			"label": "Last Transaction Time",
+			"value": "lastTransactionTime",
+			"name": "Last Transaction Time",
+			"aggregationType": "date",
+			"description": "",
+			"order": 6,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		}
+	}
+}

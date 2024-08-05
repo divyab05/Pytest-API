@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "jobId": {
+      "type": "string"
+    },
+    "subscriptionId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "inputFileName": {
+      "type": "string"
+    },
+    "records": {
+      "type": "number"
+    },
+    "successfulRecords": {
+      "type": "number"
+    },
+    "insertTimestamp": {
+      "type": "string"
+    },
+    "updateTimestamp": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "jobId",
+    "status",
+    "inputFileName",
+    "records",
+    "successfulRecords"
+  ]
+}

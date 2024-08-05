@@ -1,0 +1,172 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "bpn": {
+          "type": "string"
+        },
+        "carrier": {
+          "type": "string"
+        },
+        "cost_account_id": {
+          "type": "string"
+        },
+        "cost_account_name": {
+          "type": "string"
+        },
+        "dim_date_key": {
+          "type": "integer"
+        },
+        "location_city": {
+          "type": "string"
+        },
+        "location_state": {
+          "type": "string"
+        },
+        "piece_count": {
+          "type": "integer"
+        },
+        "postage_saving": {
+          "type": "number"
+        },
+        "postage_spend": {
+          "type": "number"
+        },
+        "rating_class": {
+          "type": "string"
+        },
+        "spend_type": {
+          "type": "string"
+        },
+        "trans_date": {
+          "type": "string"
+        },
+        "location_org_name": {
+          "type": "string"
+        },
+        "location_org_name_2": {
+          "type": "string"
+        },
+        "division_id": {
+          "type": "string"
+        },
+        "division_name": {
+          "type": "string"
+        },
+        "service_class_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "bpn",
+        "carrier",
+        "cost_account_id",
+        "cost_account_name",
+        "dim_date_key",
+        "location_city",
+        "location_state",
+        "piece_count",
+        "postage_saving",
+        "postage_spend",
+        "rating_class",
+        "spend_type",
+        "trans_date",
+        "location_org_name",
+        "location_org_name_2",
+        "division_id",
+        "division_name",
+        "service_class_name",
+        "location_id"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "bpn": {
+          "type": "string"
+        },
+        "carrier": {
+          "type": "string"
+        },
+        "cost_account_id": {
+          "type": "string"
+        },
+        "cost_account_name": {
+          "type": "string"
+        },
+        "dim_date_key": {
+          "type": "integer"
+        },
+        "location_city": {
+          "type": "string"
+        },
+        "location_state": {
+          "type": "string"
+        },
+        "piece_count": {
+          "type": "integer"
+        },
+        "postage_saving": {
+          "type": "number"
+        },
+        "postage_spend": {
+          "type": "number"
+        },
+        "rating_class": {
+          "type": "string"
+        },
+        "spend_type": {
+          "type": "string"
+        },
+        "trans_date": {
+          "type": "string"
+        },
+        "location_org_name": {
+          "type": "string"
+        },
+        "location_org_name_2": {
+          "type": "string"
+        },
+        "division_id": {
+          "type": "string"
+        },
+        "division_name": {
+          "type": "string"
+        },
+        "service_class_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "bpn",
+        "carrier",
+        "cost_account_id",
+        "cost_account_name",
+        "dim_date_key",
+        "location_city",
+        "location_state",
+        "piece_count",
+        "postage_saving",
+        "postage_spend",
+        "rating_class",
+        "spend_type",
+        "trans_date",
+        "location_org_name",
+        "location_org_name_2",
+        "division_id",
+        "division_name",
+        "service_class_name",
+        "location_id"
+      ]
+    }
+  ]
+}

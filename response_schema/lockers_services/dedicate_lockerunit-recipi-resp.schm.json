@@ -1,0 +1,148 @@
+{
+  "type": "object",
+  "properties": {
+    "units": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "size": {
+              "type": "string"
+            },
+            "accessible": {
+              "type": "boolean"
+            },
+            "refrigerated": {
+              "type": "boolean"
+            },
+            "lockerType": {
+              "type": "string"
+            },
+            "row": {
+              "type": "integer"
+            },
+            "column": {
+              "type": "integer"
+            },
+            "wagoCardNumber": {
+              "type": "integer"
+            },
+            "wagoPortNumber": {
+              "type": "integer"
+            },
+            "wagoDeviceSerialNumber": {
+              "type": "string"
+            },
+            "wagoLockNumber": {
+              "type": "integer"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "reserved": {
+              "type": "boolean"
+            },
+            "occupied": {
+              "type": "boolean"
+            },
+            "occupiedDate": {
+              "type": "string"
+            },
+            "reservedDate": {
+              "type": "string"
+            },
+            "expireDate": {
+              "type": "string"
+            },
+            "expireReservedDate": {
+              "type": "string"
+            },
+            "assetsReserved": {
+              "type": "object",
+              "properties": {
+                "assets": {
+                  "type": "null"
+                },
+                "userID": {
+                  "type": "string"
+                },
+                "recipient": {
+                  "type": "object"
+                }
+              },
+              "required": [
+                "assets",
+                "userID",
+                "recipient"
+              ]
+            },
+            "assetsDeposited": {
+              "type": "object",
+              "properties": {
+                "parcels": {
+                  "type": "null"
+                },
+                "userID": {
+                  "type": "string"
+                },
+                "recipient": {
+                  "type": "object"
+                },
+                "depositDate": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "parcels",
+                "userID",
+                "recipient",
+                "depositDate"
+              ]
+            },
+            "dedicatedUnit": {
+              "type": "boolean"
+            },
+            "dedicatedID": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "manufacturerLockerID",
+            "size",
+            "accessible",
+            "refrigerated",
+            "lockerType",
+            "row",
+            "column",
+            "wagoCardNumber",
+            "wagoPortNumber",
+            "wagoDeviceSerialNumber",
+            "wagoLockNumber",
+            "enabled",
+            "reserved",
+            "occupied",
+            "occupiedDate",
+            "reservedDate",
+            "expireDate",
+            "expireReservedDate",
+            "assetsReserved",
+            "assetsDeposited",
+            "dedicatedUnit",
+            "dedicatedID",
+            "name"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "units"
+  ]
+}

@@ -1,0 +1,383 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "productStatus": {
+          "type": "string"
+        },
+        "statusType": {
+          "type": "string"
+        },
+        "product_id": {
+          "type": "string"
+        },
+        "usage_bpn": {
+          "type": "string"
+        },
+        "device_plan": {
+          "type": "string"
+        },
+        "location_name": {
+          "type": "string"
+        },
+        "location_id": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

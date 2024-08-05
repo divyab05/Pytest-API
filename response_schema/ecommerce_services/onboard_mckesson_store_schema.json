@@ -1,0 +1,23 @@
+{
+	"type": "object",
+	"properties": {
+		"storeKey": {
+			"type": "string"
+		},
+		"cartId": {
+			"type": "string"
+		},
+		"message": {
+			"type": "string"
+		},
+		"messageCode": {
+			"type": "string"
+		}
+	},
+  "required": [
+    "storeKey",
+    "cartId",
+    "message",
+    "messageCode"
+  ]
+	}

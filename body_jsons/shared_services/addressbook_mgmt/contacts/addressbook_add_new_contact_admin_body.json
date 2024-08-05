@@ -1,0 +1,50 @@
+{
+    "id": null,
+    "contactType": "",
+    "internalDelivery": false,
+    "type": "",
+    "name": "",
+    "company": "",
+    "emails": [
+        {
+            "default": true,
+            "email": "",
+            "id": null,
+            "label": "Home"
+        }
+    ],
+    "phones": [
+        {
+            "default": true,
+            "id": null,
+            "label": "Home",
+            "phone": ""
+        }
+    ],
+    "personalID": null,
+    "officeLocationID": null,
+    "mailstopID": null,
+    "AddedDepartmentIds": null,
+    "additionalEmailIds": null,
+    "primaryLocation": null,
+    "accessibility": null,
+    "notificationAll": null,
+    "addresses": [
+        {
+            "addressLine1": "",
+            "addressLine2": "",
+            "addressLine3": null,
+            "addressLine4": null,
+            "city": "",
+            "countryCode": "",
+            "default": true,
+            "id": null,
+            "label": "Home 1",
+            "postalCode": "",
+            "residential": true,
+            "state": ""
+        }
+    ],
+    "DeletedDepartmentIds": null,
+    "subscriptionId": ""
+}

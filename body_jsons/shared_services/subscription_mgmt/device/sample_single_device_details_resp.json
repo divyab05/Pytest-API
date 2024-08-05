@@ -1,0 +1,67 @@
+{
+  "deviceSubLocation": {
+    "subID": "should_not_be_null",
+    "productID": "should_not_be_null",
+    "userID": "skip",
+    "deviceID": "should_not_be_null",
+    "locationID": "should_not_be_null",
+    "enabled": "should_not_be_null",
+    "subscriptionRoles": "skip",
+    "archived": "skip",
+    "properties": {
+      "showLabelOptions": "skip",
+      "printScanForm": "skip",
+      "isReturnAddressSame": "skip",
+      "defaultDimensionUnit": "should_not_be_null",
+      "defaultWeightUnit": "should_not_be_null",
+      "showWelcomeTour": "skip",
+      "sameReturnAddressForLabels": "skip",
+      "tncAccepted": "skip",
+      "msContactsRequired": "skip",
+      "defaultMeasurementUnit": "IMPERIAL",
+      "showCostOnIntLabels": "skip",
+      "isNewEcomUser": "skip",
+      "printReturnLabelWithShipping": "skip",
+      "carrierReturnServices": "skip"
+    },
+    "deviceHubProperties": {
+      "envelopeProperties": "skip",
+      "showPrinterOptions": "skip",
+      "labelProperties": { "showLabelPrinterOptions": "skip" }
+    },
+    "scaleProperties": "skip",
+    "dispenseCategorySettings": "skip",
+    "userPermissions": "skip",
+    "userAddress": {
+      "addressLine1": "skip",
+      "addressLine2": "skip",
+      "addressLine3": "skip",
+      "company": "skip",
+      "city": "skip",
+      "state": "skip",
+      "countryCode": "skip",
+      "postalCode": "skip",
+      "email": "skip",
+      "phone": "skip"
+    },
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null"
+  },
+  "deviceDetails": {
+    "deviceID": "should_not_be_null",
+    "deviceType": "should_not_be_null",
+    "clientName": "should_not_be_null",
+    "clientID": "should_not_be_null",
+    "displayName": "should_not_be_null",
+    "clientSecret": "should_not_be_null",
+    "deviceSerialNumber": "should_not_be_null",
+    "archived": "skip",
+    "active": "skip",
+    "integratorID": "should_not_be_null",
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null",
+    "devicePermissions": "skip"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "aggregationTypesEnum": "NONE",
+  "groupByCriteria": {
+    "groupByColumns": [
+      "dim_year"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+      ""
+    ]
+  },
+  "offset": 0,
+  "queryType": "LATEST_DATA_QUERY",
+  "responseType": "SUMMARY",
+  "subFilter": {},
+  "selectQueryColumnsList": [
+    ""
+  ],
+  "filtersGroup": {},
+  "filter": {
+    "divisionIds": [
+      "jL9D1qaJZP2",
+      "div_Surchar1",
+      "JYjAWRDeAWq",
+      "23",
+      "P-Series_div",
+      "div_one",
+      "4545",
+      "810D47m6WG9",
+      "3YVxnqG2dgv",
+      "spadivision",
+      "spadivisionnew",
+      "mailcenter",
+      "J1BQWneZpxN",
+      "JX5PoEV8Mmo",
+      "MGa4Gkr8x9j"
+    ],
+    "startDate": "20220101",
+    "endDate": "20220531",
+    "country": "US",
+    "source": [
+      "SSTO",
+      "ILP"
+    ],
+    "startdate": "20220101"
+  }
+}

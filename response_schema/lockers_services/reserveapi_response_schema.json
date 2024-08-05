@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "siteID": {
+      "type": "string"
+    },
+    "manufacturerID": {
+      "type": "string"
+    },
+    "manufacturerLockerID": {
+      "type": "string"
+    },
+    "assetsReserved": {
+      "type": "object",
+      "properties": {
+        "assets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "primaryTrackingID": {
+                  "type": "string"
+                },
+                "secondaryTrackingID": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "primaryTrackingID",
+                "secondaryTrackingID"
+              ]
+            }
+          ]
+        },
+        "userID": {
+          "type": "string"
+        },
+        "recipient": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email"
+          ]
+        }
+      },
+      "required": [
+        "assets",
+        "userID",
+        "recipient"
+      ]
+    },
+    "reservedDate": {
+      "type": "string"
+    },
+    "expireReservedDate": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "wagoCardNumber": {
+      "type": "integer"
+    },
+    "wagoPortNumber": {
+      "type": "integer"
+    },
+    "wagoLockNumber": {
+      "type": "integer"
+    },
+    "wagoDeviceSerialNumber": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "siteID",
+    "manufacturerID",
+    "manufacturerLockerID",
+    "assetsReserved",
+    "reservedDate",
+    "expireReservedDate",
+    "siteName",
+    "bankName",
+    "size"
+  ]
+}

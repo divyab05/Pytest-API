@@ -1,0 +1,27 @@
+{
+	"allowedMaxPostageBalance": "only_digits",
+	"allowedMaxAdminValue": "only_digits",
+	"allowedMinAdminValue": "only_digits",
+	"costAccountRequireAddPostage": "only_chars",
+	"costAccountRequireShippingLabel": "only_chars",
+	"costAccountsEnabled": "only_chars",
+	"maximumPostageValue": "skip",
+	"sharedAddressBookEnabled": "only_chars",
+	"upsDefaultProfileId": "skip",
+	"fedexDefaultProfileId": "skip",
+	"uspsDefaultProfileId": "skip",
+	"costAccountLocAdminAccess": "only_chars",
+	"costAccountRequireStamp": "only_chars",
+	"pbRateAccount": "skip",
+	"dynamicPreferences": {
+		"defaultPeripheralID": "skip",
+		"dhaID": "skip",
+		"lastPrintedType": "skip",
+		"lastSeenApolloPage": "skip",
+		"mobileApolloOnboarding": "only_chars",
+		"rateShopViewToggle": "skip",
+		"remeberStampRollFormat": "skip",
+		"showOnlyMyDeviceHub": "skip",
+		"stampRollFormat": "skip"
+	}
+}

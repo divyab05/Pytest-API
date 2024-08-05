@@ -1,0 +1,9 @@
+variables:
+  TST_TYPE: promotion
+  TST_TOOL: python
+  #TST_PROJECT_NAME_OVERRIDE: subscription-carrier-acct-mgmt
+  # test
+include:
+  - project: 'pitneybowes/innovation/sendtech/sendproanywhere/sendpro360-testing/cicd/library/test-ci'
+    ref: 'master'
+    file: 'test-ci.yml'

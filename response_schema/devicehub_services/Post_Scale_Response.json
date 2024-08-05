@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "scaleInfo": {
+      "type": "object",
+      "properties": {
+        "manufacturer": {
+          "type": "string"
+        },
+        "product": {
+          "type": "string"
+        },
+        "productId": {
+          "type": "string"
+        },
+        "releaseNumber": {
+          "type": "string"
+        },
+        "serialNumber": {
+          "type": "string"
+        },
+        "vendorId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "manufacturer",
+        "product",
+        "productId",
+        "releaseNumber",
+        "serialNumber",
+        "vendorId"
+      ]
+    },
+    "statusCode": {
+      "type": "integer"
+    },
+    "transactionId": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "object",
+      "properties": {
+        "ounces": {
+          "type": "number"
+        },
+        "pounds": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "ounces",
+        "pounds"
+      ]
+    }
+  },
+  "required": [
+    "scaleInfo",
+    "statusCode",
+    "transactionId",
+    "weight"
+  ]
+}

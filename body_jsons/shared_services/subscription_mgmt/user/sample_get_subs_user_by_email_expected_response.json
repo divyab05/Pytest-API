@@ -1,0 +1,105 @@
+{
+  "pageInfo": {
+    "totalCount": "only_digits",
+    "startCount": "only_digits",
+    "limit": "only_digits"
+  },
+  "usersDetailWithSubLocation": [
+    {
+      "subLocation": {
+        "subID": "should_not_be_null",
+        "productID": "should_not_be_null",
+        "userID": "should_not_be_null",
+        "locationID": "should_not_be_null",
+        "enabled": "should_not_be_null",
+        "subscriptionRoles": "should_not_be_null",
+        "archived": "should_not_be_null",
+        "properties": {
+          "showLabelOptions": "should_not_be_null",
+          "printScanForm": "should_not_be_null",
+          "printShippingLabelReceipt": "should_not_be_null",
+          "printPostageCostOnLabel": "should_not_be_null",
+          "saveRecipientAddress": "should_not_be_null",
+          "emailToSenderPackageTrackingNumber": "should_not_be_null",
+          "emailToSenderPackageDeliveredEvent": "should_not_be_null",
+          "emailToRecipientPackageTrackingNumber": "should_not_be_null",
+          "emailToRecipientOnPackageDeliveredEvent": "should_not_be_null",
+          "uspsServiceOption": "should_not_be_null",
+          "printFullSheet": "should_not_be_null",
+          "doNotShowRollPrinter": "should_not_be_null",
+          "isReturnAddressSame": "should_not_be_null",
+          "defaultDimensionUnit": "should_not_be_null",
+          "defaultWeightUnit": "should_not_be_null",
+          "showWelcomeTour": "should_not_be_null",
+          "sameReturnAddressForLabels": "should_not_be_null",
+          "tncAccepted": "should_not_be_null",
+          "msContactsRequired": "should_not_be_null",
+          "defaultMeasurementUnit": "should_not_be_null",
+          "showCostOnIntLabels": "should_not_be_null",
+          "isNewEcomUser": "should_not_be_null"
+        },
+        "deviceHubProperties": {
+          "envelopeProperties": {},
+          "showPrinterOptions": "should_not_be_null",
+          "labelProperties": {
+            "shippingLabelSize": "should_not_be_null",
+            "showLabelPrinterOptions": "should_not_be_null"
+          }
+        },
+        "scaleProperties": null,
+        "dispenseCategorySettings": {
+          "envelope": {
+            "showPrinterOptions": "should_not_be_null",
+            "defaultPrintSize": "should_not_be_null"
+          },
+          "label": {
+            "showPrinterOptions": "should_not_be_null",
+            "defaultPrintSize": "should_not_be_null"
+          }
+        },
+        "userPermissions": {},
+        "userAddress": {
+            "addressLine1": "",
+            "addressLine2": "",
+            "addressLine3": "",
+            "company": "",
+            "city": "",
+            "state": "",
+            "countryCode": "",
+            "postalCode": "",
+            "email": "",
+            "phone": ""
+          },
+        "status": "should_not_be_null",
+        "insertTimestamp": "should_not_be_null",
+        "updateTimestamp": "should_not_be_null",
+        "createdBy": "should_not_be_null",
+        "updatedBy": "should_not_be_null",
+        "updatedByEmail": "should_not_be_null"
+      },
+      "detail": {
+        "id": "should_not_be_null",
+        "analyticsRollupBy": "should_not_be_null",
+        "rollupEntity": "should_not_be_null",
+        "adminLevelAt": "should_not_be_null",
+        "adminLevelEntity": "should_not_be_null",
+        "recUID": "skip",
+        "profile": {
+          "firstName": "should_not_be_null",
+          "lastName": "should_not_be_null",
+          "email": "should_not_be_null",
+          "login": "should_not_be_null",
+          "displayName": "should_not_be_null"
+        },
+        "groupIds": "should_not_be_null",
+        "active": "should_not_be_null",
+        "lastLoginTime": "should_not_be_null",
+        "customTemplate": {},
+        "credentials": {
+          "password": {}
+        },
+        "firstLoginTime": "should_not_be_null"
+      }
+    }
+  ]
+}

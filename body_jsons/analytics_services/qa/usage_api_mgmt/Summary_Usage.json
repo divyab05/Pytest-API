@@ -1,0 +1,50 @@
+  {
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "jL9D1qaJZP2",
+      "div_Surchar1",
+      "JYjAWRDeAWq",
+      "23",
+      "P-Series_div",
+      "div_one",
+      "4545",
+      "810D47m6WG9",
+      "3YVxnqG2dgv",
+      "spadivision",
+      "spadivisionnew",
+      "mailcenter",
+      "J1BQWneZpxN",
+      "JX5PoEV8Mmo",
+      "MGa4Gkr8x9j"
+    ],
+    "startDate": "20230926",
+    "startdate": "20230926",
+    "endDate": "20231002",
+    "country": "US"
+  },
+  "groupByCriteria": {
+    "groupByColumns": [
+      ""
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": [
+      ""
+    ]
+  },
+  "responseType": "SUMMARY",
+  "subFilter": {
+    "spendType": [
+      "mailing",
+      "shipping",
+      "manual transaction"
+    ],
+    "productIds": [],
+    "cities": [],
+    "psdPcns": []
+  },
+  "filtersGroup": {}
+}

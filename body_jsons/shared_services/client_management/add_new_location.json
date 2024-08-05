@@ -1,0 +1,29 @@
+{
+    "divisionID": "TestId01",
+	"locationID":"Auto_L_Id002",
+	"name":"Auto_Test_Loc001",
+	"company": "PB",
+	"phone":"9971001928",
+	"addressLine1":"144-154 W Lawrence St",
+	"addressLine2":"",
+	"addressLine3":"",
+	"city":"Albany",
+	"state":"NY",
+	"countrycode":"US",
+	"postalCode":"12180",
+	"rcName":"rc test",
+	"returnAddressLine1":"144-154 W Lawrence St",
+	"returnAddressLine2":"",
+	"returnAddressLine3":"",
+	"returnCity":"Albany",
+	"returnState":"NY",
+	"returnCountrycode":"US",
+	"returnPostalCode":"06485",
+	"isReturnAddressSame":false,
+	"locationProperties": {
+            "shipToBPN": "0010191585",
+            "costAccountsEnabled": true,
+            "costAccountRequiredForMailingLabel": true,
+            "costAccountRequiredForShippingLabel": true
+        }
+}

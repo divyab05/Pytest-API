@@ -1,0 +1,57 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "object",
+      "properties": {
+        "context": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        }
+      }
+    },
+    "enterpriseId": {
+      "type": "string"
+    },
+    "kpisList": {
+      "type": "object",
+      "properties": {
+        "0": {
+          "type": "string"
+        },
+        "1": {
+          "type": "string"
+        },
+        "2": {
+          "type": "string"
+        },
+        "3": {
+          "type": "string"
+        },
+        "4": {
+          "type": "string"
+        },
+        "5": {
+          "type": "string"
+        },
+        "6": {
+          "type": "string"
+        },
+        "7": {
+          "type": "string"
+        },
+        "8": {
+          "type": "string"
+        }
+      }
+    },
+    "createDate": {
+      "type": "string"
+    },
+    "updateDate": {
+      "type": "string"
+    }
+  }
+}

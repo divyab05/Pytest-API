@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "statusChangeDate": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "statusChangeDate",
+    "userID"
+  ]
+}

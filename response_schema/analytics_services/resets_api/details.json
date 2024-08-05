@@ -1,0 +1,68 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "day": {
+          "type": "string"
+        },
+        "refunds": {
+          "type": "number"
+        },
+        "refillAmount": {
+          "type": "number"
+        },
+        "avgRefillAmount": {
+          "type": "number"
+        },
+        "refillCount": {
+          "type": "integer"
+        },
+        "refundCount": {
+          "type": "integer"
+        },
+        "lastTransactionTime": {
+          "type": "string"
+        },
+        "latitude": {
+          "type": "string"
+        },
+        "longitude": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "location_address": {
+          "type": "string"
+        },
+        "location_address_line_2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "refunds",
+        "refillAmount",
+        "avgRefillAmount",
+        "refillCount",
+        "refundCount",
+        "lastTransactionTime",
+        "latitude",
+        "longitude",
+        "city",
+        "region",
+        "country",
+        "location_address",
+        "location_address_line_2"
+      ]
+    }
+  ]
+}

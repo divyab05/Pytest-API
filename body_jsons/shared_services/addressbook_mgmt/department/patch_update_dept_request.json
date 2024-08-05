@@ -1,0 +1,13 @@
+{
+    "operationType": "",
+    "contacts": [
+        {
+            "contactId": "",
+            "isKeyContact": true
+        },
+        {
+            "contactId": "",
+            "isKeyContact": false
+        }
+    ]
+}

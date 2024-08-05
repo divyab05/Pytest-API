@@ -1,0 +1,101 @@
+{
+	"shipToBPN": "BPN 03/06",
+	"status": {
+		"ID": 3,
+		"value": "Configuration In Process"
+	},
+	"bankName": "",
+	"siteID": "d3kKxP9nYMq",
+	"siteName": "Location 1",
+	"timeZone": "Z-05:00",
+	"location": {
+		"latitude": 41.316486,
+		"longitude": -73.093163
+	},
+	"manufacturerID": "",
+	"manufacturerHardwareID": "",
+	"wagoDeviceSerialNumber": "",
+	"userDevices": [{
+		"modelName": "",
+		"serialNumber": "",
+		"type": "kiosk",
+		"column": 0,
+		"row": 0,
+		"size": "mlarge"
+	}, {
+		"modelName": "",
+		"serialNumber": "",
+		"type": "deviceHub"
+	}],
+	"units": null,
+	"bankDimensions": null,
+	"heartbeatPingIntervalInSec": 3600,
+	"lockerBankPairURL": "https://api-qa.sendpro360.pitneycloud.com/locker/api/v1/",
+	"properties": {
+		"cameraEnabled": true,
+		"accessible": true,
+		"signatureCaptureEnabled": true,
+		"barcodeScanningEnabled": false,
+		"refrigeratedUnitsSupported": false,
+		"supportedSize": null,
+		"numberOfLockerColumn": 0,
+		"numberOfDoors": 0
+	},
+	"refrigeratedUnitsSupported": false,
+	"isHeartbeatEnabled": false,
+	"emailServiceEnabled": false,
+	"shippingEnabled": false,
+	"proConfiguration": {
+		"rollingReservation": false,
+		"reservationWORecipient": false,
+		"dayLockerSupport": false
+	},
+	"dedicatedLockerEnabled": false,
+	"demoMode": false,
+	"localizationEnabled": false,
+	"languageSupported": null,
+	"description": "",
+	"address": {
+		"company": "PB",
+		"name": "Location 1",
+		"phone": "1993012839",
+		"email": "manvi@yopmail.com",
+		"residential": true,
+		"addressLines": ["Pune"],
+		"cityTown": "pune",
+		"stateProvince": "KY",
+		"postalCode": "41104",
+		"countryCode": "US"
+	},
+	"integratorID": "SENDPRO360",
+	"deliveryEnabled": true,
+	"tenantID": "0170",
+	"enterpriseID": "2506",
+	"departmentMailDeliveryEnabled": true,
+	"pkgDropOffProperties": {
+		"packagePhotoRequired": true,
+		"packageWithoutBarcodeEnabled": false,
+		"autoLockerSizeUpEnabled": true,
+		"categorizeDepartmentMailEnabled": true,
+		"expPackagePickupEnabled": true,
+		"pkgExpireDuration": 2
+	},
+	"pkgPickupProperties": {
+		"accessCodeRequired": true,
+		"accesscardRequired": true,
+		"recipientPhotoRequired": true,
+		"recipientSignatureRequired": true,
+		"reopenDuration": 30,
+		"multiPackageEnabled": true,
+		"reportProblemEnabled": true,
+		"departmentMailPickupEnabled": false
+	},
+	"vendor": {
+		"name": "manvi test",
+		"email": "manvi@yopmail.com",
+		"company": "PB"
+	},
+	"newLockerRender": false,
+	"disableEventQ": false,
+	"emailConfiguration": null
+}

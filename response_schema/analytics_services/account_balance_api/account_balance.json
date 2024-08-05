@@ -1,0 +1,41 @@
+{
+	"type": "object",
+	"properties": {
+		"pageNumber": {
+			"type": "integer"
+		},
+		"pagesAvailable": {
+			"type": "integer"
+		},
+		"noOfRecords": {
+			"type": "integer"
+		},
+		"pageItems": {
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"account_id": {
+							"type": "string"
+						},
+						"account_type": {
+							"type": "string"
+						},
+						"balance_available": {
+							"type": "string"
+						},
+						"account_enabled": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"account_id",
+						"account_type",
+						"account_enabled"
+					]
+				}
+			]
+		}
+	}
+}

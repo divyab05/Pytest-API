@@ -1,0 +1,23 @@
+ppd_config = {
+    'username': 'manvi.moza@pb.com',
+    'enc_pwd': 'Aqswde@123',
+    'Project': 'lockers_services',
+    'product_name': 'sp360global',
+    'base_api': 'https://api-ppd.spo.pitneybowes.com/locker',
+    'badge_idp': 'https://api-ppd.spo.pitneybowes.com/badgeidp',
+    'ilp_lms': 'https://api-ppd.spo.pitneybowes.com/ca/ilplms',
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'env': 'PPD',
+    'CLIENTUSERNAME': "manviglobalppd@yopmail.com",
+    'client_pwd': 'Aqswde@123',
+    'X-PB-TransactionId': 'lockers_{unique_no}',
+    'oauth_2.0': 'https://pitneybowes.oktapreview.com/oauth2/aus1t4bksgnkWwoLB0h8/v1/token',
+    'ILP_clientID': '0oa1whd3mc02cEBkg0h8',
+    'ILP_secret': '31EaPULblQwpw5i2E4AwTbGJ6ujfnp_ma-uHh1ZqFEZR7hYF8nFo4hRIUbMrZUg1',
+    'INT_clientID': '0oa1x2zmxc0aG0nGL0h8',
+    'INT_secret': 'PW1SWtmAjEUogHvgo73Y8c6gErKylehAsgshvNqvX25vXOdIG2-VoecPQrF6wVfx',
+    'json_body': {"grant_type": "client_credentials", "scope": "spa"},
+    'receiving_api': 'https://api-ppd.spo.pitneybowes.com/fireball',
+    'devicehub_api': 'https://api-ppd.spo.pitneybowes.com/devicehub'
+}

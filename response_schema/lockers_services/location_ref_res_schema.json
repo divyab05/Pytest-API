@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "locations": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "locationID": {
+              "type": "string"
+            },
+            "status": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "locationID",
+            "status"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "locations"
+  ]
+}

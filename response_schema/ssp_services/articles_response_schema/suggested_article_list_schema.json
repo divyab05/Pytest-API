@@ -1,0 +1,63 @@
+{
+"type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "articles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                },
+                "plans": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "countryCode": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "title",
+                "url",
+                "plans",
+                "countryCode"
+              ]
+            }
+          }
+        },
+        "required": [
+          "key",
+          "title",
+          "url",
+          "articles"
+        ]
+      }
+    }
+  },
+  "required": [
+    "items"
+  ]
+}

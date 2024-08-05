@@ -1,0 +1,110 @@
+{
+  "type": "object",
+  "properties": {
+    "pageInfo": {
+      "type": "object",
+      "properties": {
+        "totalCount": {
+          "type": "number"
+        },
+        "startCount": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        }
+      }
+    },
+    "contacts": {
+      "type": "array",
+      "properties": {
+        "contactId": {
+          "type": "number"
+        },
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "subscriptionId": {
+          "type": "string"
+        },
+        "locationID": {
+          "type": "string"
+        },
+        "divisionId": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "string"
+        },
+        "contactType": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "addresses": {
+          "type": "array"
+        },
+        "emails": {
+          "type": "array",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "email"
+          ]
+        },
+        "phones": {
+          "type": "array",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "label": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "internalDelivery": {
+        "type": "boolean"
+      },
+      "personalID": {
+        "type": "string"
+      },
+       "officeLocationID": {
+        "type": "string"
+      },
+       "mailstopID": {
+        "type": "string"
+      },
+      "insertTimestamp": {
+        "type": "date-time"
+      },
+      "updateTimestamp": {
+        "type": "date-time"
+      },
+      "archived": {
+        "type": "boolean"
+      },
+      "private": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "locationID",
+      "contactId"
+    ]
+  }
+}

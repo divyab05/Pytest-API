@@ -1,0 +1,66 @@
+{
+  "pcnID": "",
+  "units": [
+    {
+      "row": 1,
+      "accessible": false,
+      "enabled": true,
+      "size": "medium"
+    },
+    {
+      "row": 2,
+      "accessible": false,
+      "enabled": true,
+      "size": "medium"
+    },
+    {
+      "row": 3,
+      "accessible": false,
+      "enabled": true,
+      "size": "mlarge"
+    },
+    {
+      "row": 4,
+      "accessible": true,
+      "enabled": true,
+      "size": "medium"
+    },
+    {
+      "row": 5,
+      "accessible": true,
+      "enabled": true,
+      "size": "large"
+    }
+  ],
+  "columnWidth": 21,
+  "lockerTypes": ["Standard"],
+  "supportedSize": [
+    {
+      "size": "medium",
+      "uom": "in",
+      "dimension": {
+        "length": 22.75,
+        "width": 16.5,
+        "height": 7
+      }
+    },
+    {
+      "size": "large",
+      "uom": "in",
+      "dimension": {
+        "length": 22.75,
+        "width": 16.5,
+        "height": 14
+      }
+    },
+    {
+      "size": "mlarge",
+      "uom": "in",
+      "dimension": {
+        "length": 22.75,
+        "width": 16.5,
+        "height": 17.5
+      }
+    }
+  ]
+}

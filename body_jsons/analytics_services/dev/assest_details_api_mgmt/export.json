@@ -1,0 +1,119 @@
+{
+	"recvProductsApiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"aggregationTypesEnum": "NONE",
+		"groupByCriteria": {
+			"groupByColumns": [
+				"dim_year",
+				"derived_package_status_2"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"dim_year",
+				"derived_package_status_2"
+			]
+		},
+		"offset": -5.5,
+		"queryType": "LATEST_DATA_QUERY",
+		"responseType": "OVERALL_SUMMARY",
+		"subFilter": {
+			"productIds": [],
+			"psdPcns": [],
+			"spendType": []
+		},
+		"selectQueryColumnsList": [
+			"dim_year",
+			"derived_package_status_2"
+		],
+		"filtersGroup": {},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220725",
+			"country": "US",
+			"source": [
+				"SSTO",
+				"ILP"
+			],
+			"startdate": "20220101"
+		}
+	},
+	"reportColumns": {
+		"dim_year": {
+			"label": "by Year",
+			"value": "dim_year",
+			"name": "by Year",
+			"aggregationType": "count",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"no_of_packages": {
+			"label": "Received",
+			"value": "no_of_packages",
+			"name": "Received",
+			"aggregationType": "count",
+			"description": "",
+			"order": 1,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"no_of_parcels_placed_in_locker": {
+			"label": "Placed Into Locker",
+			"value": "no_of_parcels_placed_in_locker",
+			"name": "Placed Into Locker",
+			"aggregationType": "count",
+			"description": "",
+			"order": 2,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"no_of_parcels_attempted": {
+			"label": "Attempted",
+			"value": "no_of_parcels_attempted",
+			"name": "Attempted",
+			"aggregationType": "count",
+			"description": "",
+			"order": 3,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"no_of_parcels_undelivered": {
+			"label": "Not Delivered",
+			"value": "no_of_parcels_undelivered",
+			"name": "Not Delivered",
+			"aggregationType": "count",
+			"description": "",
+			"order": 4,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		},
+		"no_of_parcels_delivered": {
+			"label": "Delivered",
+			"value": "no_of_parcels_delivered",
+			"name": "Delivered",
+			"aggregationType": "count",
+			"description": "",
+			"order": 5,
+			"dataType": "Integer",
+			"parentElement": "Other Fields"
+		}
+	}
+}

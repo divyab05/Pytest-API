@@ -1,0 +1,23 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pageNumber": {
+      "type": "integer"
+    },
+    "pagesAvailable": {
+      "type": "integer"
+    },
+    "pageItems": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "pageNumber",
+    "pagesAvailable",
+    "pageItems"
+  ]
+}

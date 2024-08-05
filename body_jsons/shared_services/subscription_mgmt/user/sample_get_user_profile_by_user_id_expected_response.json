@@ -1,0 +1,24 @@
+{
+  "id": "should_not_be_null",
+  "analyticsRollupBy": "should_not_be_null",
+  "rollupEntity": ["should_not_be_null"],
+  "adminLevelAt": "should_not_be_null",
+  "adminLevelEntity": ["should_not_be_null"],
+  "recUID": "only_digits",
+  "profile": {
+    "firstName": "should_not_be_null",
+    "lastName": "should_not_be_null",
+    "email": "should_not_be_null",
+    "login": "should_not_be_null",
+    "displayName": "should_not_be_null",
+    "status": "should_not_be_null"
+  },
+  "groupIds": ["should_not_be_null"],
+  "active": true,
+  "lastLogin": "should_not_be_null",
+  "customTemplate": {},
+  "credentials": {
+    "password": {}
+  },
+  "firstLogin": "should_not_be_null"
+}

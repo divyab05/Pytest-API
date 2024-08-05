@@ -1,0 +1,242 @@
+{
+	"apiRequest": {
+		"aggregationType": {
+			"aggregationTypesEnum": "NONE"
+		},
+		"groupByCriteria": {
+			"groupByColumns": [
+				"location_city",
+				"location_state"
+			]
+		},
+		"orderByCriteria": {
+			"orderByColumns": [
+				"location_city",
+				"location_state"
+			]
+		},
+		"responseType": "DETAILS",
+		"subFilter": {
+			"spendType": [
+				"mailing",
+				"shipping"
+			],
+			"productIds": []
+		},
+		"selectQueryColumnsList": [
+			"piece_count",
+			"postage_spend",
+			"postage_saving",
+			"avg_spend",
+			"last_transaction_date",
+			"base_rate",
+			"fee_amount",
+			"surcharges_amount",
+			"mailing_piece_count",
+			"shipping_piece_count",
+			"transaction_end_time",
+			"transaction_start_time",
+			"cost_account_id",
+			"cost_account_name",
+			"cost_account_path",
+			"l1_account_code",
+			"l1_account_name",
+			"l2_account_code",
+			"l2_account_name",
+			"l3_account_code",
+			"street1",
+			"street2",
+			"country",
+			"location_city",
+			"location_state",
+			"product_id"
+		],
+		"filtersGroup": {},
+		"filter": {
+			"divisionIds": [
+				"j6dnBl3GeKZ",
+				"Auto_Import_Div",
+				"LX1p6lxjxzJ",
+				"12",
+				"Index_Test_Div",
+				"GprG6GZWWvV",
+				"4K2RJ0dMeaM",
+				"0JMVOoByMyw",
+				"supplies_div",
+				"z74bAKVpOOQ",
+				"TestId01",
+				"gKdQVvGJq2r"
+			],
+			"startDate": "20220101",
+			"endDate": "20220725",
+			"country": "US",
+			"startdate": "20220101"
+		}
+	},
+	"reportColumns": {
+		"location_city": {
+			"label": "City",
+			"value": "location_city",
+			"name": "City",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 0,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields",
+			"isGroupedCol": false
+		},
+		"location_state": {
+			"label": "State",
+			"value": "location_state",
+			"name": "State",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 1,
+			"dataType": "String",
+			"parentElement": "Meter & Location Fields",
+			"isGroupedCol": false
+		},
+		"country": {
+			"label": "Country",
+			"value": "country_code",
+			"name": "Country",
+			"aggregationType": "",
+			"description": "",
+			"order": 2,
+			"dataType": "String",
+			"parentElement": "Other Fields"
+		},
+		"base_rate": {
+			"label": "Base Amount",
+			"value": "base_rate",
+			"name": "Base Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 3,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"fee_amount": {
+			"label": "Extra Services Amount",
+			"value": "fee_amount",
+			"name": "Extra Services Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 4,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"surcharges_amount": {
+			"label": "Surcharges Amount",
+			"value": "surcharges_amount",
+			"name": "Surcharges Amount",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 5,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"postage_spend": {
+			"label": "Total Spend",
+			"value": "postage_spend",
+			"name": "Total Spend",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 6,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"shipping_piece_count": {
+			"label": "Shipping Count",
+			"value": "shipping_piece_count",
+			"name": "Shipping Count",
+			"aggregationType": "count",
+			"description": "",
+			"order": 7,
+			"dataType": "Integer",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"mailing_piece_count": {
+			"label": "Mailing Count",
+			"value": "mailing_piece_count",
+			"name": "Mailing Count",
+			"aggregationType": "count",
+			"description": "",
+			"order": 8,
+			"dataType": "Integer",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"piece_count": {
+			"label": "Total Piece Count",
+			"value": "piece_count",
+			"name": "Total Piece Count",
+			"aggregationType": "count",
+			"description": "",
+			"order": 9,
+			"dataType": "Integer",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"avg_spend": {
+			"label": "Average Spend",
+			"value": "avg_spend",
+			"name": "Average Spend",
+			"aggregationType": "averagePieces",
+			"description": "",
+			"order": 10,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"postage_saving": {
+			"label": "Total Saving",
+			"value": "postage_saving",
+			"name": "Total Saving",
+			"aggregationType": "sum",
+			"description": "",
+			"order": 11,
+			"dataType": "Double",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"transaction_start_time": {
+			"label": "Transaction Start Time",
+			"value": "transaction_start_time",
+			"name": "Transaction Start Time",
+			"aggregationType": "date",
+			"description": "",
+			"order": 12,
+			"dataType": "Date",
+			"parentElement": "Time & Time Periods Fields",
+			"isGroupedCol": false
+		},
+		"transaction_end_time": {
+			"label": "Transaction End Time",
+			"value": "transaction_end_time",
+			"name": "Transaction End Time",
+			"aggregationType": "date",
+			"description": "",
+			"order": 13,
+			"dataType": "Date",
+			"parentElement": "Other Fields",
+			"isGroupedCol": false
+		},
+		"last_transaction_date": {
+			"label": "Last Transaction Date",
+			"value": "last_transaction_date",
+			"name": "Last Transaction Date",
+			"aggregationType": "date",
+			"description": "",
+			"order": 14,
+			"dataType": "Date",
+			"parentElement": "",
+			"isGroupedCol": false
+		}
+	}
+}

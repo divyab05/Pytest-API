@@ -1,0 +1,221 @@
+{
+  "recvProductsApiRequest": {
+    "aggregationType": {
+      "aggregationTypesEnum": "NONE"
+    },
+    "aggregationTypesEnum": "NONE",
+    "groupByCriteria": {
+      "groupByColumns": [
+        "dim_year"
+      ]
+    },
+    "orderByCriteria": {
+      "orderByColumns": [
+        "dim_year"
+      ]
+    },
+    "offset": 0,
+    "queryType": "LATEST_DATA_QUERY",
+    "responseType": "OVERALL_SUMMARY",
+    "subFilter": {
+      "productIds": [
+        "0369980_4W00",
+        "PS",
+        "4887646_1W05",
+        "1151103_1H00",
+        "1368147_1W00",
+        "4887657_1W05",
+        "PSPMT",
+        "4898040_6W00",
+        "0336667_4W00",
+        "4288261_1M00",
+        "0617506_K7M0",
+        "1131912_4W05",
+        "0389465_4W00",
+        "0355039_4W00",
+        "1131914_4W05",
+        "1372844_1W00",
+        "1403634_1W00",
+        "0876016_G900",
+        "1150982_1H00",
+        "0369423_4W00",
+        "0887782_G900",
+        "1363896_1W00",
+        "1396102_1W00",
+        "1403791_1W00",
+        "4887627_1W05",
+        "4887652_1W05",
+        "0294743_P700",
+        "0374382_4W00",
+        "8026552_7W00",
+        "0083854_HZ00",
+        "1131909_4W05",
+        "5096466_PREC",
+        "0385529_4W00",
+        "3009688_1R0T",
+        "1131934_4W05",
+        "1305684_7H00",
+        "4288369_1M00",
+        "1131928_4W05",
+        "0946492_G900",
+        "1387506_1W00",
+        "0359234_4W00",
+        "0335821_4W00",
+        "8028244_7W00",
+        "SP",
+        "1403580_1W00",
+        "361_CSMV",
+        "8026551_7W00",
+        "6055629_7H00",
+        "0370497_4W00",
+        "4741503_PR00",
+        "8026546_7W00",
+        "1660907_P700",
+        "0632274_K7M0",
+        "0355042_4W00",
+        "4262438_1M00",
+        "4287132_1M00",
+        "8026542_7W00",
+        "0348390_4W00",
+        "8026247_7W00",
+        "1255502_7H00",
+        "1396985_1W00",
+        "1131922_4W05",
+        "0344437_4W00",
+        "1131915_4W05",
+        "1387469_1W00",
+        "1396029_1W00",
+        "8026553_7W00",
+        "4887649_1W05",
+        "0335358_4W00",
+        "1403291_1W00",
+        "8026233_7W00",
+        "3209564_G900",
+        "0373344_4W00",
+        "1931131_PR00",
+        "4886969_1W05",
+        "0335362_4W00",
+        "0369981_4W00",
+        "1403629_1W00",
+        "1387468_1W00",
+        "3003645_1R0T",
+        "1387765_1W00",
+        "1123_B103",
+        "1397004_1W00",
+        "0387888_4W00",
+        "1131901_4W05",
+        "8027104_7W00",
+        "8026248_7W00",
+        "4887606_1W05",
+        "8028356_7W00"
+      ],
+      "psdPcns": [],
+      "productDisplayName": "PSP - 9534",
+      "isExcludedProducts": true
+    },
+    "selectQueryColumnsList": [
+      "dim_year"
+    ],
+    "filtersGroup": {},
+    "filter": {
+      "divisionIds": [
+        "jL9D1qaJZP2",
+        "div_Surchar1",
+        "JYjAWRDeAWq",
+        "23",
+        "P-Series_div",
+        "div_one",
+        "4545",
+        "810D47m6WG9",
+        "3YVxnqG2dgv",
+        "spadivision",
+        "spadivisionnew",
+        "mailcenter",
+        "J1BQWneZpxN",
+        "JX5PoEV8Mmo",
+        "MGa4Gkr8x9j"
+      ],
+      "startDate": "20220101",
+      "endDate": "20220531",
+      "country": "US",
+      "source": [
+        "SSTO",
+        "ILP"
+      ],
+      "startdate": "20220101"
+    }
+  },
+  "reportColumns": {
+    "dim_year": {
+      "label": "by Year",
+      "value": "dim_year",
+      "name": "by Year",
+      "aggregationType": "count",
+      "description": "",
+      "order": 0,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "no_of_parcels_placed_in_locker": {
+      "label": "Placed Into Locker",
+      "value": "no_of_parcels_placed_in_locker",
+      "name": "Placed Into Locker",
+      "aggregationType": "count",
+      "description": "",
+      "order": 1,
+      "dataType": "Integer",
+      "parentElement": "Other Fields"
+    },
+    "no_of_parcels_attempted": {
+      "label": "Attempted",
+      "value": "no_of_parcels_attempted",
+      "name": "Attempted",
+      "aggregationType": "count",
+      "description": "",
+      "order": 2,
+      "dataType": "Integer",
+      "parentElement": "Other Fields"
+    },
+    "no_of_parcels_undelivered": {
+      "label": "Undelivered",
+      "value": "no_of_parcels_undelivered",
+      "name": "Undelivered",
+      "aggregationType": "count",
+      "description": "",
+      "order": 3,
+      "dataType": "Integer",
+      "parentElement": "Other Fields"
+    },
+    "no_of_parcels_delivered": {
+      "label": "Delivered",
+      "value": "no_of_parcels_delivered",
+      "name": "Delivered",
+      "aggregationType": "count",
+      "description": "",
+      "order": 4,
+      "dataType": "Integer",
+      "parentElement": "Other Fields"
+    },
+    "no_of_parcels_refused": {
+      "label": "Refused",
+      "value": "no_of_parcels_refused",
+      "name": "Refused",
+      "aggregationType": "count",
+      "description": "",
+      "order": 5,
+      "dataType": "Integer",
+      "parentElement": "Other Fields"
+    }
+  },
+  "delimeterConfigRequest": {
+    "DATE_FORMAT": "MMM/yyyy",
+    "DATE_SPACER": "SLASH",
+    "DELIMETER_FORMAT": "PIPE",
+    "TEXT_QUALIFIER": "DOUBLE_QUOTES",
+    "INCLUDE_TIMESTAMP": true,
+    "USE_TWELVE_HOUR_DISPLAY": false
+  },
+  "exportCustomConfigRequest": {
+    "INCLUDE_COLUMN_HEADER": true
+  }
+}

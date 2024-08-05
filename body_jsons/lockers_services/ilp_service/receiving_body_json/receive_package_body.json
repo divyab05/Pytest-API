@@ -1,0 +1,28 @@
+{
+    "asset": {
+        "trackingNumber": "",
+        "assetType": "PACKAGE",
+        "archived": false,
+        "damaged": false,
+        "timezone": -330,
+        "customFields": [],
+        "receiver": {
+            "contactID": ""
+        },
+        "currentLocation": {
+            "id": ""
+        },
+        "accountRef": {
+            "moreAccounting": false
+        },
+        "confirmationType": null,
+        "additionalConfirmationType": null
+    },
+    "activity": {
+        "status": "RECEIVED",
+        "location": {
+            "id": ""
+        }
+    },
+    "images": []
+}

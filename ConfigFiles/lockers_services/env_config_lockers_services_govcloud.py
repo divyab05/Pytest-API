@@ -1,0 +1,22 @@
+ppd_config = {
+    'username': 'ilp.automation@yopmail.com',
+    'enc_pwd': 'Aqswde@123',
+    'Project': 'lockers_services',
+    'product_name': 'govcloud',
+    'base_api': 'https://api-ppd.sendpro360gc.pitneycloud.com/locker',
+    'ilp_lms': 'https://api-ppd.sendpro360gc.pitneycloud.com/ilp',
+    'login_api': 'https://login2-api-stg.saase2e.pitneycloud.com',
+    'login_origin_url': 'https://login2-stg.saase2e.pitneycloud.com',
+    'env': 'PPD',
+    'CLIENTUSERNAME': "ilpapiautomation@yopmail.com",
+    'client_pwd': 'Aqswde@123',
+    'X-PB-TransactionId': 'lockers_{unique_no}',
+    'oauth_2.0': 'https://sso-ppd.sendpro360gc.pitneycloud.com/oauth2/ausgc8bwulF44wzFt0j6/v1/token',
+    'ILP_clientID': '0oaj1ij81HmGZUyPa0j6',
+    'ILP_secret': 'vSc098cu6LacTGjnLkdfHKMZQfMtAVg-4SPyG0QnPMTc--EakEn1MZWxWHhC-wrs',
+    'INT_clientID': '0oaj1ijaoJYuebb0T0j6',
+    'INT_secret': 'VzmITHxHz8MMjJntC_-2xgc7BHUmC9pRTFhHXplSU9sBk2zyyb9asmPazYg9uRaR',
+    'json_body': {"grant_type": "client_credentials", "scope": "spa"},
+    'receiving_api': 'https://api-ppd.sendpro360gc.pitneycloud.com/fireball',
+    'devicehub_api': 'https://api-ppd.sendpro360gc.pitneycloud.com/devicehub'
+}

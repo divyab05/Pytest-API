@@ -1,0 +1,17 @@
+{
+    "name": "sp360-sso-ymail",
+    "products": [
+        "sp360-webapp-ps",
+        "sp360-ilp",
+        "sp360-receiving-mobile",
+        "sp360-device-hub",
+        "sp360-webapp-ps-us",
+        "sp360-webapp-ps-ca",
+        "sp360-sam-companion-us"
+    ],
+    "type": "cognitoSSO",
+    "domains": [
+        "ymail.rr.nu"
+    ],
+    "idp": "ymail.rr.nu"
+}

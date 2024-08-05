@@ -1,0 +1,58 @@
+{
+  "type": "S",
+  "company": "Test",
+  "name": "dd",
+  "contactType": "Recipient",
+  "internalDelivery": false,
+  "perosnalID": "ID1",
+  "officeLocationID": "AB102",
+  "notificationAll": true,
+  "accessibility": true,
+  "addresses": [
+    {
+      "label": "sd",
+      "residential": false,
+      "addressLine1": " 27 Waterview Dr2",
+      "city": "Shelton",
+      "state": "CT",
+      "postalCode": "11234",
+      "countryCode": "US",
+      "default": true
+    },
+    {
+      "label": "Work",
+      "residential": false,
+      "addressLine1": " 27 Waterview Dr",
+      "city": "Shelton",
+      "state": "CT",
+      "postalCode": "11234",
+      "countryCode": "US",
+      "verificationState": false,
+      "default": true
+    }
+  ],
+  "emails": [
+    {
+      "label": "Home",
+      "email": "ABC@pb.com",
+      "default": true
+    },
+    {
+      "label": "Work",
+      "email": "ABC@pb.com",
+      "default": true
+    }
+  ],
+  "phones": [
+    {
+      "label": "Home",
+      "phone": "XXXX1XX",
+      "default": true
+    },
+    {
+      "label": "Work",
+      "phone": "XXXXXXX",
+      "default": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Test_Account_Auto3352",
+    "code": "Code_AUT1712",
+    "billable": false,
+    "description": "",
+    "status": true,
+    "permission": {
+        "permissionByEntity": "E",
+        "permissionByValue": [
+            "7923"
+        ]
+    },
+    "accountID": "",
+    "passwordCode": "test@123",
+    "passwordEnabled": false,
+    "parent": ""
+}

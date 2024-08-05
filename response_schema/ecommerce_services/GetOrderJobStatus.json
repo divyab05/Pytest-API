@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "integratorId": {
+      "type": "string"
+    },
+    "subscriptionId": {
+      "type": "string"
+    },
+    "X-PB-TransactionId": {
+      "type": "string"
+    },
+    "jobStatus": {
+      "type": "string"
+    },
+    "recordId": {
+      "type": "string"
+    },
+    "dataUrl": {
+      "type": "string"
+    },
+    "jobStartedTime": {
+      "type": "string"
+    },
+    "jobCompletedTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "integratorId",
+    "subscriptionId",
+    "X-PB-TransactionId",
+    "jobStatus",
+    "jobStartedTime"
+  ]
+}

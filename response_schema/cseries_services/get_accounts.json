@@ -1,0 +1,37 @@
+{
+  "accountNumber": "should_not_be_null",
+  "name": "should_not_be_null",
+  "paymentAccountId": "should_not_be_null",
+  "feesPercentage": "skip",
+  "prepayBalance": "skip",
+  "paymentType": "should_not_be_null",
+  "paymentDetails": {
+    "displayPaymentNumber": "only_digits",
+    "expiryMonth": "only_digits",
+    "expiryYear": "only_digits",
+    "paymentMethod": "should_not_be_null",
+    "paymentAccountId": "skip"
+  },
+  "billingAddress": {
+    "city": "should_not_be_null",
+    "company": "skip",
+    "countryName": "should_not_be_null",
+    "email": "should_not_be_null",
+    "firstName": "skip",
+    "fullName": "skip",
+    "isoCountry": "should_not_be_null",
+    "lastLineOnly": "skip",
+    "lastName": "skip",
+    "middleName": "skip",
+    "phone": "should_not_be_null",
+    "postalCode": "should_not_be_null",
+    "residential": "should_not_be_null",
+    "state": "should_not_be_null",
+    "streetLine1": "should_not_be_null",
+    "streetLine2": "skip",
+    "streetLine3": null,
+    "streetLine4": null,
+    "type": "",
+    "verified": "should_not_be_null"
+  }
+}

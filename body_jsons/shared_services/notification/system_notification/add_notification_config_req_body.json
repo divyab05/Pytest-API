@@ -1,0 +1,26 @@
+{
+	"name": "April USPS Rate Change01",
+	"type": "SYSTEM",
+	"description": "Inform users about the April USPS rate change",
+	"isCustom": false,
+    "parentPlan": "SPONG",
+    "priority": "INFORMATIONAL",
+    "customTypeInputs": {
+			"customAttributes": {
+							"displayType": "FEATURE_RELATED_INFO",
+                            "effectiveTime": "2022-03-30T10:47:37.176Z",
+                            "expiryTime": "2023-04-30T10:47:37.176Z",
+							"acknowledgementRequired": "false"
+						  }
+	},
+    "notificationConfigDetail": [
+        {
+            "templateName": "USPS_Standard_Rate_Inapp",
+            "templateBody": "New USPS Non-Standard Dimension and Volume Fees will go into effect on April 3rd. Learn more <a href='https://www.pitneybowes.com/us/postal-information/usps-non-standard-fees.html' target='_blank'> here</a>",
+            "channel": "INAPP",
+            "paramList": [],
+            "notificationSendAgent": "GEC",
+            "templateSubject": "USPS Standard Rate Changes"
+        }
+    ]
+}

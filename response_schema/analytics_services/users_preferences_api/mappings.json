@@ -1,0 +1,1025 @@
+{
+	"type": "array",
+	"items": [
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"": {
+							"type": "string"
+						},
+						"open_cases": {
+							"type": "string"
+						},
+						"service_call": {
+							"type": "string"
+						},
+						"closed_cases": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"otherSerTotal": {
+							"type": "string"
+						},
+						"pending_cases": {
+							"type": "string"
+						},
+						"days_to_close": {
+							"type": "string"
+						},
+						"uiInvestTot": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"case_created_date": {
+							"type": "string"
+						},
+						"work_order_closed_date": {
+							"type": "string"
+						},
+						"work_order_number": {
+							"type": "string"
+						},
+						"work_order_creation_date": {
+							"type": "string"
+						},
+						"Reasons__c": {
+							"type": "string"
+						},
+						"case_status": {
+							"type": "string"
+						},
+						"description": {
+							"type": "string"
+						},
+						"case_number": {
+							"type": "string"
+						},
+						"product_name": {
+							"type": "string"
+						},
+						"case_closed_date": {
+							"type": "string"
+						},
+						"Subject": {
+							"type": "string"
+						},
+						"work_order_status": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"cost_account_id": {
+							"type": "string"
+						},
+						"reference3": {
+							"type": "string"
+						},
+						"carrier_service": {
+							"type": "string"
+						},
+						"reference4": {
+							"type": "string"
+						},
+						"destination_zip": {
+							"type": "string"
+						},
+						"difference_delivery": {
+							"type": "string"
+						},
+						"memo": {
+							"type": "string"
+						},
+						"sender_name": {
+							"type": "string"
+						},
+						"reference1": {
+							"type": "string"
+						},
+						"shipment_date": {
+							"type": "string"
+						},
+						"reference2": {
+							"type": "string"
+						},
+						"transportation_reference": {
+							"type": "string"
+						},
+						"shipping_notes": {
+							"type": "string"
+						},
+						"estimated_delivery_date": {
+							"type": "string"
+						},
+						"subscription_id": {
+							"type": "string"
+						},
+						"tracking_number": {
+							"type": "string"
+						},
+						"base_charge": {
+							"type": "string"
+						},
+						"shipper_reference": {
+							"type": "string"
+						},
+						"surcharges_fee": {
+							"type": "string"
+						},
+						"bpn": {
+							"type": "string"
+						},
+						"actual_delivery_date": {
+							"type": "string"
+						},
+						"shipment_id": {
+							"type": "string"
+						},
+						"package_weight": {
+							"type": "string"
+						},
+						"recipient_name": {
+							"type": "string"
+						},
+						"total_package_charge": {
+							"type": "string"
+						},
+						"delivery_status": {
+							"type": "string"
+						},
+						"carrier_code": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"postage_spend": {
+							"type": "string"
+						},
+						"shipping_piece_count": {
+							"type": "string"
+						},
+						"piece_count": {
+							"type": "string"
+						},
+						"transaction_start_time": {
+							"type": "string"
+						},
+						"transaction_end_time": {
+							"type": "string"
+						},
+						"avg_spend": {
+							"type": "string"
+						},
+						"postage_saving": {
+							"type": "string"
+						},
+						"last_transaction_date": {
+							"type": "string"
+						},
+						"fee_amount": {
+							"type": "string"
+						},
+						"base_rate": {
+							"type": "string"
+						},
+						"product_id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"surcharges_amount": {
+							"type": "string"
+						},
+						"mailing_piece_count": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"kpisList": {
+					"type": "object",
+					"properties": {
+						"0": {
+							"type": "string"
+						},
+						"1": {
+							"type": "string"
+						},
+						"2": {
+							"type": "string"
+						},
+						"3": {
+							"type": "string"
+						},
+						"4": {
+							"type": "string"
+						},
+						"5": {
+							"type": "string"
+						},
+						"6": {
+							"type": "string"
+						},
+						"7": {
+							"type": "string"
+						},
+						"8": {
+							"type": "string"
+						},
+						"9": {
+							"type": "string"
+						},
+						"10": {
+							"type": "string"
+						},
+						"11": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"bill_to_bpn": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"service_payments": {
+							"type": "string"
+						},
+						"valuemax_payments": {
+							"type": "string"
+						},
+						"spi_status": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"intellilink_payments": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"softguard_payments": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"billing_frequency": {
+							"type": "string"
+						},
+						"remaining_contract_term": {
+							"type": "string"
+						},
+						"billing_frequency_payments": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"err_payments": {
+							"type": "string"
+						},
+						"ship_to_location": {
+							"type": "string"
+						},
+						"inview_payments": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"equipment_lease_payments": {
+							"type": "string"
+						},
+						"meter_payments": {
+							"type": "string"
+						},
+						"miscellaneous_payments": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"billing_frequency": {
+							"type": "string"
+						},
+						"contract_end_date": {
+							"type": "string"
+						},
+						"postage_by_phone": {
+							"type": "string"
+						},
+						"contract_number": {
+							"type": "string"
+						},
+						"customer_name_2": {
+							"type": "string"
+						},
+						"contract_term": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						},
+						"annual_lease_payments": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"latest_dim_date_key": {
+							"type": "string"
+						},
+						"latest_di_desc_register_amount": {
+							"type": "string"
+						},
+						"latest_psd_model": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"total_postage": {
+							"type": "string"
+						},
+						"total_refill": {
+							"type": "string"
+						},
+						"start_fund": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"end_fund": {
+							"type": "string"
+						},
+						"product_name": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"contract_end_date": {
+							"type": "string"
+						},
+						"total_monthly_payments": {
+							"type": "string"
+						},
+						"street_3": {
+							"type": "string"
+						},
+						"contract_status": {
+							"type": "string"
+						},
+						"customer_name": {
+							"type": "string"
+						},
+						"yearly_payment_1": {
+							"type": "string"
+						},
+						"yearly_payment": {
+							"type": "string"
+						},
+						"yearly_payment_2": {
+							"type": "string"
+						},
+						"ship_to_bpn": {
+							"type": "string"
+						},
+						"yearly_payment_3": {
+							"type": "string"
+						},
+						"contract_start_date": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"": {
+							"type": "string"
+						},
+						"intransit_time": {
+							"type": "string"
+						},
+						"carrier": {
+							"type": "string"
+						},
+						"clerk_name": {
+							"type": "string"
+						},
+						"package_status": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"recipient_name": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"small_locker_size_requested": {
+							"type": "string"
+						},
+						"large_locker_size_requested": {
+							"type": "string"
+						},
+						"medium_locker_size_requested": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"no_of_parcels_undelivered": {
+							"type": "string"
+						},
+						"no_of_parcels_attempted": {
+							"type": "string"
+						},
+						"no_of_parcels_delivered": {
+							"type": "string"
+						},
+						"no_of_parcels_placed_in_locker": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"no_of_packages": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"": {
+							"type": "string"
+						},
+						"location_full_name": {
+							"type": "string"
+						},
+						"carrier": {
+							"type": "string"
+						},
+						"total": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"sender_name": {
+							"type": "string"
+						},
+						"recipient_name": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"refundCount": {
+							"type": "string"
+						},
+						"refillAmount": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"refillCount": {
+							"type": "string"
+						},
+						"avgRefillAmount": {
+							"type": "string"
+						},
+						"lastTransactionTime": {
+							"type": "string"
+						},
+						"refunds": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"columnsList": {
+					"type": "object",
+					"properties": {
+						"account_id": {
+							"type": "string"
+						},
+						"balance_available": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"available_credit": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		},
+		{
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "object",
+					"properties": {
+						"context": {
+							"type": "string"
+						},
+						"userId": {
+							"type": "string"
+						}
+					}
+				},
+				"enterpriseId": {
+					"type": "string"
+				},
+				"kpisList": {
+					"type": "object",
+					"properties": {
+						"0": {
+							"type": "string"
+						},
+						"1": {
+							"type": "string"
+						},
+						"2": {
+							"type": "string"
+						},
+						"3": {
+							"type": "string"
+						},
+						"4": {
+							"type": "string"
+						},
+						"5": {
+							"type": "string"
+						},
+						"6": {
+							"type": "string"
+						},
+						"7": {
+							"type": "string"
+						},
+						"8": {
+							"type": "string"
+						}
+					}
+				},
+				"createDate": {
+					"type": "string"
+				},
+				"updateDate": {
+					"type": "string"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "should_not_be_null",
+	"displayName": "should_not_be_null",
+	"email": "should_not_be_null",
+	"firstName": "should_not_be_null",
+	"lastName": "should_not_be_null",
+	"status": "Active",
+	"userName": "should_not_be_null",
+	"idpUserId": "skip",
+	"role": {
+		"id": "only_digits",
+		"roleName": "should_not_be_null",
+		"description": "skip"
+	},
+	"createdDate": "skip",
+	"analyticsRollupBy": "skip",
+	"rollupEntity": "skip",
+	"adminLevelAt": "skip",
+	"adminLevelEntity": "skip",
+	"recUID": "skip",
+	"groupIds": "skip",
+	"locId": "should_not_be_null",
+	"subId": "should_not_be_null",
+	"countryCode": "only_chars",
+	"firstLoginTime": "should_not_be_null",
+	"loggedInDays": "only_digits",
+	"lastLogin": "should_not_be_null"
+}

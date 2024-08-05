@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "properties": {
+    "manufacturerID": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "pairCode": {
+      "type": "string"
+    },
+    "clientID": {
+      "type": "string"
+    },
+    "expiresAt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "manufacturerID",
+    "url",
+    "pairCode",
+    "clientID",
+    "expiresAt"
+  ]
+}

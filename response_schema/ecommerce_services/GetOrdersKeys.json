@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "integratorId": {
+      "type": "string"
+    },
+    "subscriptionId": {
+      "type": "string"
+    },
+    "X-PB-TransactionId": {
+      "type": "string"
+    },
+    "dataSync": {
+      "type": "boolean"
+    },
+    "recordSyncTime": {
+      "type": "string"
+    },
+    "recordFetchTime": {
+      "type": "string"
+    },
+    "orders_count": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "type",
+    "source",
+    "integratorId",
+    "subscriptionId",
+    "X-PB-TransactionId",
+    "dataSync",
+    "recordSyncTime",
+    "recordFetchTime",
+    "orders_count"
+  ]
+}

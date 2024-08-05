@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "customFieldType": "TEXT",
+    "defaultValue": "",
+    "assignPageForm": [],
+    "stickyValue": false,
+    "recallLastValue": false,
+    "status": "ACTIVE",
+    "permission": {
+        "permissionByEntity": "",
+        "permissionByValue": []
+    },
+    "values": []
+}

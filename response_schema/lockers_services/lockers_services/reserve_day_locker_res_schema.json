@@ -1,0 +1,160 @@
+{
+  "type": "object",
+  "properties": {
+    "siteID": {
+      "type": "string"
+    },
+    "manufacturerID": {
+      "type": "string"
+    },
+    "manufacturerLockerID": {
+      "type": "string"
+    },
+    "assetsReserved": {
+      "type": "object",
+      "properties": {
+        "assets": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "primaryTrackingID": {
+                  "type": "string"
+                },
+                "secondaryTrackingID": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "primaryTrackingID",
+                "secondaryTrackingID"
+              ]
+            }
+          ]
+        },
+        "userID": {
+          "type": "string"
+        },
+        "recipient": {
+          "type": "object",
+          "properties": {
+            "recipientID": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "personalID": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "recipientID",
+            "firstName",
+            "email",
+            "personalID"
+          ]
+        },
+        "depositor": {
+          "type": "object",
+          "properties": {
+            "oneTimePin": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "oneTimePin"
+          ]
+        }
+      },
+      "required": [
+        "assets",
+        "userID",
+        "recipient",
+        "depositor"
+      ]
+    },
+    "assetsDeposited": {
+      "type": "object",
+      "properties": {
+        "parcels": {
+          "type": "null"
+        },
+        "userID": {
+          "type": "string"
+        },
+        "recipient": {
+          "type": "object"
+        },
+        "depositDate": {
+          "type": "string"
+        },
+        "staleMailReminder": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "parcels",
+        "userID",
+        "recipient",
+        "depositDate",
+        "staleMailReminder"
+      ]
+    },
+    "reservationType": {
+      "type": "string"
+    },
+    "reservedDate": {
+      "type": "string"
+    },
+    "expireReservedDate": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "wagoCardNumber": {
+      "type": "integer"
+    },
+    "wagoPortNumber": {
+      "type": "integer"
+    },
+    "wagoLockNumber": {
+      "type": "integer"
+    },
+    "wagoDeviceSerialNumber": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "siteID",
+    "manufacturerID",
+    "manufacturerLockerID",
+    "assetsReserved",
+    "assetsDeposited",
+    "reservationType",
+    "reservedDate",
+    "expireReservedDate",
+    "siteName",
+    "bankName",
+    "size",
+    "enabled",
+    "wagoCardNumber",
+    "wagoPortNumber",
+    "wagoLockNumber",
+    "wagoDeviceSerialNumber"
+  ]
+}

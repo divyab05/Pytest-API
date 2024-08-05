@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "articleNumber": {
+      "type": "string"
+    },
+    "CategoryName": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Short_Title__c": {
+      "type": "string"
+    },
+    "Environment_Details__c": {
+      "type": "string"
+    },
+    "Answer__c": {
+      "type": "string"
+    },
+    "Symptom__c": {
+      "type": "string"
+    },
+    "Problem__c": {
+      "type": "string"
+    },
+    "Solution__c": {
+      "type": "string"
+    },
+    "lastPublishedDate": {
+      "type": "string"
+    }
+  },
+  "required": ["articleNumber", "CategoryName","region","Title","Short_Title__c","Environment_Details__c","Answer__c","Symptom__c","Problem__c","Solution__c","lastPublishedDate"],
+  "additionalProperties": false
+}

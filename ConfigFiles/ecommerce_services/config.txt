@@ -1,0 +1,10 @@
+[Common_Variables]
+country_code = GB
+appid = 
+env = qa
+carrierid = usps
+
+[Email_Section]
+from_address = adheer.khandelwal@pb.com
+to_address = adheer.khandelwal@pb.com
+

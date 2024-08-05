@@ -1,0 +1,38 @@
+{
+  "login": "0000034405",
+  "id": null,
+  "firstName": "SPA Fed",
+  "lastName": "User6",
+  "displayName": "SPA Fed User6",
+  "email": "spauser6-fed@mailinator.com",
+  "enterpriseName": "VATest1",
+  "subscriptionRoles": ["USER"],
+  "active": true,
+  "recUID": null,
+  "fedexCarrier": false,
+  "UPSCarrier": false,
+  "USPSCarrier": false,
+  "fedexAccountNumber": null,
+  "UPSAccountNumber": null,
+  "USPSAccountNumber": null,
+  "locationID": "19pg1lzony8",
+  "costAccounts": null,
+  "carrierAccounts": null,
+  "defaultCostAccount": null,
+  "userProfile": {
+    "firstName": "SPA Fed",
+    "lastName": "User6",
+    "displayName": "SPA Fed User6",
+    "email": "spauser6-fed@mailinator.com",
+    "login": "0000034405"
+  },
+  "userPermissions": {},
+  "profile": {
+    "firstName": "SPA Fed",
+    "lastName": "User6",
+    "displayName": "SPA Fed User6",
+    "email": "spauser6-fed@mailinator.com",
+    "login": "0000034405"
+  },
+  "subID": "2918"
+}

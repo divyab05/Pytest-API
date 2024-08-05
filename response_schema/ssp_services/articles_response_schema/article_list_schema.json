@@ -1,0 +1,69 @@
+{
+  "type": "array",
+    "items": [
+    {
+      "type": "object",
+      "properties": {
+        "productName": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "shortDesc": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "object",
+          "properties": {
+            "Accounting": {
+              "type": "object",
+              "properties": {
+                "categoryDescription": {
+                  "type": "string"
+                },
+                "articleList": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "articleNumber": {
+                          "type": "string"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "productName": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "articleNumber",
+                        "title",
+                        "productName"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "categoryDescription",
+                "articleList"
+              ]
+            }
+          }
+        }
+      },
+      "required": [
+        "productName",
+        "region",
+        "categories"
+      ]
+    }
+  ]
+}

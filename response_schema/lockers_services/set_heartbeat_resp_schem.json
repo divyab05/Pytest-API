@@ -1,0 +1,339 @@
+{
+  "type": "object",
+  "properties": {
+    "accessCodeRequired": {
+      "type": "boolean"
+    },
+    "accessCardRequired": {
+      "type": "boolean"
+    },
+    "recipientPhotoRequired": {
+      "type": "boolean"
+    },
+    "recipientSignatureRequired": {
+      "type": "boolean"
+    },
+    "reopenDuration": {
+      "type": "integer"
+    },
+    "multiPackageEnabled": {
+      "type": "boolean"
+    },
+    "packagePhotoRequired": {
+      "type": "boolean"
+    },
+    "clientID": {
+      "type": "string"
+    },
+    "recipientBaseURL": {
+      "type": "string"
+    },
+    "lockerAppConfig": {
+      "type": "object",
+      "properties": {
+        "oktaDeviceSecret": {
+          "type": "string"
+        },
+        "oktaDeviceClientID": {
+          "type": "string"
+        },
+        "oktaDeviceGrantType": {
+          "type": "string"
+        },
+        "oktaDeviceScope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "oktaDeviceSecret",
+        "oktaDeviceClientID",
+        "oktaDeviceGrantType",
+        "oktaDeviceScope"
+      ]
+    },
+    "serviceConfig": {
+      "type": "object",
+      "properties": {
+        "oktaClientID": {
+          "type": "string"
+        },
+        "oktaSecret": {
+          "type": "string"
+        },
+        "oktaRedirectURL": {
+          "type": "string"
+        },
+        "oktaProductID": {
+          "type": "string"
+        },
+        "oktaWebLoginURL": {
+          "type": "string"
+        },
+        "oktaLoginFlowURL": {
+          "type": "string"
+        },
+        "oktaNonLoginFlowURL": {
+          "type": "string"
+        },
+        "oktaGrantType": {
+          "type": "string"
+        },
+        "oktaScope": {
+          "type": "string"
+        },
+        "userSaaSe2eURL": {
+          "type": "string"
+        },
+        "loginServiceURL": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "oktaClientID",
+        "oktaSecret",
+        "oktaRedirectURL",
+        "oktaProductID",
+        "oktaWebLoginURL",
+        "oktaLoginFlowURL",
+        "oktaNonLoginFlowURL",
+        "oktaGrantType",
+        "oktaScope",
+        "userSaaSe2eURL",
+        "loginServiceURL"
+      ]
+    },
+    "badgeSupport": {
+      "type": "boolean"
+    },
+    "badgeConfig": {
+      "type": "object",
+      "properties": {
+        "badgeServiceURL": {
+          "type": "string"
+        },
+        "badgeOktaLoginFlowURL": {
+          "type": "string"
+        },
+        "badgeOktaGrantType": {
+          "type": "string"
+        },
+        "badgeOktaScope": {
+          "type": "string"
+        },
+        "badgeOktaClientID": {
+          "type": "string"
+        },
+        "badgeOktaSecret": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "badgeServiceURL",
+        "badgeOktaLoginFlowURL",
+        "badgeOktaGrantType",
+        "badgeOktaScope",
+        "badgeOktaClientID",
+        "badgeOktaSecret"
+      ]
+    },
+    "bankName": {
+      "type": "string"
+    },
+    "tenantID": {
+      "type": "string"
+    },
+    "siteID": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    },
+    "deliveryEnabled": {
+      "type": "boolean"
+    },
+    "refrigeratedUnitsSupported": {
+      "type": "boolean"
+    },
+    "departmentMailDeliveryEnabled": {
+      "type": "boolean"
+    },
+    "shippingEnabled": {
+      "type": "boolean"
+    },
+    "unitSizes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "count": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "size",
+            "count"
+          ]
+        }
+      ]
+    },
+    "packageWithoutBarcodeEnabled": {
+      "type": "boolean"
+    },
+    "categorizeDepartmentMailEnabled": {
+      "type": "boolean"
+    },
+    "autoLockerSizeUpEnabled": {
+      "type": "boolean"
+    },
+    "expPackagePickupEnabled": {
+      "type": "boolean"
+    },
+    "reportProblemEnabled": {
+      "type": "boolean"
+    },
+    "departmentMailPickupEnabled": {
+      "type": "boolean"
+    },
+    "heartbeatPingIntervalInSec": {
+      "type": "integer"
+    },
+    "accessible": {
+      "type": "boolean"
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "company": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "residential": {
+          "type": "boolean"
+        },
+        "addressLines": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "cityTown": {
+          "type": "string"
+        },
+        "stateProvince": {
+          "type": "string"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "company",
+        "name",
+        "phone",
+        "email",
+        "residential",
+        "addressLines",
+        "cityTown",
+        "stateProvince",
+        "postalCode",
+        "countryCode"
+      ]
+    },
+    "localizationEnabled": {
+      "type": "boolean"
+    },
+    "demoMode": {
+      "type": "boolean"
+    },
+    "newLockerRender": {
+      "type": "boolean"
+    },
+    "dedicatedLockerEnabled": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "accessCodeRequired",
+    "accessCardRequired",
+    "recipientPhotoRequired",
+    "recipientSignatureRequired",
+    "reopenDuration",
+    "multiPackageEnabled",
+    "packagePhotoRequired",
+    "clientID",
+    "recipientBaseURL",
+    "lockerAppConfig",
+    "serviceConfig",
+    "badgeSupport",
+    "badgeConfig",
+    "bankName",
+    "tenantID",
+    "siteID",
+    "siteName",
+    "deliveryEnabled",
+    "refrigeratedUnitsSupported",
+    "departmentMailDeliveryEnabled",
+    "shippingEnabled",
+    "unitSizes",
+    "packageWithoutBarcodeEnabled",
+    "categorizeDepartmentMailEnabled",
+    "autoLockerSizeUpEnabled",
+    "expPackagePickupEnabled",
+    "reportProblemEnabled",
+    "departmentMailPickupEnabled",
+    "heartbeatPingIntervalInSec",
+    "accessible",
+    "address",
+    "localizationEnabled",
+    "demoMode",
+    "newLockerRender",
+    "dedicatedLockerEnabled"
+  ]
+}

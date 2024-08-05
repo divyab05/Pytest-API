@@ -1,0 +1,187 @@
+{
+  "type": "object",
+  "properties": {
+    "activities": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "updated": {
+              "type": "boolean"
+            },
+            "cancelActivity": {
+              "type": "object",
+              "properties": {
+                "cancelDate": {
+                  "type": "string"
+                },
+                "assetsReserved": {
+                  "type": "object",
+                  "properties": {
+                    "assets": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "primaryTrackingID": {
+                              "type": "string"
+                            },
+                            "secondaryTrackingID": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "primaryTrackingID",
+                            "secondaryTrackingID"
+                          ]
+                        }
+                      ]
+                    },
+                    "userID": {
+                      "type": "string"
+                    },
+                    "recipient": {
+                      "type": "object",
+                      "properties": {
+                        "recipientID": {
+                          "type": "string"
+                        },
+                        "firstName": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        },
+                        "mobilePhone": {
+                          "type": "string"
+                        },
+                        "personalID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "recipientID",
+                        "firstName",
+                        "email",
+                        "personalID"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "assets",
+                    "userID",
+                    "recipient"
+                  ]
+                }
+              },
+              "required": [
+                "cancelDate",
+                "assetsReserved"
+              ]
+            }
+          },
+          "required": [
+            "manufacturerLockerID",
+            "updated",
+            "cancelActivity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "updated": {
+              "type": "boolean"
+            },
+            "cancelActivity": {
+              "type": "object",
+              "properties": {
+                "cancelDate": {
+                  "type": "string"
+                },
+                "assetsReserved": {
+                  "type": "object",
+                  "properties": {
+                    "assets": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "primaryTrackingID": {
+                              "type": "string"
+                            },
+                            "secondaryTrackingID": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "primaryTrackingID",
+                            "secondaryTrackingID"
+                          ]
+                        }
+                      ]
+                    },
+                    "userID": {
+                      "type": "string"
+                    },
+                    "recipient": {
+                      "type": "object",
+                      "properties": {
+                        "recipientID": {
+                          "type": "string"
+                        },
+                        "firstName": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": "string"
+                        },
+                        "mobilePhone": {
+                          "type": "string"
+                        },
+                        "personalID": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "recipientID",
+                        "firstName",
+                        "email",
+                        "personalID"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "assets",
+                    "userID",
+                    "recipient"
+                  ]
+                }
+              },
+              "required": [
+                "cancelDate",
+                "assetsReserved"
+              ]
+            }
+          },
+          "required": [
+            "manufacturerLockerID",
+            "updated",
+            "cancelActivity"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "activities"
+  ]
+}

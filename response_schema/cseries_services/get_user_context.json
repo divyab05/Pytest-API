@@ -1,0 +1,60 @@
+{
+  "location": {
+    "address": {
+      "city": "skip",
+      "isoCountryCode2": "skip",
+      "postalCode": "skip",
+      "state": "skip",
+      "streetLine1": "skip",
+      "streetLine2": "skip",
+      "streetLine3": "skip",
+      "streetLine4": "skip"
+    },
+    "companyName": "skip",
+    "contactFullName": "skip",
+    "createdDate": "should_not_be_null",
+    "id": "should_not_be_null",
+    "isDefault": false,
+    "isGDAvailed": false,
+    "knownShipperId": "only_digits",
+    "knownShipperUser": "skip",
+    "knownShipperUserId": "skip",
+    "ledgerId": "should_not_be_null",
+    "locationName": "skip",
+    "locationState": "active",
+    "modifiedBy": "skip",
+    "modifiedDate": "should_not_be_null",
+    "phoneNumber": "skip",
+    "subscriptionId": "should_not_be_null",
+    "uspsPostageAccountNumber": "skip"
+  },
+  "context": {
+    "fraudTriggers": "skip",
+    "sessionTimeoutMillis": "only_digits"
+  },
+  "preferences": {
+    "alwaysShowLabelOptions": "skip",
+    "dimension": "only_chars",
+    "inductionPostalCode": "should_not_be_null",
+    "lastPrintActionUIPreference": "skip",
+    "lastUsedSenderAddressId": "skip",
+    "locale": "should_not_be_null",
+    "printReceiptShippingLabel": "skip",
+    "refundAppliedNotificationEmail": "skip",
+    "saveRecipientAddress": "skip",
+    "scanFormPrintingEnabled": "skip",
+    "emailPackageDeliveredEnabled": "skip",
+    "emailPackageSentEnabled": "skip",
+    "emailRecipientPackageDeliveredEnabled": "skip",
+    "emailRecipientPackageSentEnabled": "skip",
+    "labelPostageCostDisplay": "skip",
+    "labelPrintedEmailSubject": "skip",
+    "packageDeliveredEmailSubject": "skip",
+    "printShippingLabelSize": "should_not_be_null",
+    "upsDefaultProfileId": "skip",
+    "fedexDefaultProfileId": "skip",
+    "uspsDefaultProfileId": "skip",
+    "weight": "should_not_be_null"
+  },
+  "presetsJson": null
+}

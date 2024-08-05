@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "subscriptionId": {
+      "type": "string"
+    },
+    "automaticUpdatesDisabled": {
+      "type": "boolean"
+    },
+    "currentVersion": {
+      "type": "string"
+    },
+    "releaseDate": {
+      "type": "string"
+    },
+    "windowBuildLocation": {
+      "type": "string"
+    },
+    "macBuildLocation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "subscriptionId",
+    "automaticUpdatesDisabled",
+    "currentVersion",
+    "releaseDate",
+    "windowBuildLocation",
+    "macBuildLocation"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "size": "",
+  "accessible": null,
+  "refrigerated": null,
+  "lockerType": "",
+  "assetsReserved": {
+    "userID": "",
+    "recipient": {
+      "recipientID": "",
+      "email": ""
+    },
+    "assets": [
+      {
+        "primaryTrackingID": "",
+        "secondaryTrackingID": ""
+      }
+    ]
+  }
+}

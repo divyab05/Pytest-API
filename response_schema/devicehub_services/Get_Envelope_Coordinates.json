@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "serialNumber": {
+      "type": "string"
+    },
+    "peripheralId": {
+      "type": "string"
+    },
+    "envelope": {
+      "type": "object",
+      "properties": {
+        "ENV9": {
+          "type": "object",
+          "properties": {
+            "top": {
+              "type": "number"
+            },
+            "right": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "top",
+            "right"
+          ]
+        },
+        "ENV10": {
+          "type": "object",
+          "properties": {
+            "top": {
+              "type": "number"
+            },
+            "right": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "top",
+            "right"
+          ]
+        }
+      },
+      "required": [
+        "ENV9",
+        "ENV10"
+      ]
+    }
+  },
+  "required": [
+    "serialNumber",
+    "peripheralId",
+    "envelope"
+  ]
+}

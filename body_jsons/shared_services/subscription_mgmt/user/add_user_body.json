@@ -1,0 +1,21 @@
+{
+	"id": null,
+	"adminLevelAt": "E",
+	"adminLevelEntity": null,
+	"groupIds": [
+		""
+	],
+	"active": true,
+	"analyticsRollupBy": "",
+    "rollupEntity": [],
+	"profile": {
+		"firstName": "Dev",
+		"lastName": "test",
+		"displayName": "Dev test",
+		"email": "dev_test@yopmail.com"
+	},
+	"userPermissions": {
+		"subCarriers": null,
+		"costAccounts": null
+	}
+}

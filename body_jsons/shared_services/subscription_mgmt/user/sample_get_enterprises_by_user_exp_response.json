@@ -1,0 +1,12 @@
+[
+  {
+    "enterpriseID": "should_not_be_null",
+    "name": "should_not_be_null",
+    "divisions": "should_not_be_null",
+    "archived": "skip",
+    "insertTimestamp": "should_not_be_null",
+    "updateTimestamp": "should_not_be_null",
+    "createdBy": "should_not_be_null",
+    "updatedBy": "should_not_be_null"
+  }
+]

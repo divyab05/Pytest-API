@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "alias": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "printerName": {
+      "type": "string"
+    },
+    "subId": {
+      "type": "string"
+    },
+    "insertTimeStamp": {
+      "type": "string"
+    },
+    "updateTimeStamp": {
+      "type": "string"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "updatedBY": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "alias",
+    "serialNumber",
+    "printerName",
+    "subId",
+    "insertTimeStamp",
+    "updateTimeStamp",
+    "createdBy"
+  ]
+}

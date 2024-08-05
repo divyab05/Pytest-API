@@ -1,0 +1,22 @@
+{
+  "message": "",
+  "Details": "",
+  "messageID": "",
+  "recipient": null,
+  "operator": null,
+  "visitor": null,
+  "authUnits": [
+    {
+      "manufacturerLockerID": "",
+      "assetsDeposited": {
+        "accesscode": "",
+        "parcels": [
+          {
+            "primaryTrackingID": "",
+            "secondaryTrackingID": ""
+          }
+        ]
+      }
+    }
+  ]
+}

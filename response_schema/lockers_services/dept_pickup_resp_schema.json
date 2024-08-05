@@ -1,0 +1,112 @@
+{
+  "type": "object",
+  "properties": {
+    "pickupRequests": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "manufacturerLockerID": {
+              "type": "string"
+            },
+            "accesscode": {
+              "type": "string"
+            },
+            "departmentCode": {
+              "type": "string"
+            },
+            "recordUpdated": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "manufacturerLockerID",
+            "accesscode",
+            "departmentCode",
+            "recordUpdated"
+          ]
+        }
+      ]
+    },
+    "departmentMail": {
+      "type": "boolean"
+    },
+    "signature": {
+      "type": "object",
+      "properties": {
+        "base64": {
+          "type": "string"
+        },
+        "data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "base64",
+        "data"
+      ]
+    },
+    "photo": {
+      "type": "object",
+      "properties": {
+        "base64": {
+          "type": "string"
+        },
+        "data": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "base64",
+        "data"
+      ]
+    },
+    "pickupDate": {
+      "type": "string"
+    },
+    "recipients": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "recipientID": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "mobilePhone": {
+              "type": "string"
+            },
+            "personalID": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "recipientID",
+            "firstName",
+            "email",
+            "personalID"
+          ]
+        }
+      ]
+    },
+    "userID": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "pickupRequests",
+    "departmentMail",
+    "signature",
+    "photo",
+    "pickupDate",
+    "recipients",
+    "userID"
+  ]
+}

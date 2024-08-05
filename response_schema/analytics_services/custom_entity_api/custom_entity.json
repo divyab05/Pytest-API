@@ -1,0 +1,122 @@
+{
+
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "customFieldId": {
+          "type": "string"
+        },
+        "customFieldName": {
+          "type": "string"
+        },
+        "enterpriseId": {
+          "type": "string"
+        },
+        "customEntityValues": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customFieldSubId": {
+                  "type": "string"
+                },
+                "customFieldId": {
+                  "type": "string"
+                },
+                "customFieldName": {
+                  "type": "string"
+                },
+                "customFieldAssetName": {
+                  "type": "string"
+                },
+                "customFieldLocationId": {
+                  "type": "string"
+                },
+                "customFieldFilterType": {
+                  "type": "string"
+                },
+                "customResourceValueId": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "object",
+      "properties": {
+        "customFieldId": {
+          "type": "string"
+        },
+        "customFieldName": {
+          "type": "string"
+        },
+        "enterpriseId": {
+          "type": "string"
+        },
+        "customEntityValues": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "customFieldSubId": {
+                  "type": "string"
+                },
+                "customFieldId": {
+                  "type": "string"
+                },
+                "customFieldName": {
+                  "type": "string"
+                },
+                "customFieldAssetName": {
+                  "type": "string"
+                },
+                "customFieldLocationId": {
+                  "type": "string"
+                },
+                "customFieldFilterType": {
+                  "type": "string"
+                },
+                "customResourceValueId": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "customFieldSubId": {
+                  "type": "string"
+                },
+                "customFieldId": {
+                  "type": "string"
+                },
+                "customFieldName": {
+                  "type": "string"
+                },
+                "customFieldAssetName": {
+                  "type": "string"
+                },
+                "customFieldLocationId": {
+                  "type": "string"
+                },
+                "customFieldFilterType": {
+                  "type": "string"
+                },
+                "customResourceValueId": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

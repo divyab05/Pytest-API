@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "recipientlistID": {
+      "type": "string"
+    }
+  },
+  "required": [
+      "id",
+      "recipientlistID"
+    ],
+   "additionalProperties": false
+}

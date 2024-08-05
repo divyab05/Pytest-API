@@ -1,0 +1,45 @@
+{
+	"aggregationType": {
+		"aggregationTypesEnum": "NONE"
+	},
+	"filter": {
+		"divisionIds": [
+			"23",
+			"div_one",
+			"4545",
+			"spadivision",
+			"spadivisionnew",
+			"J1BQWneZpxN",
+			"JX5PoEV8Mmo",
+			"MGa4Gkr8x9j",
+			"765"
+		],
+		"startdate": "0",
+		"endDate": "99999999",
+		"country": "US"
+	},
+	"groupByCriteria": {
+		"groupByColumns": []
+	},
+	"orderByCriteria": {
+		"orderByColumns": []
+	},
+	"filtersGroup": {},
+	"responseType": "DETAILS",
+	"selectQueryColumnsList": [
+		"product_id",
+		"device_plan"
+	],
+	"subFilter": {
+		"spendType": [],
+		"is_usage_available": [
+			"1"
+		],
+		"reference_contract_number": [
+			"NA"
+		],
+		"productIds": [],
+		"cities": [],
+		"psdPcns": []
+	}
+}

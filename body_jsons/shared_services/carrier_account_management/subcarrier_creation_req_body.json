@@ -1,0 +1,54 @@
+{
+    "subID": "",
+    "description": "",
+    "carrierID": "",
+    "accountNumber": "",
+    "accountNickname": "",
+    "accountAddress": {
+        "name": "Mara Graham",
+        "company": "Pitney Bowes",
+        "addressLine1": "27 Waterview Dr",
+        "addressLine2": null,
+        "residential": true,
+        "countryCode": "US",
+        "city": "Shelton",
+        "email": "horizon_engpp11@mailinator.com",
+        "phone": "2037963184",
+        "state": "CT",
+        "postalCode": "06484"
+    },
+    "contactAddress": {
+        "name": "Mara Graham",
+        "company": "Pitney Bowes",
+        "addressLine1": "27 Waterview Dr",
+        "addressLine2": null,
+        "residential": true,
+        "countryCode": "US",
+        "city": "Shelton",
+        "email": "horizon_engpp11@mailinator.com",
+        "phone": "2037963184",
+        "state": "CT",
+        "postalCode": "06484"
+    },
+    "gcsPartnerID": "456312111",
+    "labelType": "",
+    "labelOrient": "",
+    "isProduction": false,
+    "isRateShop": false,
+    "isLocalRates": false,
+    "requireSignature": false,
+    "details": {
+        "licenseText": "End-User License Agreement  (ASP Agreement)"
+    },
+    "permission": {
+        "permissionByEntity": "",
+        "permissionByValue": [
+            ""
+        ]
+    },
+    "disableAPIIntegration": {
+        "gcs": false
+    },
+    "subCarrierType": "Shipping",
+    "provisioningType": "Web"
+}

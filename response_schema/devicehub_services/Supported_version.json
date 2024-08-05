@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "currentVersion": {
+      "type": "string"
+    },
+    "windowBuildLocation": {
+      "type": "string"
+    },
+    "currentVersionReleased": {
+      "type": "string"
+    },
+    "macBuildLocation": {
+      "type": "string"
+    },
+    "exeBuildLocation": {
+      "type": "string"
+    },
+    "supportedVersions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "svwindowBuildLocation": {
+      "type": "string"
+    },
+    "svmacBuildLocation": {
+      "type": "string"
+    },
+    "svmsiBuildLocation": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "currentVersion",
+    "windowBuildLocation",
+    "currentVersionReleased",
+    "macBuildLocation",
+    "exeBuildLocation",
+    "supportedVersions",
+    "svwindowBuildLocation",
+    "svmacBuildLocation",
+    "svmsiBuildLocation"
+  ]
+}

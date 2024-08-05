@@ -1,0 +1,14 @@
+{
+  "featureID": "should_not_be_null",
+  "name": "should_not_be_null",
+  "operations": "should_not_be_null",
+  "archived": false,
+  "display": "skip",
+  "functionalityTag": "should_not_be_null",
+  "supportedCountries": "should_not_be_null",
+  "insertTimestamp": "should_not_be_null",
+  "updateTimestamp": "should_not_be_null",
+  "createdBy": "should_not_be_null",
+  "updatedBy": "should_not_be_null",
+  "systemData": "skip"
+}

@@ -1,0 +1,14 @@
+{
+    "custom:uniqueID": "ssouser4-spss@ymail.rr.nu",
+    "given_name": "SPSS SSO 2",
+    "family_name": "User 4",
+    "email": "ssouser4-spss@ymail.rr.nu",
+    "custom:userId": "ymail.rr.nu_ssouser4-spss@ymail.rr.nu",
+    "custom:role": "ADMIN",
+    "custom:location": "UserImportLocation",
+    "custom:costcenter": "A100",
+    "custom:identityProviderName": "ymail.rr.nu",
+    "custom:defaultLoc": "true",
+    "cognito:user_status": "EXTERNAL_PROVIDER",
+    "username": "ymail.rr.nu_ssouser4-spss@ymail.rr.nu"
+}

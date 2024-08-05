@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "errors": {
+      "type": "array",
+      "errorCode": {
+        "type": "string"
+      },
+      "errorDescription": {
+        "type": "string"
+      }
+    },
+    "required": ["errorCode", "errorDescription"]
+  },
+
+  "additionalProperties": false
+}

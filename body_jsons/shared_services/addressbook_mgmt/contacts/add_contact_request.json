@@ -1,0 +1,52 @@
+{
+    "id": null,
+    "contactType": "RECIPIENT",
+    "internalDelivery": false,
+    "type": "S",
+    "name": "SPSS Fremont Address",
+    "company": "PB Test",
+    "emails": [
+        {
+            "default": true,
+            "email": "sohail.dev.admin1@yopmail.com",
+            "id": null,
+            "label": "Home"
+        }
+    ],
+    "phones": [
+        {
+            "default": true,
+            "id": null,
+            "label": "Home",
+            "phone": "5623095087"
+        }
+    ],
+    "personalID": "",
+    "officeLocationID": null,
+    "mailstopID": null,
+    "AddedDepartmentIds": null,
+    "additionalEmailIds": null,
+    "primaryLocation": null,
+    "accessibility": null,
+    "notificationAll": null,
+    "addresses": [
+        {
+            "addressLine1": "3594 Reynolds Alley",
+            "addressLine2": null,
+            "addressLine3": null,
+            "addressLine4": null,
+            "city": "Fremont",
+            "countryCode": "US",
+            "default": true,
+            "id": null,
+            "label": "Home 1",
+            "postalCode": "94539",
+            "residential": false,
+            "state": "CA"
+        }
+    ],
+    "divisionId": null,
+    "locationId": null,
+    "DeletedDepartmentIds": null,
+    "receivingAccessLevel": "S"
+}

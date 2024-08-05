@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "enterpriseId": {
+      "type": "string"
+    },
+    "createDate": {
+      "type": "string"
+    },
+    "templateInfo": {
+      "type": "object",
+      "properties": {
+        "context": {
+          "type": "string"
+        },
+        "columnNames": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "postage_spend": {
+              "type": "string"
+            },
+            "piece_count": {
+              "type": "string"
+            },
+            "avg_spend": {
+              "type": "string"
+            },
+            "postage_saving": {
+              "type": "string"
+            },
+            "last_transaction_date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "postage_spend",
+            "piece_count",
+            "avg_spend",
+            "postage_saving",
+            "last_transaction_date"
+          ]
+        },
+        "groupingColumns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "aggregatedColumns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "sortingColumns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "defaultColumns": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "columnOrder": {
+          "type": "object"
+        },
+        "groupByHierarchy": {
+          "type": "object",
+          "properties": {
+            "field1": {
+              "type": "string"
+            },
+            "field2": {
+              "type": "null"
+            },
+            "field3": {
+              "type": "null"
+            },
+            "field4": {
+              "type": "null"
+            },
+            "field5": {
+              "type": "null"
+            },
+            "field6": {
+              "type": "null"
+            },
+            "field7": {
+              "type": "null"
+            },
+            "field8": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "field1",
+            "field2",
+            "field3",
+            "field4",
+            "field5",
+            "field6",
+            "field7",
+            "field8"
+          ]
+        }
+      },
+      "required": [
+        "context",
+        "columnNames",
+        "groupingColumns",
+        "aggregatedColumns",
+        "sortingColumns",
+        "defaultColumns",
+        "columnOrder",
+        "groupByHierarchy"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "userId",
+    "enterpriseId",
+    "createDate",
+    "templateInfo"
+  ]
+}

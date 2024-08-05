@@ -1,0 +1,14 @@
+{
+  "processId": "only_digits",
+  "durationInMillis": "only_digits",
+  "workFlowDurationInMillis": "only_digits",
+  "userInformation": {
+    "id": "should_not_be_null",
+    "lhgGuid": "should_not_be_null",
+    "idpAccountId": "should_not_be_null",
+    "oktaId": "should_not_be_null",
+    "login": "should_not_be_null",
+    "status": "ACTIVE",
+    "locale": "skip"
+  }
+}

@@ -1,0 +1,310 @@
+{
+	"type": "object",
+	"required": [
+		"results",
+		"searchUid"
+	],
+	"properties": {
+		"apiVersion": {
+			"type": "integer"
+		},
+		"categoryFacets": {
+			"type": "array"
+		},
+		"duration": {
+			"type": "integer"
+		},
+		"facets": {
+			"type": "array"
+		},
+		"groupByResults": {
+			"type": "array"
+		},
+		"index": {
+			"type": "string"
+		},
+		"indexDuration": {
+			"type": "integer"
+		},
+		"phrasesToHighlight": {
+			"type": "object"
+		},
+		"pipeline": {
+			"type": "string"
+		},
+		"queryCorrections": {
+			"type": "array"
+		},
+		"refinedKeywords": {
+			"type": "array"
+		},
+		"requestDuration": {
+			"type": "integer"
+		},
+		"results": {
+			"type": "array",
+			"items":{
+				"type": "object",
+				"required": [
+					"Excerpt"
+				],
+				"properties": {
+					"ClickUri": {
+						"type": "string"
+					},
+					"Excerpt": {
+						"type": "string"
+					},
+					"FirstSentences": {
+						"type": "null"
+					},
+					"PrintableUri": {
+						"type": "string"
+					},
+					"Title": {
+						"type": "string"
+					},
+					"UniqueId": {
+						"type": "string"
+					},
+					"Uri": {
+						"type": "string"
+					},
+					"absentTerms": {
+						"type": "array"
+					},
+					"childResults": {
+						"type": "array"
+					},
+					"clickUri": {
+						"type": "string"
+					},
+					"excerpt": {
+						"type": "string"
+					},
+					"excerptHighlights": {
+						"type": "array"
+					},
+					"firstSentences": {
+						"type": "null"
+					},
+					"firstSentencesHighlights": {
+						"type": "array"
+					},
+					"flags": {
+						"type": "string"
+					},
+					"hasHtmlVersion": {
+						"type": "boolean"
+					},
+					"hasMobileHtmlVersion": {
+						"type": "boolean"
+					},
+					"isRecommendation": {
+						"type": "boolean"
+					},
+					"isTopResult": {
+						"type": "boolean"
+					},
+					"isUserActionView": {
+						"type": "boolean"
+					},
+					"parentResult": {
+						"type": "null"
+					},
+					"percentScore": {
+						"type": "number"
+					},
+					"printableUri": {
+						"type": "string"
+					},
+					"printableUriHighlights": {
+						"type": "array"
+					},
+					"rankingInfo": {
+						"type": "string"
+					},
+					"rating": {
+						"type": "integer"
+					},
+					"raw": {
+						"type": "object",
+						"properties": {
+							"clickableuri": {
+								"type": "string"
+							},
+							"collection": {
+								"type": "string"
+							},
+							"concepts": {
+								"type": "string"
+							},
+							"connectortype": {
+								"type": "string"
+							},
+							"contentgroup": {
+								"type": "array",
+								"items":{
+									"type": "string"
+								}
+							},
+							"date": {
+								"type": "integer"
+							},
+							"filename": {
+								"type": "string"
+							},
+							"filetype": {
+								"type": "string"
+							},
+							"indexeddate": {
+								"type": "integer"
+							},
+							"language": {
+								"type": "array",
+								"items":{
+									"type": "string"
+								}
+							},
+							"orderingid": {
+								"type": "integer"
+							},
+							"permanentid": {
+								"type": "string"
+							},
+							"printableuri": {
+								"type": "string"
+							},
+							"rowid": {
+								"type": "integer"
+							},
+							"size": {
+								"type": "integer"
+							},
+							"source": {
+								"type": "string"
+							},
+							"sourcetype": {
+								"type": "string"
+							},
+							"sysclickableuri": {
+								"type": "string"
+							},
+							"syscollection": {
+								"type": "string"
+							},
+							"sysconcepts": {
+								"type": "string"
+							},
+							"sysconnectortype": {
+								"type": "string"
+							},
+							"sysdate": {
+								"type": "integer"
+							},
+							"sysfilename": {
+								"type": "string"
+							},
+							"sysfiletype": {
+								"type": "string"
+							},
+							"sysindexeddate": {
+								"type": "integer"
+							},
+							"syslanguage": {
+								"type": "array",
+								"items":{
+									"type": "string"
+							},
+							"sysprintableuri": {
+								"type": "string"
+							},
+							"sysrowid": {
+								"type": "integer"
+							},
+							"syssize": {
+								"type": "integer"
+							},
+							"syssource": {
+								"type": "string"
+							},
+							"syssourcetype": {
+								"type": "string"
+							},
+							"systitle": {
+								"type": "string"
+							},
+							"systransactionid": {
+								"type": "integer"
+							},
+							"sysuri": {
+								"type": "string"
+							},
+							"sysurihash": {
+								"type": "string"
+							},
+							"title": {
+								"type": "string"
+							},
+							"transactionid": {
+								"type": "integer"
+							},
+							"uri": {
+								"type": "string"
+							},
+							"urihash": {
+								"type": "string"
+							},
+							"validityscore": {
+								"type": "integer"
+							}
+						}
+					},
+					"score": {
+						"type": "integer"
+					},
+					"summary": {
+						"type": "null"
+					},
+					"summaryHighlights": {
+						"type": "array"
+					},
+					"title": {
+						"type": "string"
+					},
+					"titleHighlights": {
+						"type": "array"
+					},
+					"totalNumberOfChildResults": {
+						"type": "integer"
+					},
+					"uniqueId": {
+						"type": "string"
+					},
+					"uri": {
+						"type": "string"
+					}
+				}
+			}
+
+		},
+		"searchUid": {
+			"type": "string"
+		},
+		"suggestedFacets": {
+			"type": "array"
+		},
+		"termsToHighlight": {
+			"type": "object"
+		},
+		"totalCount": {
+ 			"type": "integer"
+		},
+		"totalCountFiltered": {
+			"type": "integer"
+		},
+		"triggers": {
+			"type": "array"
+		}
+	}
+}}

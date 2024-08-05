@@ -1,0 +1,92 @@
+{
+  "sp360commercial": {
+    "dev": {
+      "enterpriseId": "APIAutomation",
+      "subId": "7923",
+      "almSubId": "sa840e3",
+      "adminUserId": "00u11cjlr2pRNvKV00h8",
+      "subscription_user_userId": "00u11eny9ojxJ34z70h8",
+      "divisions": [],
+      "almEnterprise": "LydX1MO03y2",
+      "almDivisionId": [
+        "72dxY7O63ke",
+        "aNxvmax61yr"
+      ],
+      "almLocations": [
+        "MldLP7OKjgj",
+        "YPWLA2rx13z",
+        "2JdAR6yEkE8"
+      ]
+    },
+    "qa": {
+      "enterpriseId": "APIAutomation_QA",
+      "subId": "1931",
+      "almSubId": "sa840ac",
+      "subscription_user_userId": "00u128h5igvYVb9KC0h8",
+      "divisions": [
+        "Auto_Ent_div_01",
+        "Auto_Ent_div_02",
+        "Auto_Ent_div_03"
+      ],
+      "locations": [
+        "LOC007Test",
+        "PB_SLT",
+        "LOC008Test"
+      ],
+      "almEnterprise": "BMdwJLJmMmV",
+      "almDivisionId": [
+        "ALM_Div_2",
+        "LzdbBxBnJlA"
+      ],
+      "almLocations": [
+        "oRxvA3A456J",
+        "aPwYo8n3Aen"
+      ]
+    },
+    "ppd": {
+      "enterpriseId": "3385",
+      "subId": "5190",
+      "almSubId": "sa840ac",
+      "subscription_user_userId": "00u1md5zx6oE87sp30h8",
+      "divisions": [
+        "Auto_Ent_div_01",
+        "Auto_Ent_div_02",
+        "Auto_Ent_div_03"
+      ],
+      "locations": [
+        "LOC007Test",
+        "PB_SLT",
+        "LOC008Test"
+      ],
+      "almEnterprise": "BMdwJLJmMmV",
+      "almDivisionId": [
+        "ALM_Div_2",
+        "LzdbBxBnJlA"
+      ],
+      "almLocations": [
+        "oRxvA3A456J",
+        "aPwYo8n3Aen"
+      ]
+    }
+  },
+  "fedramp": {
+    "dev": {
+      "enterpriseId": "2521",
+      "subId": "6969",
+      "adminUserId": "00u11cjlr2pRNvKV00h8",
+      "subscription_user_userId": "00u1c0poofuBAjGl40h8",
+      "divisions": []
+    },
+    "qa": {
+      "enterpriseId": "9685",
+      "subId": "2794",
+      "subscription_user_userId": "00u1c0p5ua59l9UTN0h8",
+      "divisions": [
+        "ZGqgrN9v4Ro"
+      ],
+      "locations": [
+        "QBb9oEgAgZz"
+      ]
+    }
+  }
+}

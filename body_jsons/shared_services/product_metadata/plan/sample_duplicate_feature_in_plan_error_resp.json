@@ -1,0 +1,8 @@
+{
+  "errors": [
+    {
+      "errorCode": "validation_error",
+      "errorDescription": "MANAGE_CONTACTS is already added to Plan : SPSS349"
+    }
+  ]
+}

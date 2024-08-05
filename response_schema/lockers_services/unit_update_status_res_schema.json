@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "statusChangeDate": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "statusChangeDate",
+    "userID",
+    "enabled"
+  ]
+}

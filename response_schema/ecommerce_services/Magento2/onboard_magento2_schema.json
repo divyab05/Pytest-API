@@ -1,0 +1,149 @@
+{
+  "type": "object",
+  "properties": {
+    "storeKey": {
+      "type": "string"
+    },
+    "cartId": {
+      "type": "string"
+    },
+    "storesDetails": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "storeId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "timezone": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "active": {
+              "type": "boolean"
+            },
+            "weightUnit": {
+              "type": "string"
+            },
+            "pricesIncludeTax": {
+              "type": "boolean"
+            },
+            "defaultWarehouseId": {
+              "type": "string"
+            },
+            "dimensionUnit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "storeId",
+            "name",
+            "timezone",
+            "country",
+            "active",
+            "weightUnit",
+            "pricesIncludeTax",
+            "defaultWarehouseId",
+            "dimensionUnit"
+          ]
+        }
+      ]
+    },
+    "warehouses": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "avail": {
+              "type": "boolean"
+            },
+            "address": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "postcode": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "object",
+                  "properties": {
+                    "code2": {
+                      "type": "string"
+                    },
+                    "code3": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "name"
+                  ]
+                },
+                "state": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "code"
+                  ]
+                },
+                "default": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "id",
+                "type",
+                "postcode",
+                "default"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "description",
+            "avail",
+            "address"
+          ]
+        }
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "storeKey",
+    "cartId",
+    "storesDetails",
+    "warehouses",
+    "message"
+  ]
+}

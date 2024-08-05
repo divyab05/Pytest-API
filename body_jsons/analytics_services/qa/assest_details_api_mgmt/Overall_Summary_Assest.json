@@ -1,0 +1,61 @@
+{
+  "aggregationType": {
+    "aggregationTypesEnum": "NONE"
+  },
+  "filter": {
+    "divisionIds": [
+      "jL9D1qaJZP2",
+      "div_Surchar1",
+      "JYjAWRDeAWq",
+      "23",
+      "P-Series_div",
+      "div_one",
+      "4545",
+      "810D47m6WG9",
+      "3YVxnqG2dgv",
+      "spadivision",
+      "spadivisionnew",
+      "mailcenter",
+      "J1BQWneZpxN",
+      "JX5PoEV8Mmo",
+      "MGa4Gkr8x9j"
+    ],
+    "startDate": "20230927",
+    "startdate": "20230927",
+    "endDate": "20231003",
+    "country": "US",
+    "source": [
+      "SSTO",
+      "ILP"
+    ]
+  },
+  "filtersGroup": {},
+  "groupByCriteria": {
+    "groupByColumns": [
+      "local_hour",
+      "derived_package_status_2"
+    ]
+  },
+  "orderByCriteria": {
+    "orderByColumns": []
+  },
+  "responseType": "OVERALL_SUMMARY",
+  "subFilter": {},
+  "aggregationTypesEnum": "NONE",
+  "offset": 0,
+  "selectQueryColumnsList": [
+    "dim_hour",
+    "dim_date_key",
+    "derived_package_status",
+    "derived_package_status_2",
+    "no_of_packages",
+    "package_status",
+    "local_hour",
+    "avg_no_of_parcels_received",
+    "avg_no_of_parcels_attempted",
+    "avg_no_of_locker_delivery",
+    "avg_no_of_parcels_delivered",
+    "avg_no_of_parcels_undelivered"
+  ],
+  "queryType": "HISTORIC_DATA_QUERY"
+}

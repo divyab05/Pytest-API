@@ -1,0 +1,11 @@
+{
+    "userID": "testing",
+    "pickupRequests": [
+        {
+            "manufacturerLockerID": "",
+            "accesscode": ""
+        }
+    ],
+    "staleMailPickup": false,
+    "pickupDate": ""
+}

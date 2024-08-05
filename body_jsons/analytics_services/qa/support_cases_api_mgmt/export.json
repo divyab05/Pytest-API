@@ -1,0 +1,202 @@
+{
+  "apiRequest": {
+    "aggregationType": {
+      "aggregationTypesEnum": "NONE"
+    },
+    "filter": {
+      "divisionIds": [
+        "jL9D1qaJZP2",
+        "div_Surchar1",
+        "JYjAWRDeAWq",
+        "23",
+        "P-Series_div",
+        "div_one",
+        "4545",
+        "810D47m6WG9",
+        "3YVxnqG2dgv",
+        "spadivision",
+        "spadivisionnew",
+        "mailcenter",
+        "zWpKaZR1eg6",
+        "J1BQWneZpxN",
+        "JX5PoEV8Mmo",
+        "MGa4Gkr8x9j"
+      ],
+      "startDate": "20220101",
+      "endDate": "20221231",
+      "country": "US",
+      "startdate": "20220101"
+    },
+    "groupByCriteria": {
+      "groupByColumns": [
+        "city",
+        "region",
+        "case_type",
+        "status",
+        "record_type__c",
+        "getProductId(contract_material,contract_serial_number)",
+        "casenumber",
+        "subject",
+        "reasons__c",
+        "case_created_date",
+        "case_closed_date"
+      ]
+    },
+    "orderByCriteria": {
+      "orderByColumns": [
+        "city"
+      ]
+    },
+    "responseType": "DETAILS",
+    "subFilter": {
+      "productIds": [],
+      "psdPcns": [],
+      "productDisplayName": "PSP - 9534",
+      "isExcludedProducts": true
+    },
+    "filtersGroup": {}
+  },
+  "reportColumns": {
+    "city": {
+      "label": "Location City",
+      "value": "billingcity",
+      "name": "Location City",
+      "aggregationType": "date",
+      "description": "",
+      "order": 0,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "region": {
+      "label": "Location State",
+      "value": "billingstate",
+      "name": "Location State",
+      "aggregationType": "date",
+      "description": "",
+      "order": 1,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "case_type": {
+      "label": "Type",
+      "value": "case_type",
+      "name": "Type",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 2,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "casenumber": {
+      "label": "Case Number",
+      "value": "case_number",
+      "name": "Case Number",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 3,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "case_created_date": {
+      "label": "Case Creation Time",
+      "value": "case_created_date",
+      "name": "Case Creation Time",
+      "aggregationType": "date",
+      "description": "",
+      "order": 4,
+      "dataType": "Datetime",
+      "parentElement": "Other Fields"
+    },
+    "case_closed_date": {
+      "label": "Case Closed Time",
+      "value": "case_closed_date",
+      "name": "Case Closed Time",
+      "aggregationType": "date",
+      "description": "",
+      "order": 5,
+      "dataType": "Datetime",
+      "parentElement": "Other Fields"
+    },
+    "service_call": {
+      "label": "Total",
+      "value": "service_call",
+      "name": "Total",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 6,
+      "dataType": "Double",
+      "parentElement": "Other Fields"
+    },
+    "closed_cases": {
+      "label": "Resolved & Closed",
+      "value": "closed_cases",
+      "name": "Resolved & Closed",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 7,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "open_cases": {
+      "label": "Open",
+      "value": "open_cases",
+      "name": "Open",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 8,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "uiInvestTot": {
+      "label": "Under Investigation",
+      "value": "uiInvestTot",
+      "name": "Under Investigation",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 9,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "pending_cases": {
+      "label": "Pending Client Action",
+      "value": "pending_cases",
+      "name": "Pending Client Action",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 10,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "otherSerTotal": {
+      "label": "Other",
+      "value": "otherSerTotal",
+      "name": "Other",
+      "aggregationType": "sum",
+      "description": "",
+      "order": 11,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    },
+    "days_to_close": {
+      "label": "Avg Open Days",
+      "value": "days_to_close",
+      "name": "Avg Open Days",
+      "aggregationType": "average",
+      "description": "",
+      "order": 12,
+      "dataType": "String",
+      "parentElement": "Other Fields"
+    }
+  },
+  "delimeterConfigRequest": {
+    "DATE_FORMAT": "MMM/yyyy",
+    "DATE_SPACER": "SLASH",
+    "DELIMETER_FORMAT": "PIPE",
+    "TEXT_QUALIFIER": "DOUBLE_QUOTES",
+    "INCLUDE_TIMESTAMP": true,
+    "USE_TWELVE_HOUR_DISPLAY": false
+  },
+  "exportCustomConfigRequest": {
+    "INCLUDE_COLUMN_HEADER": true
+  }
+}

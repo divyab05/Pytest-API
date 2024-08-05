@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "storeKey": {
+      "type": "string"
+    },
+    "cartId": {
+      "type": "string"
+    },
+    "storesDetails": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "storeId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "timezone": {
+              "type": "string"
+            },
+            "country": {
+              "type": "string"
+            },
+            "active": {
+              "type": "boolean"
+            },
+            "weightUnit": {
+              "type": "string"
+            },
+            "pricesIncludeTax": {
+              "type": "boolean"
+            },
+            "defaultWarehouseId": {
+              "type": "string"
+            },
+            "dimensionUnit": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "storeId",
+            "name",
+            "timezone",
+            "country",
+            "active",
+            "weightUnit",
+            "pricesIncludeTax",
+            "defaultWarehouseId",
+            "dimensionUnit"
+          ]
+        }
+      ]
+    },
+    "warehouses": {
+      "type": "null"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "storeKey",
+    "cartId",
+    "storesDetails",
+    "warehouses",
+    "message"
+  ]
+}

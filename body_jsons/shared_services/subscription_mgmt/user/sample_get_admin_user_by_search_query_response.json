@@ -1,0 +1,26 @@
+{
+    "pageInfo": {
+        "totalCount": "only_digits",
+        "startCount": "only_digits",
+        "limit": "only_digits"
+    },
+    "users": [
+      {
+        "id": "should_not_be_null",
+        "adminLevelAt": "should_not_be_null",
+        "profile": {
+          "firstName": "should_not_be_null",
+          "lastName": "should_not_be_null",
+          "email": "should_not_be_null",
+          "login": "should_not_be_null",
+          "displayName": "should_not_be_null"
+        },
+        "groupIds": "should_not_be_null",
+        "active": "skip",
+        "lastLoginTime": "should_not_be_null",
+        "customTemplate": "skip",
+        "credentials": "skip",
+        "firstLoginTime": "should_not_be_null"
+      }
+    ]
+  }

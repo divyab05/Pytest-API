@@ -1,0 +1,6 @@
+Name,Company,Email,Phone,Street Address 1,Street Address 2,Street Address 3,City,State/Province,Postal/ZIP Code,Country,PersonalID
+Auto_SPO_Import_addr_33547,Auto_Test_Comp,auto_test_mail@emai.com,,,,,,,,,4MoNl2M9
+Auto_SPO_Import_addr_23007,Auto_Test_Comp,auto_test_mail@emai.com,7607567568.0,"1001, Bridgeport Ave",,,Shelton,CT,06484-4675,US,7wsb4O00
+=======,,,,,,,,,,,
+Auto_SPO_Import_addr_18546,Auto_Test_Comp,auto_test_mail@emai.com,7607567568.0,"1001, Bridgeport Ave",,,Shelton,CT,06484-4675,US,EMVFiABE
+>>>>>>> Stashed changes,,,,,,,,,,,

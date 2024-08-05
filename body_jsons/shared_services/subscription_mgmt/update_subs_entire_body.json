@@ -1,0 +1,173 @@
+{
+    "subID": "sacf421",
+    "productID": "SPA",
+    "enterpriseID": "590NBvrkoqV",
+    "integratorID": "",
+    "countryCode": "US",
+    "plans": [
+        "SENDING_PLAN",
+        "PITNEYSHIP_PRO",
+        "LOCKER_PLAN",
+        "FIREBALL_2.0",
+        "PitneyTrack_Pro"
+    ],
+    "subscriptionRoles": [
+        {
+            "roleID": "ADMIN",
+            "name": "ADMIN",
+            "features": null,
+            "roleTemplates": [
+                "SENDING_PLAN_ADMIN",
+                "PITNEYSHIP_PRO_ADMIN",
+                "ANALYTICS360_PLAN_ADMIN",
+                "LOCKER_PLAN_ADMIN",
+                "FIREBALL_2.0_ADMIN",
+                "ASSET_ADMIN"
+            ],
+            "type": "Admin",
+            "insertTimestamp": "2023-06-02T13:41:40.814Z",
+            "updateTimestamp": "2023-06-02T13:41:40.814Z"
+        },
+        {
+            "roleID": "USER",
+            "name": "USER",
+            "features": null,
+            "roleTemplates": [
+                "SENDING_PLAN_USER",
+                "PITNEYSHIP_PRO_USER",
+                "ANALYTICS360_PLAN_USER",
+                "LOCKER_PLAN_USER",
+                "FIREBALL_2.0_USER",
+                "ASSET_USER"
+            ],
+            "type": "User",
+            "insertTimestamp": "2023-06-02T13:41:40.814Z",
+            "updateTimestamp": "2023-06-02T13:41:40.814Z"
+        }
+    ],
+    "carriers": [
+        "USPS",
+        "UPS",
+        "SDD",
+        "FEDEX",
+        "DHLEXP"
+    ],
+    "locations": [
+        "LyjgYvLpZBW"
+    ],
+    "archived": false,
+    "enabled": true,
+    "properties": {
+        "kip": false,
+        "customerType": "commercial",
+        "omasCustomer": false,
+        "sched48Customer": false,
+        "sharedAddressBookEnabled": true,
+        "federatedUser": false,
+        "oktaGroupID": "00gtl9cu6fdFr2OkH0h7",
+        "ledgerProductID": "",
+        "maxTxLimitEnabled": false,
+        "postageRefillSettings": {
+            "automaticRefillEnabled": false,
+            "minPostageExceedPromptEnabled": false,
+            "emailNotificationEnabled": false,
+            "costAccountSelectionEnabled": false
+        },
+        "costAccountSettings": {
+            "costAccountsEnabled": false,
+            "costAccountsRequiredForShipments": false,
+            "costAccountsRequiredForStamps": false,
+            "costAccountRequiredForAddingPostage": false,
+            "costAccountRequiredForERR": false,
+            "costAccountRequiredForReceiving": false,
+            "costAccountRequiredForLocker": false,
+            "costAccountRequiredForAddShipRequest": false
+        },
+        "userManagementSettings": {
+            "allowUserToViewPostageAccountBalance": false,
+            "allowUserToAddPostage": false,
+            "allowCostCentreManagement": false,
+            "allowUserToBuySupplies": false,
+            "allowUsersToManageCarriers": false,
+            "allowUsersToManageUsers": false
+        },
+        "officialMailerEnabled": false,
+        "costAccountLocAdminAccess": false,
+        "allowedMaxPostageBalance": false,
+        "fraudCheckEnabled": true,
+        "deliveryAssurance": false,
+        "allowShipWithoutSpendingLimit": false,
+        "costAccountsEnabled": false,
+        "costAccountRequireShippingLabel": false,
+        "costAccountsRequiredForMailing": false,
+        "marketPlaceSettings": {},
+        "defaultCarrierAccounts": {},
+        "nsa": false,
+        "allowedPurchaseSupplies": false,
+        "personalIDOptional": false,
+        "allowedDownloadDeviceHub": false,
+        "mfaEnabled": false,
+        "taDeviceSupported": false,
+        "bpnValidationNotRequired": false,
+        "bpnDuplicityCheckRequired": false,
+        "authProvider": "Okta",
+        "enableCustomFields": false,
+        "recipientEmailAndPhoneRequired": false,
+        "costAccountUsageLocked": false,
+        "costAccountUsageLockedBy": "",
+        "maxLabelVolume": 500
+    },
+    "lockerSubProperties": {
+        "uom": "",
+        "lockerSize": []
+    },
+    "maxUsers": 9999,
+    "gcsPartnerID": "456312111",
+    "subscribedProduct": "pitneyship_pro",
+    "insertTimestamp": "2023-06-02T13:41:40.814Z",
+    "updateTimestamp": "2023-06-02T13:41:41.005Z",
+    "createdBy": "0oauyftnppOhXH0n90h7",
+    "updatedBy": "0oauyftnppOhXH0n90h7",
+    "status": "active",
+    "federationEnabled": false,
+    "sharedAddressBookLevel": "S",
+    "primaryOwner": "spss.laps.auto.e1@yopmail.com",
+    "parentPlan": "PITNEYSHIP_PRO",
+    "activationDate": "0001-01-01T00:00:00Z",
+    "deviceProperties": [
+        {
+            "deviceType": "C-Series",
+            "timeout": 1440
+        },
+        {
+            "deviceType": "P-Series",
+            "timeout": 1440
+        },
+        {
+            "deviceType": "TADevice",
+            "timeout": 1440
+        },
+        {
+            "deviceType": "WEB",
+            "timeout": 60
+        }
+    ],
+    "isConsumer": false,
+    "productLogo": "PB",
+    "customerType": "commercial",
+    "kip": false,
+    "oktaGroupID": "00gtl9cu6fdFr2OkH0h7",
+    "ledgerProductID": "",
+    "omasCustomer": false,
+    "sched48Customer": false,
+    "federatedUser": false,
+    "sharedAddressBookEnabled": true,
+    "accessLevel": "",
+    "uom": "",
+    "customSubID": "",
+    "customSubIDChecked": false,
+    "taDeviceSupported": false,
+    "mfaEnabled": false,
+    "authProvider": "Okta",
+    "useIsolation": "false"
+}

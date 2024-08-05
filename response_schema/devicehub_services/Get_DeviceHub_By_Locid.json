@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "certinfo": {
+      "type": "string"
+    },
+    "hostname": {
+      "type": "string"
+    },
+    "serialNumber": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+
+  "deviceinfo":
+  {
+    "type": "object"
+  },
+
+    "locId": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "lastUpdate": {
+      "type": "string"
+    },
+    "version": {
+      "type": "object",
+      "properties": {
+        "DeviceHub": {
+          "type": "string"
+        },
+        "DeviceHubAgent": {
+          "type": "string"
+        },
+        "Version": {
+          "type": "string"
+        },
+        "Built": {
+          "type": "string"
+        },
+        "Copyright": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "DeviceHub",
+        "DeviceHubAgent",
+        "Version",
+        "Built",
+        "Copyright"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "certinfo",
+    "serialNumber",
+    "status",
+    "deviceinfo",
+    "locId",
+    "userId",
+    "active",
+    "lastUpdate",
+    "version"
+  ]
+}

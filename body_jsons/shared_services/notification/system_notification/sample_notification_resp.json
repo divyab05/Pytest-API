@@ -1,0 +1,11 @@
+{
+    "Name": "should_not_be_null",
+    "notificationType": "should_not_be_null",
+    "parentPlan": "should_not_be_null",
+    "configDetail": {
+        "templateName": "should_not_be_null",
+        "templateSubject": "should_not_be_null",
+        "templateBody": "should_not_be_null",
+        "Channel": "should_not_be_null"
+    }
+}

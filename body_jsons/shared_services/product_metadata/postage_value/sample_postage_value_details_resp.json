@@ -1,0 +1,11 @@
+{
+  "postageValueID": "should_not_be_null",
+  "displayValue": "should_not_be_null",
+  "value": "should_not_be_null",
+  "archived": false,
+  "insertTimestamp": "should_not_be_null",
+  "updateTimestamp": "should_not_be_null",
+  "createdBy": "should_not_be_null",
+  "updatedBy": "should_not_be_null",
+  "effectiveDate": "should_not_be_null"
+}

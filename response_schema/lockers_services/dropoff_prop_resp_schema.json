@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "packagePhotoRequired": {
+      "type": "boolean"
+    },
+    "packageWithoutBarcodeEnabled": {
+      "type": "boolean"
+    },
+    "categorizeDepartmentMailEnabled": {
+      "type": "boolean"
+    },
+    "autoLockerSizeUpEnabled": {
+      "type": "boolean"
+    },
+    "expPackagePickupEnabled": {
+      "type": "boolean"
+    },
+    "pkgExpireDuration": {
+      "type": "integer"
+    },
+    "lastUpdated": {
+      "type": "string"
+    },
+    "personalPackageAllAtOnce": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "packagePhotoRequired",
+    "packageWithoutBarcodeEnabled",
+    "categorizeDepartmentMailEnabled",
+    "autoLockerSizeUpEnabled",
+    "expPackagePickupEnabled",
+    "pkgExpireDuration",
+    "lastUpdated",
+    "personalPackageAllAtOnce"
+  ]
+}

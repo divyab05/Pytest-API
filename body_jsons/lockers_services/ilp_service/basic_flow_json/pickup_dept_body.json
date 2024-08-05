@@ -1,0 +1,21 @@
+{
+    "userID": "USER_1",
+    "pickupRequests": [
+        {
+            "manufacturerLockerID": "",
+            "accesscode": "",
+            "departmentCode" :""
+        }
+    ],
+    "departmentMail": null,
+    "signature": {
+        "base64": "NULL",
+        "data": "image/gif"
+    },
+    "photo": {
+        "base64": "NULL",
+        "data": "image/gif"
+    },
+    "pickupDate": "",
+    "staleMailPickup": false
+}
